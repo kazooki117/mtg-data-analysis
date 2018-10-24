@@ -1,0 +1,6092 @@
+[
+  {
+    "Draft": {
+      "event": "3622", 
+      "packs": [
+        {
+          "picks": [
+            {
+              "cards": [
+                "Gravitic Punch", 
+                "Healer's Hawk", 
+                "Gateway Plaza", 
+                "Boros Locket", 
+                "Prey Upon", 
+                "Ledev Guardian", 
+                "Capture Sphere", 
+                "Douser of Lights", 
+                "Kraul Foragers", 
+                "Pack's Favor", 
+                "Citywatch Sphinx", 
+                "Crush Contraband", 
+                "Lotleth Giant", 
+                "Mission Briefing", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Capture Sphere"
+            }, 
+            {
+              "cards": [
+                "Muse Drake", 
+                "Take Heart", 
+                "Blade Instructor", 
+                "Darkblade Agent", 
+                "Selesnya Locket", 
+                "Wild Ceratok", 
+                "Watcher in the Mist", 
+                "Urban Utopia", 
+                "Gravitic Punch", 
+                "Maximize Velocity", 
+                "Wand of Vertebrae", 
+                "Demotion", 
+                "Midnight Reaper", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Watcher in the Mist"
+            }, 
+            {
+              "cards": [
+                "Vedalken Mesmerist", 
+                "Undercity Uprising", 
+                "Burglar Rat", 
+                "Dazzling Lights", 
+                "Wild Ceratok", 
+                "Dimir Informant", 
+                "Leapfrog", 
+                "Command the Storm", 
+                "Sworn Companions", 
+                "Skyknight Legionnaire", 
+                "Kraul Harpooner", 
+                "Creeping Chill", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Dimir Informant"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Centaur Peacemaker", 
+                "Douser of Lights", 
+                "Dead Weight", 
+                "Golgari Locket", 
+                "Vedalken Mesmerist", 
+                "Garrison Sergeant", 
+                "Pause for Reflection", 
+                "Haazda Marshal", 
+                "Book Devourer", 
+                "Bounty Agent", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Dead Weight"
+            }, 
+            {
+              "cards": [
+                "Maniacal Rage", 
+                "Never Happened", 
+                "Blade Instructor", 
+                "Izzet Locket", 
+                "Sworn Companions", 
+                "Urban Utopia", 
+                "Veiled Shade", 
+                "Garrison Sergeant", 
+                "Siege Wurm", 
+                "Whispering Snitch", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Whispering Snitch"
+            }, 
+            {
+              "cards": [
+                "Crushing Canopy", 
+                "Notion Rain", 
+                "Ledev Guardian", 
+                "Vigorspore Wurm", 
+                "Severed Strands", 
+                "Devious Cover-Up", 
+                "Goblin Locksmith", 
+                "Kraul Swarm", 
+                "Goblin Banneret", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Notion Rain"
+            }, 
+            {
+              "cards": [
+                "Hitchclaw Recluse", 
+                "Golgari Locket", 
+                "Gravitic Punch", 
+                "Wojek Bodyguard", 
+                "Moodmark Painter", 
+                "Ironshell Beetle", 
+                "Kraul Swarm", 
+                "Grappling Sundew", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Kraul Swarm"
+            }, 
+            {
+              "cards": [
+                "Hitchclaw Recluse", 
+                "Passwall Adept", 
+                "Torch Courier", 
+                "Rubblebelt Boar", 
+                "Sumala Woodshaper", 
+                "Douser of Lights", 
+                "Kraul Foragers", 
+                "Gird for Battle"
+              ], 
+              "pick": "Douser of Lights"
+            }, 
+            {
+              "cards": [
+                "Gravitic Punch", 
+                "Boros Locket", 
+                "Ledev Guardian", 
+                "Douser of Lights", 
+                "Kraul Foragers", 
+                "Crush Contraband", 
+                "Lotleth Giant"
+              ], 
+              "pick": "Douser of Lights"
+            }, 
+            {
+              "cards": [
+                "Take Heart", 
+                "Darkblade Agent", 
+                "Selesnya Locket", 
+                "Wild Ceratok", 
+                "Gravitic Punch", 
+                "Wand of Vertebrae"
+              ], 
+              "pick": "Darkblade Agent"
+            }, 
+            {
+              "cards": [
+                "Vedalken Mesmerist", 
+                "Undercity Uprising", 
+                "Wild Ceratok", 
+                "Sworn Companions", 
+                "Creeping Chill"
+              ], 
+              "pick": "Vedalken Mesmerist"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Golgari Locket", 
+                "Vedalken Mesmerist", 
+                "Pause for Reflection"
+              ], 
+              "pick": "Never Happened"
+            }, 
+            {
+              "cards": [
+                "Maniacal Rage", 
+                "Urban Utopia", 
+                "Garrison Sergeant"
+              ], 
+              "pick": "Urban Utopia"
+            }, 
+            {
+              "cards": [
+                "Crushing Canopy", 
+                "Ledev Guardian"
+              ], 
+              "pick": "Crushing Canopy"
+            }, 
+            {
+              "cards": [
+                "Golgari Locket"
+              ], 
+              "pick": "Golgari Locket"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Maximize Velocity", 
+                "Hired Poisoner", 
+                "Skyknight Legionnaire", 
+                "Radical Idea", 
+                "Sure Strike", 
+                "Dimir Locket", 
+                "Garrison Sergeant", 
+                "Ironshell Beetle", 
+                "Vernadi Shieldmate", 
+                "Portcullis Vine", 
+                "Sunhome Stalwart", 
+                "Goblin Cratermaker", 
+                "Silent Dart", 
+                "Niv-Mizzet, Parun", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Niv-Mizzet, Parun"
+            }, 
+            {
+              "cards": [
+                "Healer's Hawk", 
+                "Rubblebelt Boar", 
+                "Tenth District Guard", 
+                "Wary Okapi", 
+                "Wishcoin Crab", 
+                "Barging Sergeant", 
+                "Rubblebelt Boar", 
+                "Capture Sphere", 
+                "Veiled Shade", 
+                "Generous Stray", 
+                "Join Shields", 
+                "District Guide", 
+                "Necrotic Wound", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Capture Sphere"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Gateway Plaza", 
+                "Prey Upon", 
+                "Garrison Sergeant", 
+                "Rosemane Centaur", 
+                "Direct Current", 
+                "Fire Urchin", 
+                "Rubblebelt Boar", 
+                "Bartizan Bats", 
+                "Worldsoul Colossus", 
+                "Kraul Swarm", 
+                "Quasiduplicate", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Quasiduplicate"
+            }, 
+            {
+              "cards": [
+                "Hunted Witness", 
+                "Righteous Blow", 
+                "Spinal Centipede", 
+                "Book Devourer", 
+                "Watcher in the Mist", 
+                "Severed Strands", 
+                "Vernadi Shieldmate", 
+                "Garrison Sergeant", 
+                "Fearless Halberdier", 
+                "Enhanced Surveillance", 
+                "Pilfering Imp", 
+                "Sacred Foundry"
+              ], 
+              "pick": "Watcher in the Mist"
+            }, 
+            {
+              "cards": [
+                "Fearless Halberdier", 
+                "Veiled Shade", 
+                "Ornery Goblin", 
+                "Severed Strands", 
+                "Notion Rain", 
+                "Gateway Plaza", 
+                "Prey Upon", 
+                "Vicious Rumors", 
+                "Demotion", 
+                "Thoughtbound Phantasm", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Thoughtbound Phantasm"
+            }, 
+            {
+              "cards": [
+                "Watcher in the Mist", 
+                "Hypothesizzle", 
+                "Pitiless Gorgon", 
+                "Darkblade Agent", 
+                "Moodmark Painter", 
+                "Skyline Scout", 
+                "Goblin Locksmith", 
+                "Garrison Sergeant", 
+                "Might of the Masses", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Watcher in the Mist"
+            }, 
+            {
+              "cards": [
+                "Hunted Witness", 
+                "Gravitic Punch", 
+                "Rubblebelt Boar", 
+                "Never Happened", 
+                "Selesnya Locket", 
+                "Wall of Mist", 
+                "Sumala Woodshaper", 
+                "Urban Utopia", 
+                "Inspiring Unicorn"
+              ], 
+              "pick": "Wall of Mist"
+            }, 
+            {
+              "cards": [
+                "Torch Courier", 
+                "Collar the Culprit", 
+                "Healer's Hawk", 
+                "Wild Ceratok", 
+                "Vernadi Shieldmate", 
+                "Fearless Halberdier", 
+                "Whispering Snitch", 
+                "Glaive of the Guildpact"
+              ], 
+              "pick": "Whispering Snitch"
+            }, 
+            {
+              "cards": [
+                "Maximize Velocity", 
+                "Sure Strike", 
+                "Dimir Locket", 
+                "Garrison Sergeant", 
+                "Portcullis Vine", 
+                "Silent Dart", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Dimir Locket"
+            }, 
+            {
+              "cards": [
+                "Tenth District Guard", 
+                "Wary Okapi", 
+                "Barging Sergeant", 
+                "Rubblebelt Boar", 
+                "Veiled Shade", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Veiled Shade"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Gateway Plaza", 
+                "Garrison Sergeant", 
+                "Fire Urchin", 
+                "Bartizan Bats"
+              ], 
+              "pick": "Bartizan Bats"
+            }, 
+            {
+              "cards": [
+                "Hunted Witness", 
+                "Severed Strands", 
+                "Garrison Sergeant", 
+                "Enhanced Surveillance"
+              ], 
+              "pick": "Severed Strands"
+            }, 
+            {
+              "cards": [
+                "Fearless Halberdier", 
+                "Gateway Plaza", 
+                "Vicious Rumors"
+              ], 
+              "pick": "Gateway Plaza"
+            }, 
+            {
+              "cards": [
+                "Moodmark Painter", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Golgari Guildgate"
+            }, 
+            {
+              "cards": [
+                "Selesnya Locket"
+              ], 
+              "pick": "Selesnya Locket"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Torch Courier", 
+                "Watcher in the Mist", 
+                "Fearless Halberdier", 
+                "Capture Sphere", 
+                "Loxodon Restorer", 
+                "Child of Night", 
+                "Vigorspore Wurm", 
+                "Devkarin Dissident", 
+                "Moodmark Painter", 
+                "Garrison Sergeant", 
+                "Invert/Invent", 
+                "Demotion", 
+                "Creeping Chill", 
+                "Hatchery Spider", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Capture Sphere"
+            }, 
+            {
+              "cards": [
+                "Candlelight Vigil", 
+                "Unexplained Disappearance", 
+                "Sure Strike", 
+                "Vigorspore Wurm", 
+                "Vicious Rumors", 
+                "Notion Rain", 
+                "Ironshell Beetle", 
+                "Prey Upon", 
+                "Wishcoin Crab", 
+                "Whisper Agent", 
+                "Boros Challenger", 
+                "Truefire Captain", 
+                "Ritual of Soot", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Ritual of Soot"
+            }, 
+            {
+              "cards": [
+                "Fire Urchin", 
+                "Hammer Dropper", 
+                "Cosmotronic Wave", 
+                "Leapfrog", 
+                "Barging Sergeant", 
+                "Darkblade Agent", 
+                "Pitiless Gorgon", 
+                "Righteous Blow", 
+                "Wary Okapi", 
+                "Necrotic Wound", 
+                "Book Devourer", 
+                "Lotleth Giant", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Darkblade Agent"
+            }, 
+            {
+              "cards": [
+                "Maniacal Rage", 
+                "Izzet Locket", 
+                "Spinal Centipede", 
+                "Veiled Shade", 
+                "Tenth District Guard", 
+                "Wishcoin Crab", 
+                "Sure Strike", 
+                "Vigorspore Wurm", 
+                "Whisper Agent", 
+                "Circuitous Route", 
+                "Electrostatic Field", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Whisper Agent"
+            }, 
+            {
+              "cards": [
+                "Fresh-Faced Recruit", 
+                "Golgari Locket", 
+                "Maniacal Rage", 
+                "Tenth District Guard", 
+                "Goblin Locksmith", 
+                "Prey Upon", 
+                "Boros Locket", 
+                "Dazzling Lights", 
+                "Integrity/Intervention", 
+                "Ochran Assassin", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Dazzling Lights"
+            }, 
+            {
+              "cards": [
+                "Rubblebelt Boar", 
+                "Douser of Lights", 
+                "Disdainful Stroke", 
+                "Sonic Assault", 
+                "Izzet Locket", 
+                "Direct Current", 
+                "Ironshell Beetle", 
+                "Street Riot", 
+                "Glaive of the Guildpact", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Disdainful Stroke"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Wojek Bodyguard", 
+                "Gateway Plaza", 
+                "Dimir Informant", 
+                "Disdainful Stroke", 
+                "Hammer Dropper", 
+                "Invert/Invent", 
+                "Silent Dart", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Dimir Informant"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Vernadi Shieldmate", 
+                "Fearless Halberdier", 
+                "Rhizome Lurcher", 
+                "Pack's Favor", 
+                "Erstwhile Trooper", 
+                "Piston-Fist Cyclops", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Piston-Fist Cyclops"
+            }, 
+            {
+              "cards": [
+                "Torch Courier", 
+                "Fearless Halberdier", 
+                "Vigorspore Wurm", 
+                "Moodmark Painter", 
+                "Garrison Sergeant", 
+                "Creeping Chill", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Golgari Guildgate"
+            }, 
+            {
+              "cards": [
+                "Sure Strike", 
+                "Vigorspore Wurm", 
+                "Vicious Rumors", 
+                "Ironshell Beetle", 
+                "Wishcoin Crab", 
+                "Truefire Captain"
+              ], 
+              "pick": "Wishcoin Crab"
+            }, 
+            {
+              "cards": [
+                "Fire Urchin", 
+                "Cosmotronic Wave", 
+                "Barging Sergeant", 
+                "Book Devourer", 
+                "Lotleth Giant"
+              ], 
+              "pick": "Lotleth Giant"
+            }, 
+            {
+              "cards": [
+                "Wishcoin Crab", 
+                "Sure Strike", 
+                "Circuitous Route", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Wishcoin Crab"
+            }, 
+            {
+              "cards": [
+                "Maniacal Rage", 
+                "Goblin Locksmith", 
+                "Boros Locket"
+              ], 
+              "pick": "Boros Locket"
+            }, 
+            {
+              "cards": [
+                "Rubblebelt Boar", 
+                "Street Riot"
+              ], 
+              "pick": "Rubblebelt Boar"
+            }, 
+            {
+              "cards": [
+                "Never Happened"
+              ], 
+              "pick": "Never Happened"
+            }
+          ], 
+          "productCode": "GRN"
+        }
+      ], 
+      "time": "2018-10-12 2:21:12 PM"
+    }, 
+    "Format": "GRN-GRN-GRN"
+  }, 
+  {
+    "Draft": {
+      "event": "3616", 
+      "packs": [
+        {
+          "picks": [
+            {
+              "cards": [
+                "Goblin Electromancer", 
+                "Dimir Informant", 
+                "Undercity Uprising", 
+                "Skyknight Legionnaire", 
+                "Sonic Assault", 
+                "Bartizan Bats", 
+                "Luminous Bonds", 
+                "Torch Courier", 
+                "Wary Okapi", 
+                "Direct Current", 
+                "Sunhome Stalwart", 
+                "Justice Strike", 
+                "Rampaging Monument", 
+                "Aurelia, Exemplar of Justice", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Aurelia, Exemplar of Justice"
+            }, 
+            {
+              "cards": [
+                "Hypothesizzle", 
+                "Mephitic Vapors", 
+                "Hammer Dropper", 
+                "Artful Takedown", 
+                "Loxodon Restorer", 
+                "Ornery Goblin", 
+                "Golgari Locket", 
+                "Siege Wurm", 
+                "Piston-Fist Cyclops", 
+                "Veiled Shade", 
+                "Plaguecrafter", 
+                "Inspiring Unicorn", 
+                "Affectionate Indrik", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Inspiring Unicorn"
+            }, 
+            {
+              "cards": [
+                "Whispering Snitch", 
+                "Hitchclaw Recluse", 
+                "Maniacal Rage", 
+                "Child of Night", 
+                "Izzet Locket", 
+                "Garrison Sergeant", 
+                "Luminous Bonds", 
+                "Passwall Adept", 
+                "Leapfrog", 
+                "Devious Cover-Up", 
+                "Truefire Captain", 
+                "Affectionate Indrik", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Truefire Captain"
+            }, 
+            {
+              "cards": [
+                "Disdainful Stroke", 
+                "Dimir Locket", 
+                "Tenth District Guard", 
+                "Sworn Companions", 
+                "Wary Okapi", 
+                "Gravitic Punch", 
+                "Rosemane Centaur", 
+                "Gateway Plaza", 
+                "Arboretum Elemental", 
+                "Legion Guildmage", 
+                "League Guildmage", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Legion Guildmage"
+            }, 
+            {
+              "cards": [
+                "Centaur Peacemaker", 
+                "Command the Storm", 
+                "Ironshell Beetle", 
+                "Fearless Halberdier", 
+                "Boros Locket", 
+                "Take Heart", 
+                "Maximize Altitude", 
+                "Wary Okapi", 
+                "Ochran Assassin", 
+                "Thousand-Year Storm", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Command the Storm"
+            }, 
+            {
+              "cards": [
+                "Rhizome Lurcher", 
+                "Undercity Uprising", 
+                "Vedalken Mesmerist", 
+                "Candlelight Vigil", 
+                "Wild Ceratok", 
+                "Take Heart", 
+                "Devious Cover-Up", 
+                "Grappling Sundew", 
+                "Guildmages' Forum", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Guildmages' Forum"
+            }, 
+            {
+              "cards": [
+                "Selesnya Locket", 
+                "Rubblebelt Boar", 
+                "Kraul Foragers", 
+                "Garrison Sergeant", 
+                "Muse Drake", 
+                "Pitiless Gorgon", 
+                "Charnel Troll", 
+                "Kraul Swarm", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Charnel Troll"
+            }, 
+            {
+              "cards": [
+                "Moodmark Painter", 
+                "Urban Utopia", 
+                "Loxodon Restorer", 
+                "Izzet Locket", 
+                "Ironshell Beetle", 
+                "Veiled Shade", 
+                "Candlelight Vigil", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Loxodon Restorer"
+            }, 
+            {
+              "cards": [
+                "Sonic Assault", 
+                "Bartizan Bats", 
+                "Torch Courier", 
+                "Wary Okapi", 
+                "Justice Strike", 
+                "Rampaging Monument", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Justice Strike"
+            }, 
+            {
+              "cards": [
+                "Mephitic Vapors", 
+                "Loxodon Restorer", 
+                "Golgari Locket", 
+                "Siege Wurm", 
+                "Veiled Shade", 
+                "Plaguecrafter"
+              ], 
+              "pick": "Loxodon Restorer"
+            }, 
+            {
+              "cards": [
+                "Hitchclaw Recluse", 
+                "Child of Night", 
+                "Izzet Locket", 
+                "Leapfrog", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Selesnya Guildgate"
+            }, 
+            {
+              "cards": [
+                "Dimir Locket", 
+                "Rosemane Centaur", 
+                "Arboretum Elemental", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Selesnya Guildgate"
+            }, 
+            {
+              "cards": [
+                "Ironshell Beetle", 
+                "Fearless Halberdier", 
+                "Wary Okapi"
+              ], 
+              "pick": "Fearless Halberdier"
+            }, 
+            {
+              "cards": [
+                "Wild Ceratok", 
+                "Grappling Sundew"
+              ], 
+              "pick": "Grappling Sundew"
+            }, 
+            {
+              "cards": [
+                "Kraul Foragers"
+              ], 
+              "pick": "Kraul Foragers"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Hitchclaw Recluse", 
+                "Undercity Uprising", 
+                "Watcher in the Mist", 
+                "Unexplained Disappearance", 
+                "Never Happened", 
+                "Darkblade Agent", 
+                "Maniacal Rage", 
+                "Wild Ceratok", 
+                "Ornery Goblin", 
+                "Rosemane Centaur", 
+                "Ledev Champion", 
+                "Disinformation Campaign", 
+                "Beamsplitter Mage", 
+                "Emmara, Soul of the Accord", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Emmara, Soul of the Accord"
+            }, 
+            {
+              "cards": [
+                "Erstwhile Trooper", 
+                "Prey Upon", 
+                "Passwall Adept", 
+                "Kraul Foragers", 
+                "Gateway Plaza", 
+                "Gravitic Punch", 
+                "Vedalken Mesmerist", 
+                "Boros Locket", 
+                "Hitchclaw Recluse", 
+                "Dimir Locket", 
+                "Conclave Tribunal", 
+                "Conclave Guildmage", 
+                "Dimir Spybug", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Conclave Tribunal"
+            }, 
+            {
+              "cards": [
+                "Barrier of Bones", 
+                "Goblin Electromancer", 
+                "Boros Locket", 
+                "Passwall Adept", 
+                "Ironshell Beetle", 
+                "Maniacal Rage", 
+                "Vedalken Mesmerist", 
+                "Cosmotronic Wave", 
+                "Vernadi Shieldmate", 
+                "Glaive of the Guildpact", 
+                "Plaguecrafter", 
+                "Flight of Equenauts", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Vernadi Shieldmate"
+            }, 
+            {
+              "cards": [
+                "Tenth District Guard", 
+                "Hitchclaw Recluse", 
+                "Maximize Velocity", 
+                "Fire Urchin", 
+                "Urban Utopia", 
+                "Sure Strike", 
+                "Vernadi Shieldmate", 
+                "Dazzling Lights", 
+                "Inescapable Blaze", 
+                "Book Devourer", 
+                "Sprouting Renewal", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Sure Strike"
+            }, 
+            {
+              "cards": [
+                "Generous Stray", 
+                "Selesnya Locket", 
+                "Intrusive Packbeast", 
+                "Passwall Adept", 
+                "Hitchclaw Recluse", 
+                "Burglar Rat", 
+                "Spinal Centipede", 
+                "Blade Instructor", 
+                "Sure Strike", 
+                "Lotleth Giant", 
+                "Necrotic Wound"
+              ], 
+              "pick": "Blade Instructor"
+            }, 
+            {
+              "cards": [
+                "Hitchclaw Recluse", 
+                "Collar the Culprit", 
+                "Ironshell Beetle", 
+                "Devious Cover-Up", 
+                "Severed Strands", 
+                "Whisper Agent", 
+                "Bartizan Bats", 
+                "Crush Contraband", 
+                "Flower/Flourish", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Flower/Flourish"
+            }, 
+            {
+              "cards": [
+                "Sworn Companions", 
+                "Artful Takedown", 
+                "Wall of Mist", 
+                "Parhelion Patrol", 
+                "Pause for Reflection", 
+                "Selesnya Guildgate", 
+                "Haazda Marshal", 
+                "Flight of Equenauts", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Flight of Equenauts"
+            }, 
+            {
+              "cards": [
+                "Devious Cover-Up", 
+                "Sumala Woodshaper", 
+                "Hitchclaw Recluse", 
+                "Loxodon Restorer", 
+                "Artful Takedown", 
+                "Maximize Velocity", 
+                "Beamsplitter Mage", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Sumala Woodshaper"
+            }, 
+            {
+              "cards": [
+                "Hitchclaw Recluse", 
+                "Never Happened", 
+                "Darkblade Agent", 
+                "Wild Ceratok", 
+                "Rosemane Centaur", 
+                "Beamsplitter Mage", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Rosemane Centaur"
+            }, 
+            {
+              "cards": [
+                "Erstwhile Trooper", 
+                "Kraul Foragers", 
+                "Vedalken Mesmerist", 
+                "Boros Locket", 
+                "Hitchclaw Recluse", 
+                "Dimir Locket"
+              ], 
+              "pick": "Boros Locket"
+            }, 
+            {
+              "cards": [
+                "Barrier of Bones", 
+                "Boros Locket", 
+                "Passwall Adept", 
+                "Vedalken Mesmerist", 
+                "Glaive of the Guildpact"
+              ], 
+              "pick": "Glaive of the Guildpact"
+            }, 
+            {
+              "cards": [
+                "Hitchclaw Recluse", 
+                "Maximize Velocity", 
+                "Urban Utopia", 
+                "Sprouting Renewal"
+              ], 
+              "pick": "Hitchclaw Recluse"
+            }, 
+            {
+              "cards": [
+                "Selesnya Locket", 
+                "Hitchclaw Recluse", 
+                "Lotleth Giant"
+              ], 
+              "pick": "Selesnya Locket"
+            }, 
+            {
+              "cards": [
+                "Bartizan Bats", 
+                "Crush Contraband"
+              ], 
+              "pick": "Crush Contraband"
+            }, 
+            {
+              "cards": [
+                "Pause for Reflection"
+              ], 
+              "pick": "Pause for Reflection"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Moodmark Painter", 
+                "Ornery Goblin", 
+                "Gateway Plaza", 
+                "Hunted Witness", 
+                "Barging Sergeant", 
+                "Gravitic Punch", 
+                "Hypothesizzle", 
+                "Torch Courier", 
+                "Artful Takedown", 
+                "Ironshell Beetle", 
+                "Swathcutter Giant", 
+                "Inspiring Unicorn", 
+                "Justice Strike", 
+                "Ritual of Soot", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Justice Strike"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Parhelion Patrol", 
+                "Devkarin Dissident", 
+                "Radical Idea", 
+                "Intrusive Packbeast", 
+                "Crushing Canopy", 
+                "Take Heart", 
+                "Vernadi Shieldmate", 
+                "Wojek Bodyguard", 
+                "Mephitic Vapors", 
+                "Conclave Tribunal", 
+                "Glowspore Shaman", 
+                "Swathcutter Giant", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Conclave Tribunal"
+            }, 
+            {
+              "cards": [
+                "Loxodon Restorer", 
+                "Boros Locket", 
+                "Leapfrog", 
+                "Golgari Locket", 
+                "Rubblebelt Boar", 
+                "Douser of Lights", 
+                "Vigorspore Wurm", 
+                "Artful Takedown", 
+                "Golgari Findbroker", 
+                "Hellkite Whelp", 
+                "Invert/Invent", 
+                "Hatchery Spider", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Hellkite Whelp"
+            }, 
+            {
+              "cards": [
+                "Burglar Rat", 
+                "Watcher in the Mist", 
+                "Vicious Rumors", 
+                "Wary Okapi", 
+                "Sure Strike", 
+                "Devkarin Dissident", 
+                "Ledev Guardian", 
+                "Candlelight Vigil", 
+                "Bartizan Bats", 
+                "Crackling Drake", 
+                "Izoni, Thousand-Eyed", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Izoni, Thousand-Eyed"
+            }, 
+            {
+              "cards": [
+                "Mephitic Vapors", 
+                "Erstwhile Trooper", 
+                "Barrier of Bones", 
+                "Beacon Bolt", 
+                "Ironshell Beetle", 
+                "Hypothesizzle", 
+                "Never Happened", 
+                "Molderhulk", 
+                "Thought Erasure", 
+                "Guildmages' Forum", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Guildmages' Forum"
+            }, 
+            {
+              "cards": [
+                "Unexplained Disappearance", 
+                "Disdainful Stroke", 
+                "Sworn Companions", 
+                "Douser of Lights", 
+                "Pitiless Gorgon", 
+                "Tenth District Guard", 
+                "Capture Sphere", 
+                "Wary Okapi", 
+                "Street Riot", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Boros Guildgate"
+            }, 
+            {
+              "cards": [
+                "Erstwhile Trooper", 
+                "Veiled Shade", 
+                "Rhizome Lurcher", 
+                "Vernadi Shieldmate", 
+                "Wary Okapi", 
+                "Sworn Companions", 
+                "Ochran Assassin", 
+                "Conclave Guildmage", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Conclave Guildmage"
+            }, 
+            {
+              "cards": [
+                "Izzet Locket", 
+                "Undercity Uprising", 
+                "Vigorspore Wurm", 
+                "Erstwhile Trooper", 
+                "Intrusive Packbeast", 
+                "Creeping Chill", 
+                "Molderhulk", 
+                "Guild Summit"
+              ], 
+              "pick": "Intrusive Packbeast"
+            }, 
+            {
+              "cards": [
+                "Ornery Goblin", 
+                "Gateway Plaza", 
+                "Gravitic Punch", 
+                "Torch Courier", 
+                "Ironshell Beetle", 
+                "Swathcutter Giant", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Swathcutter Giant"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Devkarin Dissident", 
+                "Intrusive Packbeast", 
+                "Crushing Canopy", 
+                "Vernadi Shieldmate", 
+                "Swathcutter Giant"
+              ], 
+              "pick": "Vernadi Shieldmate"
+            }, 
+            {
+              "cards": [
+                "Boros Locket", 
+                "Leapfrog", 
+                "Golgari Locket", 
+                "Golgari Findbroker", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Golgari Findbroker"
+            }, 
+            {
+              "cards": [
+                "Burglar Rat", 
+                "Vicious Rumors", 
+                "Wary Okapi", 
+                "Candlelight Vigil"
+              ], 
+              "pick": "Candlelight Vigil"
+            }, 
+            {
+              "cards": [
+                "Erstwhile Trooper", 
+                "Never Happened", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Golgari Guildgate"
+            }, 
+            {
+              "cards": [
+                "Douser of Lights", 
+                "Wary Okapi"
+              ], 
+              "pick": "Wary Okapi"
+            }, 
+            {
+              "cards": [
+                "Wary Okapi"
+              ], 
+              "pick": "Wary Okapi"
+            }
+          ], 
+          "productCode": "GRN"
+        }
+      ], 
+      "time": "10/1/2018 9:23:53 PM"
+    }, 
+    "Format": "GRN-GRN-GRN"
+  }, 
+  {
+    "Draft": {
+      "event": "3616", 
+      "packs": [
+        {
+          "picks": [
+            {
+              "cards": [
+                "Command the Storm", 
+                "Hunted Witness", 
+                "Candlelight Vigil", 
+                "Hypothesizzle", 
+                "Rosemane Centaur", 
+                "Maximize Velocity", 
+                "Goblin Locksmith", 
+                "Dead Weight", 
+                "Wall of Mist", 
+                "Vigorspore Wurm", 
+                "Sunhome Stalwart", 
+                "Whispering Snitch", 
+                "Worldsoul Colossus", 
+                "Vraska, Golgari Queen", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Vraska, Golgari Queen"
+            }, 
+            {
+              "cards": [
+                "Dimir Informant", 
+                "Centaur Peacemaker", 
+                "Artful Takedown", 
+                "Goblin Locksmith", 
+                "Barrier of Bones", 
+                "Watcher in the Mist", 
+                "Undercity Uprising", 
+                "Collar the Culprit", 
+                "Selesnya Locket", 
+                "Spinal Centipede", 
+                "Kraul Swarm", 
+                "District Guide", 
+                "Discovery/Dispersal", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "District Guide"
+            }, 
+            {
+              "cards": [
+                "Darkblade Agent", 
+                "Sure Strike", 
+                "Loxodon Restorer", 
+                "Barging Sergeant", 
+                "Maniacal Rage", 
+                "Piston-Fist Cyclops", 
+                "Passwall Adept", 
+                "Veiled Shade", 
+                "Undercity Uprising", 
+                "Vernadi Shieldmate", 
+                "Ledev Champion", 
+                "Thoughtbound Phantasm", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Ledev Champion"
+            }, 
+            {
+              "cards": [
+                "Devious Cover-Up", 
+                "Siege Wurm", 
+                "Dimir Locket", 
+                "Selesnya Locket", 
+                "Pack's Favor", 
+                "Radical Idea", 
+                "Maniacal Rage", 
+                "Vedalken Mesmerist", 
+                "Vernadi Shieldmate", 
+                "Kraul Swarm", 
+                "Join Shields", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Kraul Swarm"
+            }, 
+            {
+              "cards": [
+                "Wary Okapi", 
+                "Garrison Sergeant", 
+                "Child of Night", 
+                "Sonic Assault", 
+                "Goblin Locksmith", 
+                "Golgari Locket", 
+                "Sworn Companions", 
+                "Plaguecrafter", 
+                "Join Shields", 
+                "Omnispell Adept", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Plaguecrafter"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Izzet Locket", 
+                "Muse Drake", 
+                "Cosmotronic Wave", 
+                "Parhelion Patrol", 
+                "Boros Locket", 
+                "Mephitic Vapors", 
+                "Burglar Rat", 
+                "Haazda Marshal", 
+                "Ionize"
+              ], 
+              "pick": "Burglar Rat"
+            }, 
+            {
+              "cards": [
+                "Douser of Lights", 
+                "Urban Utopia", 
+                "Izzet Locket", 
+                "Intrusive Packbeast", 
+                "Boros Guildgate", 
+                "Fearless Halberdier", 
+                "Goblin Locksmith", 
+                "Invert/Invent", 
+                "Silent Dart"
+              ], 
+              "pick": "Douser of Lights"
+            }, 
+            {
+              "cards": [
+                "Fire Urchin", 
+                "Collar the Culprit", 
+                "Rubblebelt Boar", 
+                "Wary Okapi", 
+                "Loxodon Restorer", 
+                "Severed Strands", 
+                "Burglar Rat", 
+                "Creeping Chill"
+              ], 
+              "pick": "Burglar Rat"
+            }, 
+            {
+              "cards": [
+                "Hunted Witness", 
+                "Candlelight Vigil", 
+                "Maximize Velocity", 
+                "Goblin Locksmith", 
+                "Wall of Mist", 
+                "Vigorspore Wurm", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Vigorspore Wurm"
+            }, 
+            {
+              "cards": [
+                "Dimir Informant", 
+                "Barrier of Bones", 
+                "Undercity Uprising", 
+                "Selesnya Locket", 
+                "Kraul Swarm", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Dimir Guildgate"
+            }, 
+            {
+              "cards": [
+                "Darkblade Agent", 
+                "Maniacal Rage", 
+                "Passwall Adept", 
+                "Veiled Shade", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Veiled Shade"
+            }, 
+            {
+              "cards": [
+                "Devious Cover-Up", 
+                "Selesnya Locket", 
+                "Pack's Favor", 
+                "Vedalken Mesmerist"
+              ], 
+              "pick": "Pack's Favor"
+            }, 
+            {
+              "cards": [
+                "Goblin Locksmith", 
+                "Join Shields", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Join Shields"
+            }, 
+            {
+              "cards": [
+                "Izzet Locket", 
+                "Boros Locket"
+              ], 
+              "pick": "Izzet Locket"
+            }, 
+            {
+              "cards": [
+                "Fearless Halberdier"
+              ], 
+              "pick": "Fearless Halberdier"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Righteous Blow", 
+                "Erstwhile Trooper", 
+                "Passwall Adept", 
+                "Child of Night", 
+                "Moodmark Painter", 
+                "Intrusive Packbeast", 
+                "Wild Ceratok", 
+                "Grappling Sundew", 
+                "Fire Urchin", 
+                "Generous Stray", 
+                "Rampaging Monument", 
+                "Flower/Flourish", 
+                "Book Devourer", 
+                "Drowned Secrets", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Flower/Flourish"
+            }, 
+            {
+              "cards": [
+                "Douser of Lights", 
+                "Selesnya Locket", 
+                "Watcher in the Mist", 
+                "Unexplained Disappearance", 
+                "Pause for Reflection", 
+                "Righteous Blow", 
+                "Radical Idea", 
+                "Pitiless Gorgon", 
+                "Erstwhile Trooper", 
+                "Discovery/Dispersal", 
+                "Affectionate Indrik", 
+                "Inescapable Blaze", 
+                "Camaraderie", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Camaraderie"
+            }, 
+            {
+              "cards": [
+                "Fire Urchin", 
+                "Vedalken Mesmerist", 
+                "Wild Ceratok", 
+                "Dimir Informant", 
+                "Collar the Culprit", 
+                "Sumala Woodshaper", 
+                "Vernadi Shieldmate", 
+                "Hired Poisoner", 
+                "Sprouting Renewal", 
+                "Conclave Tribunal", 
+                "Inescapable Blaze", 
+                "Experimental Frenzy", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Conclave Tribunal"
+            }, 
+            {
+              "cards": [
+                "Goblin Electromancer", 
+                "Vernadi Shieldmate", 
+                "Rubblebelt Boar", 
+                "Selesnya Locket", 
+                "Maximize Velocity", 
+                "Devkarin Dissident", 
+                "Vicious Rumors", 
+                "Dazzling Lights", 
+                "Selective Snare", 
+                "Inescapable Blaze", 
+                "Citywide Bust", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Selesnya Guildgate"
+            }, 
+            {
+              "cards": [
+                "Urban Utopia", 
+                "Muse Drake", 
+                "Ledev Guardian", 
+                "Bartizan Bats", 
+                "Maximize Velocity", 
+                "Loxodon Restorer", 
+                "Crushing Canopy", 
+                "Severed Strands", 
+                "Tenth District Guard", 
+                "Arboretum Elemental", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Severed Strands"
+            }, 
+            {
+              "cards": [
+                "Child of Night", 
+                "Maximize Velocity", 
+                "Pack's Favor", 
+                "Goblin Electromancer", 
+                "Douser of Lights", 
+                "Dazzling Lights", 
+                "Torch Courier", 
+                "Hellkite Whelp", 
+                "Flower/Flourish", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Flower/Flourish"
+            }, 
+            {
+              "cards": [
+                "Child of Night", 
+                "Torch Courier", 
+                "Urban Utopia", 
+                "Maniacal Rage", 
+                "Wishcoin Crab", 
+                "Sonic Assault", 
+                "Undercity Uprising", 
+                "Demotion", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Golgari Guildgate"
+            }, 
+            {
+              "cards": [
+                "Gravitic Punch", 
+                "Wishcoin Crab", 
+                "Vernadi Shieldmate", 
+                "Devious Cover-Up", 
+                "Dimir Locket", 
+                "Muse Drake", 
+                "Gateway Plaza", 
+                "Devkarin Dissident"
+              ], 
+              "pick": "Devkarin Dissident"
+            }, 
+            {
+              "cards": [
+                "Erstwhile Trooper", 
+                "Passwall Adept", 
+                "Child of Night", 
+                "Moodmark Painter", 
+                "Wild Ceratok", 
+                "Generous Stray", 
+                "Drowned Secrets"
+              ], 
+              "pick": "Generous Stray"
+            }, 
+            {
+              "cards": [
+                "Douser of Lights", 
+                "Selesnya Locket", 
+                "Pause for Reflection", 
+                "Radical Idea", 
+                "Erstwhile Trooper", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Golgari Guildgate"
+            }, 
+            {
+              "cards": [
+                "Vedalken Mesmerist", 
+                "Wild Ceratok", 
+                "Collar the Culprit", 
+                "Hired Poisoner", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Hired Poisoner"
+            }, 
+            {
+              "cards": [
+                "Selesnya Locket", 
+                "Maximize Velocity", 
+                "Vicious Rumors", 
+                "Selective Snare"
+              ], 
+              "pick": "Selesnya Locket"
+            }, 
+            {
+              "cards": [
+                "Urban Utopia", 
+                "Ledev Guardian", 
+                "Loxodon Restorer"
+              ], 
+              "pick": "Urban Utopia"
+            }, 
+            {
+              "cards": [
+                "Maximize Velocity", 
+                "Dazzling Lights"
+              ], 
+              "pick": "Dazzling Lights"
+            }, 
+            {
+              "cards": [
+                "Torch Courier"
+              ], 
+              "pick": "Torch Courier"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Wary Okapi", 
+                "Torch Courier", 
+                "Devkarin Dissident", 
+                "Skyknight Legionnaire", 
+                "Gateway Plaza", 
+                "Skyline Scout", 
+                "Gravitic Punch", 
+                "Prey Upon", 
+                "Muse Drake", 
+                "Whisper Agent", 
+                "Price of Fame", 
+                "Thoughtbound Phantasm", 
+                "Smelt-Ward Minotaur", 
+                "Mausoleum Secrets", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Price of Fame"
+            }, 
+            {
+              "cards": [
+                "Parhelion Patrol", 
+                "Wary Okapi", 
+                "Maximize Altitude", 
+                "Maniacal Rage", 
+                "Tenth District Guard", 
+                "Urban Utopia", 
+                "Spinal Centipede", 
+                "Hammer Dropper", 
+                "Sonic Assault", 
+                "Silent Dart", 
+                "Invert/Invent", 
+                "Flower/Flourish", 
+                "Venerated Loxodon", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Venerated Loxodon"
+            }, 
+            {
+              "cards": [
+                "Dimir Locket", 
+                "Take Heart", 
+                "Vigorspore Wurm", 
+                "Vicious Rumors", 
+                "Gateway Plaza", 
+                "Goblin Locksmith", 
+                "Prey Upon", 
+                "Blade Instructor", 
+                "Citywatch Sphinx", 
+                "Sinister Sabotage", 
+                "Undercity Necrolisk", 
+                "Watery Grave", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Watery Grave"
+            }, 
+            {
+              "cards": [
+                "Sure Strike", 
+                "Barging Sergeant", 
+                "Leapfrog", 
+                "Take Heart", 
+                "Generous Stray", 
+                "Rosemane Centaur", 
+                "Mephitic Vapors", 
+                "Severed Strands", 
+                "Ledev Guardian", 
+                "Inspiring Unicorn", 
+                "Silent Dart", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Severed Strands"
+            }, 
+            {
+              "cards": [
+                "Barrier of Bones", 
+                "Goblin Locksmith", 
+                "Crushing Canopy", 
+                "Healer's Hawk", 
+                "Dimir Informant", 
+                "Torch Courier", 
+                "Pause for Reflection", 
+                "Goblin Cratermaker", 
+                "Sprouting Renewal", 
+                "Wand of Vertebrae", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Sprouting Renewal"
+            }, 
+            {
+              "cards": [
+                "Skyknight Legionnaire", 
+                "Severed Strands", 
+                "Prey Upon", 
+                "Take Heart", 
+                "Hammer Dropper", 
+                "Rubblebelt Boar", 
+                "Centaur Peacemaker", 
+                "Disdainful Stroke", 
+                "Enhanced Surveillance", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Severed Strands"
+            }, 
+            {
+              "cards": [
+                "Barrier of Bones", 
+                "Wild Ceratok", 
+                "Muse Drake", 
+                "Generous Stray", 
+                "Leapfrog", 
+                "Fire Urchin", 
+                "Radical Idea", 
+                "Worldsoul Colossus", 
+                "Erratic Cyclops"
+              ], 
+              "pick": "Generous Stray"
+            }, 
+            {
+              "cards": [
+                "Wild Ceratok", 
+                "Ironshell Beetle", 
+                "Pack's Favor", 
+                "Mephitic Vapors", 
+                "Torch Courier", 
+                "Barging Sergeant", 
+                "Thoughtbound Phantasm", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Selesnya Guildgate"
+            }, 
+            {
+              "cards": [
+                "Wary Okapi", 
+                "Torch Courier", 
+                "Gateway Plaza", 
+                "Gravitic Punch", 
+                "Muse Drake", 
+                "Mausoleum Secrets", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Wary Okapi"
+            }, 
+            {
+              "cards": [
+                "Wary Okapi", 
+                "Maximize Altitude", 
+                "Maniacal Rage", 
+                "Urban Utopia", 
+                "Invert/Invent", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Wary Okapi"
+            }, 
+            {
+              "cards": [
+                "Dimir Locket", 
+                "Vicious Rumors", 
+                "Gateway Plaza", 
+                "Undercity Necrolisk", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Undercity Necrolisk"
+            }, 
+            {
+              "cards": [
+                "Barging Sergeant", 
+                "Take Heart", 
+                "Ledev Guardian", 
+                "Silent Dart"
+              ], 
+              "pick": "Silent Dart"
+            }, 
+            {
+              "cards": [
+                "Goblin Locksmith", 
+                "Pause for Reflection", 
+                "Wand of Vertebrae"
+              ], 
+              "pick": "Pause for Reflection"
+            }, 
+            {
+              "cards": [
+                "Take Heart", 
+                "Enhanced Surveillance"
+              ], 
+              "pick": "Take Heart"
+            }, 
+            {
+              "cards": [
+                "Leapfrog"
+              ], 
+              "pick": "Leapfrog"
+            }
+          ], 
+          "productCode": "GRN"
+        }
+      ], 
+      "time": "09/10/2018 16:31:18"
+    }, 
+    "Format": "GRN-GRN-GRN"
+  }, 
+  {
+    "Draft": {
+      "event": "3622", 
+      "packs": [
+        {
+          "picks": [
+            {
+              "cards": [
+                "Tenth District Guard", 
+                "Luminous Bonds", 
+                "Pitiless Gorgon", 
+                "Siege Wurm", 
+                "Vernadi Shieldmate", 
+                "Command the Storm", 
+                "Maximize Altitude", 
+                "Prey Upon", 
+                "Sumala Woodshaper", 
+                "Moodmark Painter", 
+                "Selective Snare", 
+                "Conclave Tribunal", 
+                "Glaive of the Guildpact", 
+                "Venerated Loxodon", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Command the Storm"
+            }, 
+            {
+              "cards": [
+                "Douser of Lights", 
+                "Unexplained Disappearance", 
+                "Garrison Sergeant", 
+                "Dazzling Lights", 
+                "Hunted Witness", 
+                "Notion Rain", 
+                "Undercity Uprising", 
+                "Direct Current", 
+                "Gravitic Punch", 
+                "Dead Weight", 
+                "Sinister Sabotage", 
+                "Citywatch Sphinx", 
+                "Gird for Battle", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Direct Current"
+            }, 
+            {
+              "cards": [
+                "Kraul Foragers", 
+                "Darkblade Agent", 
+                "Capture Sphere", 
+                "Prey Upon", 
+                "Erstwhile Trooper", 
+                "Hammer Dropper", 
+                "Righteous Blow", 
+                "Piston-Fist Cyclops", 
+                "Hitchclaw Recluse", 
+                "Dimir Locket", 
+                "Ledev Champion", 
+                "Enhanced Surveillance", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Capture Sphere"
+            }, 
+            {
+              "cards": [
+                "Severed Strands", 
+                "Burglar Rat", 
+                "Unexplained Disappearance", 
+                "Rubblebelt Boar", 
+                "Portcullis Vine", 
+                "Hunted Witness", 
+                "Tenth District Guard", 
+                "Urban Utopia", 
+                "Electrostatic Field", 
+                "Circuitous Route", 
+                "Demotion", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Electrostatic Field"
+            }, 
+            {
+              "cards": [
+                "Golgari Locket", 
+                "Blade Instructor", 
+                "Maximize Altitude", 
+                "Luminous Bonds", 
+                "Siege Wurm", 
+                "Spinal Centipede", 
+                "Skyknight Legionnaire", 
+                "Intrusive Packbeast", 
+                "Child of Night", 
+                "Ochran Assassin", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Luminous Bonds"
+            }, 
+            {
+              "cards": [
+                "Healer's Hawk", 
+                "Blade Instructor", 
+                "Crushing Canopy", 
+                "Sure Strike", 
+                "Whisper Agent", 
+                "Darkblade Agent", 
+                "Leapfrog", 
+                "Pause for Reflection", 
+                "Parhelion Patrol", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Healer's Hawk"
+            }, 
+            {
+              "cards": [
+                "Pitiless Gorgon", 
+                "Leapfrog", 
+                "Moodmark Painter", 
+                "Unexplained Disappearance", 
+                "Wild Ceratok", 
+                "Kraul Foragers", 
+                "Tenth District Guard", 
+                "Torch Courier", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Leapfrog"
+            }, 
+            {
+              "cards": [
+                "Vedalken Mesmerist", 
+                "Veiled Shade", 
+                "Pause for Reflection", 
+                "Wary Okapi", 
+                "Hunted Witness", 
+                "Sumala Woodshaper", 
+                "Torch Courier", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Torch Courier"
+            }, 
+            {
+              "cards": [
+                "Tenth District Guard", 
+                "Pitiless Gorgon", 
+                "Siege Wurm", 
+                "Vernadi Shieldmate", 
+                "Maximize Altitude", 
+                "Sumala Woodshaper", 
+                "Moodmark Painter"
+              ], 
+              "pick": "Siege Wurm"
+            }, 
+            {
+              "cards": [
+                "Douser of Lights", 
+                "Dazzling Lights", 
+                "Hunted Witness", 
+                "Undercity Uprising", 
+                "Gravitic Punch", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Gravitic Punch"
+            }, 
+            {
+              "cards": [
+                "Kraul Foragers", 
+                "Prey Upon", 
+                "Righteous Blow", 
+                "Hitchclaw Recluse", 
+                "Enhanced Surveillance"
+              ], 
+              "pick": "Kraul Foragers"
+            }, 
+            {
+              "cards": [
+                "Portcullis Vine", 
+                "Tenth District Guard", 
+                "Circuitous Route", 
+                "Demotion"
+              ], 
+              "pick": "Tenth District Guard"
+            }, 
+            {
+              "cards": [
+                "Golgari Locket", 
+                "Blade Instructor", 
+                "Spinal Centipede"
+              ], 
+              "pick": "Blade Instructor"
+            }, 
+            {
+              "cards": [
+                "Crushing Canopy", 
+                "Pause for Reflection"
+              ], 
+              "pick": "Crushing Canopy"
+            }, 
+            {
+              "cards": [
+                "Wild Ceratok"
+              ], 
+              "pick": "Wild Ceratok"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Take Heart", 
+                "Gateway Plaza", 
+                "Passwall Adept", 
+                "Cosmotronic Wave", 
+                "Notion Rain", 
+                "Pitiless Gorgon", 
+                "Might of the Masses", 
+                "Centaur Peacemaker", 
+                "Hunted Witness", 
+                "Veiled Shade", 
+                "Selective Snare", 
+                "Discovery/Dispersal", 
+                "Crackling Drake", 
+                "Firemind's Research", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Crackling Drake"
+            }, 
+            {
+              "cards": [
+                "Boros Locket", 
+                "Mephitic Vapors", 
+                "Passwall Adept", 
+                "Rosemane Centaur", 
+                "Portcullis Vine", 
+                "Healer's Hawk", 
+                "Maximize Altitude", 
+                "Ironshell Beetle", 
+                "Hypothesizzle", 
+                "Wild Ceratok", 
+                "Haazda Marshal", 
+                "Join Shields", 
+                "Tajic, Legion's Edge", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Tajic, Legion's Edge"
+            }, 
+            {
+              "cards": [
+                "Intrusive Packbeast", 
+                "Mephitic Vapors", 
+                "Crushing Canopy", 
+                "Vicious Rumors", 
+                "Darkblade Agent", 
+                "Vedalken Mesmerist", 
+                "Skyknight Legionnaire", 
+                "Undercity Uprising", 
+                "Gateway Plaza", 
+                "Crush Contraband", 
+                "Undercity Necrolisk", 
+                "Connive/Concoct", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Skyknight Legionnaire"
+            }, 
+            {
+              "cards": [
+                "Wojek Bodyguard", 
+                "Vedalken Mesmerist", 
+                "Goblin Electromancer", 
+                "Direct Current", 
+                "Leapfrog", 
+                "Pitiless Gorgon", 
+                "Darkblade Agent", 
+                "Undercity Uprising", 
+                "Barging Sergeant", 
+                "Swathcutter Giant", 
+                "Kraul Swarm", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Direct Current"
+            }, 
+            {
+              "cards": [
+                "Muse Drake", 
+                "Hypothesizzle", 
+                "Fearless Halberdier", 
+                "Centaur Peacemaker", 
+                "Fire Urchin", 
+                "Sonic Assault", 
+                "Golgari Locket", 
+                "Pitiless Gorgon", 
+                "Beacon Bolt", 
+                "Citywide Bust", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Citywide Bust"
+            }, 
+            {
+              "cards": [
+                "Candlelight Vigil", 
+                "Maniacal Rage", 
+                "Passwall Adept", 
+                "Selesnya Locket", 
+                "Vigorspore Wurm", 
+                "Notion Rain", 
+                "Golgari Locket", 
+                "Dimir Spybug", 
+                "Charnel Troll", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Maniacal Rage"
+            }, 
+            {
+              "cards": [
+                "Mephitic Vapors", 
+                "Golgari Locket", 
+                "Pack's Favor", 
+                "Hitchclaw Recluse", 
+                "Severed Strands", 
+                "Goblin Locksmith", 
+                "Goblin Electromancer", 
+                "Silent Dart", 
+                "Join Shields"
+              ], 
+              "pick": "Goblin Locksmith"
+            }, 
+            {
+              "cards": [
+                "Douser of Lights", 
+                "Hammer Dropper", 
+                "Barrier of Bones", 
+                "Fearless Halberdier", 
+                "Undercity Uprising", 
+                "Gravitic Punch", 
+                "Silent Dart", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Hammer Dropper"
+            }, 
+            {
+              "cards": [
+                "Take Heart", 
+                "Gateway Plaza", 
+                "Passwall Adept", 
+                "Cosmotronic Wave", 
+                "Pitiless Gorgon", 
+                "Centaur Peacemaker", 
+                "Veiled Shade"
+              ], 
+              "pick": "Cosmotronic Wave"
+            }, 
+            {
+              "cards": [
+                "Boros Locket", 
+                "Mephitic Vapors", 
+                "Portcullis Vine", 
+                "Maximize Altitude", 
+                "Wild Ceratok", 
+                "Join Shields"
+              ], 
+              "pick": "Boros Locket"
+            }, 
+            {
+              "cards": [
+                "Mephitic Vapors", 
+                "Vicious Rumors", 
+                "Vedalken Mesmerist", 
+                "Undercity Uprising", 
+                "Undercity Necrolisk"
+              ], 
+              "pick": "Mephitic Vapors"
+            }, 
+            {
+              "cards": [
+                "Wojek Bodyguard", 
+                "Vedalken Mesmerist", 
+                "Leapfrog", 
+                "Darkblade Agent"
+              ], 
+              "pick": "Wojek Bodyguard"
+            }, 
+            {
+              "cards": [
+                "Fearless Halberdier", 
+                "Sonic Assault", 
+                "Golgari Locket"
+              ], 
+              "pick": "Fearless Halberdier"
+            }, 
+            {
+              "cards": [
+                "Vigorspore Wurm", 
+                "Golgari Locket"
+              ], 
+              "pick": "Vigorspore Wurm"
+            }, 
+            {
+              "cards": [
+                "Golgari Locket"
+              ], 
+              "pick": "Golgari Locket"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Righteous Blow", 
+                "Radical Idea", 
+                "Rubblebelt Boar", 
+                "Goblin Electromancer", 
+                "Gateway Plaza", 
+                "Artful Takedown", 
+                "Pitiless Gorgon", 
+                "Siege Wurm", 
+                "Fresh-Faced Recruit", 
+                "Crushing Canopy", 
+                "Murmuring Mystic", 
+                "Legion Guildmage", 
+                "Guild Summit", 
+                "Assassin's Trophy", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Assassin's Trophy"
+            }, 
+            {
+              "cards": [
+                "Direct Current", 
+                "Erstwhile Trooper", 
+                "Command the Storm", 
+                "Sumala Woodshaper", 
+                "Wishcoin Crab", 
+                "Wary Okapi", 
+                "Douser of Lights", 
+                "Barging Sergeant", 
+                "Undercity Uprising", 
+                "Lava Coil", 
+                "Crush Contraband", 
+                "Glaive of the Guildpact", 
+                "Knight of Autumn", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Lava Coil"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Fire Urchin", 
+                "Take Heart", 
+                "Dazzling Lights", 
+                "Hammer Dropper", 
+                "Dimir Locket", 
+                "Pitiless Gorgon", 
+                "Severed Strands", 
+                "Command the Storm", 
+                "Bartizan Bats", 
+                "Golgari Raiders", 
+                "Rampaging Monument", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Hammer Dropper"
+            }, 
+            {
+              "cards": [
+                "Healer's Hawk", 
+                "Hired Poisoner", 
+                "Maximize Altitude", 
+                "Selesnya Locket", 
+                "Torch Courier", 
+                "Pitiless Gorgon", 
+                "Wishcoin Crab", 
+                "Tenth District Guard", 
+                "Crackling Drake", 
+                "Pilfering Imp", 
+                "Drowned Secrets", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Healer's Hawk"
+            }, 
+            {
+              "cards": [
+                "Ornery Goblin", 
+                "Vernadi Shieldmate", 
+                "Take Heart", 
+                "Goblin Locksmith", 
+                "Maximize Altitude", 
+                "Vicious Rumors", 
+                "Torch Courier", 
+                "Centaur Peacemaker", 
+                "Collar the Culprit", 
+                "Crackling Drake", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Ornery Goblin"
+            }, 
+            {
+              "cards": [
+                "Wishcoin Crab", 
+                "Golgari Locket", 
+                "Hunted Witness", 
+                "Undercity Uprising", 
+                "Maximize Velocity", 
+                "Child of Night", 
+                "Vedalken Mesmerist", 
+                "Righteous Blow", 
+                "Crush Contraband", 
+                "Book Devourer"
+              ], 
+              "pick": "Book Devourer"
+            }, 
+            {
+              "cards": [
+                "Wojek Bodyguard", 
+                "Rosemane Centaur", 
+                "Douser of Lights", 
+                "Intrusive Packbeast", 
+                "Maximize Altitude", 
+                "Devious Cover-Up", 
+                "Dimir Locket", 
+                "Ironshell Beetle", 
+                "District Guide"
+              ], 
+              "pick": "Intrusive Packbeast"
+            }, 
+            {
+              "cards": [
+                "Ornery Goblin", 
+                "Never Happened", 
+                "Boros Locket", 
+                "Siege Wurm", 
+                "Blade Instructor", 
+                "Sumala Woodshaper", 
+                "Wojek Bodyguard", 
+                "Goblin Cratermaker"
+              ], 
+              "pick": "Goblin Cratermaker"
+            }, 
+            {
+              "cards": [
+                "Righteous Blow", 
+                "Radical Idea", 
+                "Rubblebelt Boar", 
+                "Pitiless Gorgon", 
+                "Crushing Canopy", 
+                "Guild Summit", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Rubblebelt Boar"
+            }, 
+            {
+              "cards": [
+                "Erstwhile Trooper", 
+                "Sumala Woodshaper", 
+                "Wary Okapi", 
+                "Douser of Lights", 
+                "Undercity Uprising", 
+                "Crush Contraband"
+              ], 
+              "pick": "Crush Contraband"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Dimir Locket", 
+                "Pitiless Gorgon", 
+                "Severed Strands", 
+                "Bartizan Bats"
+              ], 
+              "pick": "Severed Strands"
+            }, 
+            {
+              "cards": [
+                "Maximize Altitude", 
+                "Selesnya Locket", 
+                "Wishcoin Crab", 
+                "Pilfering Imp"
+              ], 
+              "pick": "Wishcoin Crab"
+            }, 
+            {
+              "cards": [
+                "Take Heart", 
+                "Goblin Locksmith", 
+                "Centaur Peacemaker"
+              ], 
+              "pick": "Goblin Locksmith"
+            }, 
+            {
+              "cards": [
+                "Golgari Locket", 
+                "Vedalken Mesmerist"
+              ], 
+              "pick": "Vedalken Mesmerist"
+            }, 
+            {
+              "cards": [
+                "Douser of Lights"
+              ], 
+              "pick": "Douser of Lights"
+            }
+          ], 
+          "productCode": "GRN"
+        }
+      ], 
+      "time": "10/4/2018 11:34:01 PM"
+    }, 
+    "Format": "GRN-GRN-GRN"
+  }, 
+  {
+    "Draft": {
+      "event": "3622", 
+      "packs": [
+        {
+          "picks": [
+            {
+              "cards": [
+                "Golgari Guildgate", 
+                "Healer's Hawk", 
+                "Spinal Centipede", 
+                "Maximize Altitude", 
+                "Douser of Lights", 
+                "Wishcoin Crab", 
+                "Skyknight Legionnaire", 
+                "Leapfrog", 
+                "Hammer Dropper", 
+                "Urban Utopia", 
+                "Murmuring Mystic", 
+                "Integrity/Intervention", 
+                "Street Riot", 
+                "Venerated Loxodon", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Venerated Loxodon"
+            }, 
+            {
+              "cards": [
+                "Skyline Scout", 
+                "Dimir Locket", 
+                "Generous Stray", 
+                "Blade Instructor", 
+                "Barging Sergeant", 
+                "Boros Locket", 
+                "Take Heart", 
+                "Candlelight Vigil", 
+                "Notion Rain", 
+                "Capture Sphere", 
+                "Join Shields", 
+                "Kraul Harpooner", 
+                "Bounty Agent", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Kraul Harpooner"
+            }, 
+            {
+              "cards": [
+                "Righteous Blow", 
+                "Command the Storm", 
+                "Wishcoin Crab", 
+                "Loxodon Restorer", 
+                "Spinal Centipede", 
+                "Golgari Locket", 
+                "Portcullis Vine", 
+                "Blade Instructor", 
+                "Fire Urchin", 
+                "Moodmark Painter", 
+                "Plaguecrafter", 
+                "Might of the Masses", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Plaguecrafter"
+            }, 
+            {
+              "cards": [
+                "Bartizan Bats", 
+                "Healer's Hawk", 
+                "Direct Current", 
+                "Muse Drake", 
+                "Golgari Locket", 
+                "Skyline Scout", 
+                "Urban Utopia", 
+                "Barrier of Bones", 
+                "Hunted Witness", 
+                "Glowspore Shaman", 
+                "Response/Resurgence", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Glowspore Shaman"
+            }, 
+            {
+              "cards": [
+                "Skyline Scout", 
+                "Piston-Fist Cyclops", 
+                "Maximize Altitude", 
+                "Dazzling Lights", 
+                "Centaur Peacemaker", 
+                "Generous Stray", 
+                "Gravitic Punch", 
+                "Loxodon Restorer", 
+                "Passwall Adept", 
+                "Book Devourer", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Centaur Peacemaker"
+            }, 
+            {
+              "cards": [
+                "Maximize Altitude", 
+                "Portcullis Vine", 
+                "Blade Instructor", 
+                "Bartizan Bats", 
+                "Passwall Adept", 
+                "Garrison Sergeant", 
+                "Never Happened", 
+                "Creeping Chill", 
+                "Firemind's Research", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Blade Instructor"
+            }, 
+            {
+              "cards": [
+                "Child of Night", 
+                "Veiled Shade", 
+                "Sure Strike", 
+                "Ironshell Beetle", 
+                "Barrier of Bones", 
+                "Selective Snare", 
+                "Worldsoul Colossus", 
+                "Mausoleum Secrets", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Worldsoul Colossus"
+            }, 
+            {
+              "cards": [
+                "Pack's Favor", 
+                "Righteous Blow", 
+                "Mephitic Vapors", 
+                "Douser of Lights", 
+                "Pause for Reflection", 
+                "Generous Stray", 
+                "Piston-Fist Cyclops", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Righteous Blow"
+            }, 
+            {
+              "cards": [
+                "Spinal Centipede", 
+                "Maximize Altitude", 
+                "Wishcoin Crab", 
+                "Leapfrog", 
+                "Hammer Dropper", 
+                "Urban Utopia", 
+                "Street Riot"
+              ], 
+              "pick": "Hammer Dropper"
+            }, 
+            {
+              "cards": [
+                "Generous Stray", 
+                "Blade Instructor", 
+                "Barging Sergeant", 
+                "Boros Locket", 
+                "Candlelight Vigil", 
+                "Join Shields"
+              ], 
+              "pick": "Join Shields"
+            }, 
+            {
+              "cards": [
+                "Wishcoin Crab", 
+                "Loxodon Restorer", 
+                "Portcullis Vine", 
+                "Might of the Masses", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Selesnya Guildgate"
+            }, 
+            {
+              "cards": [
+                "Golgari Locket", 
+                "Urban Utopia", 
+                "Barrier of Bones", 
+                "Hunted Witness"
+              ], 
+              "pick": "Hunted Witness"
+            }, 
+            {
+              "cards": [
+                "Maximize Altitude", 
+                "Dazzling Lights", 
+                "Book Devourer"
+              ], 
+              "pick": "Book Devourer"
+            }, 
+            {
+              "cards": [
+                "Portcullis Vine", 
+                "Never Happened"
+              ], 
+              "pick": "Portcullis Vine"
+            }, 
+            {
+              "cards": [
+                "Barrier of Bones"
+              ], 
+              "pick": "Barrier of Bones"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Deadly Visit", 
+                "Urban Utopia", 
+                "Sworn Companions", 
+                "Never Happened", 
+                "Torch Courier", 
+                "Skyknight Legionnaire", 
+                "Maximize Velocity", 
+                "Wojek Bodyguard", 
+                "Muse Drake", 
+                "Crushing Canopy", 
+                "Grappling Sundew", 
+                "Might of the Masses", 
+                "Boros Challenger", 
+                "Assassin's Trophy", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Assassin's Trophy"
+            }, 
+            {
+              "cards": [
+                "Dead Weight", 
+                "Hammer Dropper", 
+                "Sworn Companions", 
+                "Goblin Locksmith", 
+                "Siege Wurm", 
+                "Vedalken Mesmerist", 
+                "Healer's Hawk", 
+                "Torch Courier", 
+                "Leapfrog", 
+                "Hunted Witness", 
+                "Silent Dart", 
+                "Truefire Captain", 
+                "Kraul Harpooner", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Kraul Harpooner"
+            }, 
+            {
+              "cards": [
+                "Tenth District Guard", 
+                "Piston-Fist Cyclops", 
+                "Douser of Lights", 
+                "Maximize Velocity", 
+                "Blade Instructor", 
+                "Whisper Agent", 
+                "Golgari Locket", 
+                "Pack's Favor", 
+                "Fearless Halberdier", 
+                "Muse Drake", 
+                "Silent Dart", 
+                "Invert/Invent", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Pack's Favor"
+            }, 
+            {
+              "cards": [
+                "Sumala Woodshaper", 
+                "Ironshell Beetle", 
+                "Vernadi Shieldmate", 
+                "Skyknight Legionnaire", 
+                "Urban Utopia", 
+                "Wishcoin Crab", 
+                "Child of Night", 
+                "Never Happened", 
+                "Blade Instructor", 
+                "Flower/Flourish", 
+                "Rampaging Monument", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Vernadi Shieldmate"
+            }, 
+            {
+              "cards": [
+                "Moodmark Painter", 
+                "Never Happened", 
+                "Maximize Altitude", 
+                "Piston-Fist Cyclops", 
+                "Parhelion Patrol", 
+                "Torch Courier", 
+                "Pack's Favor", 
+                "Tenth District Guard", 
+                "Enhanced Surveillance", 
+                "Status/Statue", 
+                "Beamsplitter Mage"
+              ], 
+              "pick": "Parhelion Patrol"
+            }, 
+            {
+              "cards": [
+                "Candlelight Vigil", 
+                "Never Happened", 
+                "Golgari Locket", 
+                "Wild Ceratok", 
+                "Blade Instructor", 
+                "Garrison Sergeant", 
+                "Maximize Altitude", 
+                "Centaur Peacemaker", 
+                "Selective Snare", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Wild Ceratok"
+            }, 
+            {
+              "cards": [
+                "Fearless Halberdier", 
+                "Vigorspore Wurm", 
+                "Moodmark Painter", 
+                "Piston-Fist Cyclops", 
+                "Wall of Mist", 
+                "Vedalken Mesmerist", 
+                "Ledev Guardian", 
+                "Pause for Reflection", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Vigorspore Wurm"
+            }, 
+            {
+              "cards": [
+                "Vicious Rumors", 
+                "Collar the Culprit", 
+                "Generous Stray", 
+                "Fearless Halberdier", 
+                "Veiled Shade", 
+                "Dimir Locket", 
+                "Urban Utopia", 
+                "Wand of Vertebrae"
+              ], 
+              "pick": "Collar the Culprit"
+            }, 
+            {
+              "cards": [
+                "Urban Utopia", 
+                "Sworn Companions", 
+                "Never Happened", 
+                "Torch Courier", 
+                "Maximize Velocity", 
+                "Crushing Canopy", 
+                "Might of the Masses"
+              ], 
+              "pick": "Sworn Companions"
+            }, 
+            {
+              "cards": [
+                "Hammer Dropper", 
+                "Goblin Locksmith", 
+                "Vedalken Mesmerist", 
+                "Torch Courier", 
+                "Leapfrog", 
+                "Hunted Witness"
+              ], 
+              "pick": "Hunted Witness"
+            }, 
+            {
+              "cards": [
+                "Piston-Fist Cyclops", 
+                "Douser of Lights", 
+                "Maximize Velocity", 
+                "Silent Dart", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Silent Dart"
+            }, 
+            {
+              "cards": [
+                "Sumala Woodshaper", 
+                "Ironshell Beetle", 
+                "Urban Utopia", 
+                "Never Happened"
+              ], 
+              "pick": "Ironshell Beetle"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Maximize Altitude", 
+                "Enhanced Surveillance"
+              ], 
+              "pick": "Never Happened"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Golgari Locket"
+              ], 
+              "pick": "Golgari Locket"
+            }, 
+            {
+              "cards": [
+                "Pause for Reflection"
+              ], 
+              "pick": "Pause for Reflection"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Vernadi Shieldmate", 
+                "Skyknight Legionnaire", 
+                "Passwall Adept", 
+                "Righteous Blow", 
+                "Erstwhile Trooper", 
+                "Undercity Uprising", 
+                "Bartizan Bats", 
+                "Collar the Culprit", 
+                "Piston-Fist Cyclops", 
+                "Centaur Peacemaker", 
+                "Circuitous Route", 
+                "Inspiring Unicorn", 
+                "League Guildmage", 
+                "Doom Whisperer", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Doom Whisperer"
+            }, 
+            {
+              "cards": [
+                "Vedalken Mesmerist", 
+                "Ledev Guardian", 
+                "Candlelight Vigil", 
+                "Rhizome Lurcher", 
+                "Selesnya Locket", 
+                "Bartizan Bats", 
+                "Gravitic Punch", 
+                "Deadly Visit", 
+                "Kraul Foragers", 
+                "Pause for Reflection", 
+                "Electrostatic Field", 
+                "Flower/Flourish", 
+                "Wand of Vertebrae", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Deadly Visit"
+            }, 
+            {
+              "cards": [
+                "Sworn Companions", 
+                "Child of Night", 
+                "Goblin Locksmith", 
+                "Sonic Assault", 
+                "Fearless Halberdier", 
+                "Crushing Canopy", 
+                "Hired Poisoner", 
+                "Loxodon Restorer", 
+                "Goblin Electromancer", 
+                "Plaguecrafter", 
+                "Nightveil Sprite", 
+                "Runaway Steam-Kin", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Plaguecrafter"
+            }, 
+            {
+              "cards": [
+                "Fearless Halberdier", 
+                "Wary Okapi", 
+                "Torch Courier", 
+                "Vernadi Shieldmate", 
+                "Never Happened", 
+                "Tenth District Guard", 
+                "Disdainful Stroke", 
+                "Hunted Witness", 
+                "Lotleth Giant", 
+                "Beamsplitter Mage", 
+                "Emmara, Soul of the Accord", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Emmara, Soul of the Accord"
+            }, 
+            {
+              "cards": [
+                "Artful Takedown", 
+                "Collar the Culprit", 
+                "Barging Sergeant", 
+                "Undercity Uprising", 
+                "Dimir Locket", 
+                "Hunted Witness", 
+                "Vedalken Mesmerist", 
+                "Righteous Blow", 
+                "Dimir Informant", 
+                "Rampaging Monument", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Collar the Culprit"
+            }, 
+            {
+              "cards": [
+                "Camaraderie", 
+                "Unexplained Disappearance", 
+                "Ironshell Beetle", 
+                "Dazzling Lights", 
+                "Maximize Altitude", 
+                "Kraul Foragers", 
+                "Sonic Assault", 
+                "Torch Courier", 
+                "Worldsoul Colossus", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Camaraderie"
+            }, 
+            {
+              "cards": [
+                "Vicious Rumors", 
+                "Sonic Assault", 
+                "Gravitic Punch", 
+                "Sumala Woodshaper", 
+                "Passwall Adept", 
+                "Prey Upon", 
+                "Goblin Electromancer", 
+                "Gateway Plaza", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Selesnya Guildgate"
+            }, 
+            {
+              "cards": [
+                "Barrier of Bones", 
+                "Maximize Velocity", 
+                "Pack's Favor", 
+                "Rosemane Centaur", 
+                "Spinal Centipede", 
+                "Bartizan Bats", 
+                "Unmoored Ego", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Rosemane Centaur"
+            }, 
+            {
+              "cards": [
+                "Passwall Adept", 
+                "Righteous Blow", 
+                "Erstwhile Trooper", 
+                "Undercity Uprising", 
+                "Centaur Peacemaker", 
+                "Circuitous Route", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Undercity Uprising"
+            }, 
+            {
+              "cards": [
+                "Ledev Guardian", 
+                "Bartizan Bats", 
+                "Kraul Foragers", 
+                "Pause for Reflection", 
+                "Electrostatic Field", 
+                "Wand of Vertebrae"
+              ], 
+              "pick": "Kraul Foragers"
+            }, 
+            {
+              "cards": [
+                "Child of Night", 
+                "Sonic Assault", 
+                "Fearless Halberdier", 
+                "Crushing Canopy", 
+                "Loxodon Restorer"
+              ], 
+              "pick": "Crushing Canopy"
+            }, 
+            {
+              "cards": [
+                "Fearless Halberdier", 
+                "Wary Okapi", 
+                "Torch Courier", 
+                "Beamsplitter Mage"
+              ], 
+              "pick": "Wary Okapi"
+            }, 
+            {
+              "cards": [
+                "Dimir Locket", 
+                "Hunted Witness", 
+                "Vedalken Mesmerist"
+              ], 
+              "pick": "Hunted Witness"
+            }, 
+            {
+              "cards": [
+                "Ironshell Beetle", 
+                "Kraul Foragers"
+              ], 
+              "pick": "Ironshell Beetle"
+            }, 
+            {
+              "cards": [
+                "Vicious Rumors"
+              ], 
+              "pick": "Vicious Rumors"
+            }
+          ], 
+          "productCode": "GRN"
+        }
+      ], 
+      "time": "10/4/2018 11:22:10 AM"
+    }, 
+    "Format": "GRN-GRN-GRN"
+  }, 
+  {
+    "Draft": {
+      "event": "3616", 
+      "packs": [
+        {
+          "picks": [
+            {
+              "cards": [
+                "Wall of Mist", 
+                "Blade Instructor", 
+                "Parhelion Patrol", 
+                "Righteous Blow", 
+                "Devious Cover-Up", 
+                "Notion Rain", 
+                "Pause for Reflection", 
+                "Unexplained Disappearance", 
+                "Boros Locket", 
+                "Ornery Goblin", 
+                "League Guildmage", 
+                "Enhanced Surveillance", 
+                "Price of Fame", 
+                "Ritual of Soot", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Ritual of Soot"
+            }, 
+            {
+              "cards": [
+                "Vicious Rumors", 
+                "Skyline Scout", 
+                "Fire Urchin", 
+                "Ornery Goblin", 
+                "Luminous Bonds", 
+                "Ironshell Beetle", 
+                "Douser of Lights", 
+                "Sure Strike", 
+                "Goblin Electromancer", 
+                "Selesnya Locket", 
+                "Sunhome Stalwart", 
+                "Status/Statue", 
+                "Arboretum Elemental", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Luminous Bonds"
+            }, 
+            {
+              "cards": [
+                "Loxodon Restorer", 
+                "Maximize Altitude", 
+                "Gravitic Punch", 
+                "Fire Urchin", 
+                "Dazzling Lights", 
+                "Siege Wurm", 
+                "Pitiless Gorgon", 
+                "Direct Current", 
+                "Fearless Halberdier", 
+                "League Guildmage", 
+                "Justice Strike", 
+                "Disinformation Campaign", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Disinformation Campaign"
+            }, 
+            {
+              "cards": [
+                "Dazzling Lights", 
+                "Piston-Fist Cyclops", 
+                "Dead Weight", 
+                "Rhizome Lurcher", 
+                "Boros Locket", 
+                "Vigorspore Wurm", 
+                "Skyknight Legionnaire", 
+                "Never Happened", 
+                "Blade Instructor", 
+                "Portcullis Vine", 
+                "Ledev Champion", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Dead Weight"
+            }, 
+            {
+              "cards": [
+                "Burglar Rat", 
+                "Portcullis Vine", 
+                "Undercity Uprising", 
+                "Intrusive Packbeast", 
+                "Hired Poisoner", 
+                "Hammer Dropper", 
+                "Hypothesizzle", 
+                "Candlelight Vigil", 
+                "Demotion", 
+                "Thoughtbound Phantasm", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Thoughtbound Phantasm"
+            }, 
+            {
+              "cards": [
+                "Child of Night", 
+                "Rosemane Centaur", 
+                "Generous Stray", 
+                "Burglar Rat", 
+                "Dazzling Lights", 
+                "Pack's Favor", 
+                "Skyknight Legionnaire", 
+                "Rhizome Lurcher", 
+                "Golgari Locket", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Burglar Rat"
+            }, 
+            {
+              "cards": [
+                "Child of Night", 
+                "Golgari Locket", 
+                "Take Heart", 
+                "Izzet Locket", 
+                "Ornery Goblin", 
+                "Erstwhile Trooper", 
+                "Portcullis Vine", 
+                "Golgari Findbroker", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Golgari Findbroker"
+            }, 
+            {
+              "cards": [
+                "Candlelight Vigil", 
+                "Severed Strands", 
+                "Maximize Altitude", 
+                "Devkarin Dissident", 
+                "Ledev Guardian", 
+                "Hired Poisoner", 
+                "Silent Dart", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Hired Poisoner"
+            }, 
+            {
+              "cards": [
+                "Wall of Mist", 
+                "Devious Cover-Up", 
+                "Pause for Reflection", 
+                "Boros Locket", 
+                "Ornery Goblin", 
+                "Enhanced Surveillance", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Wall of Mist"
+            }, 
+            {
+              "cards": [
+                "Vicious Rumors", 
+                "Fire Urchin", 
+                "Ornery Goblin", 
+                "Ironshell Beetle", 
+                "Douser of Lights", 
+                "Selesnya Locket"
+              ], 
+              "pick": "Douser of Lights"
+            }, 
+            {
+              "cards": [
+                "Loxodon Restorer", 
+                "Gravitic Punch", 
+                "Fire Urchin", 
+                "Dazzling Lights", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Golgari Guildgate"
+            }, 
+            {
+              "cards": [
+                "Rhizome Lurcher", 
+                "Boros Locket", 
+                "Vigorspore Wurm", 
+                "Never Happened"
+              ], 
+              "pick": "Rhizome Lurcher"
+            }, 
+            {
+              "cards": [
+                "Burglar Rat", 
+                "Portcullis Vine", 
+                "Candlelight Vigil"
+              ], 
+              "pick": "Burglar Rat"
+            }, 
+            {
+              "cards": [
+                "Rhizome Lurcher", 
+                "Golgari Locket"
+              ], 
+              "pick": "Rhizome Lurcher"
+            }, 
+            {
+              "cards": [
+                "Erstwhile Trooper"
+              ], 
+              "pick": "Erstwhile Trooper"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Disdainful Stroke", 
+                "Spinal Centipede", 
+                "Hired Poisoner", 
+                "Command the Storm", 
+                "Sonic Assault", 
+                "Skyline Scout", 
+                "Maniacal Rage", 
+                "Urban Utopia", 
+                "Hitchclaw Recluse", 
+                "Child of Night", 
+                "Goblin Cratermaker", 
+                "Inspiring Unicorn", 
+                "Glaive of the Guildpact", 
+                "Thousand-Year Storm", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Dimir Guildgate"
+            }, 
+            {
+              "cards": [
+                "Piston-Fist Cyclops", 
+                "Garrison Sergeant", 
+                "Never Happened", 
+                "Wary Okapi", 
+                "Unexplained Disappearance", 
+                "Goblin Locksmith", 
+                "Vedalken Mesmerist", 
+                "Erstwhile Trooper", 
+                "Healer's Hawk", 
+                "Roc Charger", 
+                "Integrity/Intervention", 
+                "Status/Statue", 
+                "Sacred Foundry", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Status/Statue"
+            }, 
+            {
+              "cards": [
+                "Dazzling Lights", 
+                "Take Heart", 
+                "Never Happened", 
+                "Deadly Visit", 
+                "Hitchclaw Recluse", 
+                "Izzet Locket", 
+                "Torch Courier", 
+                "Maniacal Rage", 
+                "Wojek Bodyguard", 
+                "Sunhome Stalwart", 
+                "Might of the Masses", 
+                "Dawn of Hope", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Deadly Visit"
+            }, 
+            {
+              "cards": [
+                "Candlelight Vigil", 
+                "Goblin Locksmith", 
+                "Wary Okapi", 
+                "Hired Poisoner", 
+                "Take Heart", 
+                "Pack's Favor", 
+                "Wishcoin Crab", 
+                "Hitchclaw Recluse", 
+                "Deadly Visit", 
+                "Golgari Raiders", 
+                "Kraul Swarm", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Kraul Swarm"
+            }, 
+            {
+              "cards": [
+                "Rosemane Centaur", 
+                "Crushing Canopy", 
+                "Burglar Rat", 
+                "Command the Storm", 
+                "Take Heart", 
+                "Severed Strands", 
+                "Whisper Agent", 
+                "Skyline Scout", 
+                "Erstwhile Trooper", 
+                "Inspiring Unicorn", 
+                "Gruesome Menagerie"
+              ], 
+              "pick": "Whisper Agent"
+            }, 
+            {
+              "cards": [
+                "Erstwhile Trooper", 
+                "Severed Strands", 
+                "Hired Poisoner", 
+                "Dimir Informant", 
+                "Mephitic Vapors", 
+                "Swarm Guildmage", 
+                "Pitiless Gorgon", 
+                "Loxodon Restorer", 
+                "Invert/Invent", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Swarm Guildmage"
+            }, 
+            {
+              "cards": [
+                "Wojek Bodyguard", 
+                "Intrusive Packbeast", 
+                "Blade Instructor", 
+                "Whisper Agent", 
+                "Hypothesizzle", 
+                "Command the Storm", 
+                "Dead Weight", 
+                "Book Devourer", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Dead Weight"
+            }, 
+            {
+              "cards": [
+                "Bartizan Bats", 
+                "Mephitic Vapors", 
+                "Pitiless Gorgon", 
+                "Pack's Favor", 
+                "Boros Locket", 
+                "Golgari Raiders", 
+                "Discovery/Dispersal", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Pitiless Gorgon"
+            }, 
+            {
+              "cards": [
+                "Disdainful Stroke", 
+                "Spinal Centipede", 
+                "Hired Poisoner", 
+                "Urban Utopia", 
+                "Child of Night", 
+                "Glaive of the Guildpact", 
+                "Thousand-Year Storm"
+              ], 
+              "pick": "Hired Poisoner"
+            }, 
+            {
+              "cards": [
+                "Garrison Sergeant", 
+                "Never Happened", 
+                "Wary Okapi", 
+                "Goblin Locksmith", 
+                "Vedalken Mesmerist", 
+                "Erstwhile Trooper"
+              ], 
+              "pick": "Erstwhile Trooper"
+            }, 
+            {
+              "cards": [
+                "Dazzling Lights", 
+                "Never Happened", 
+                "Hitchclaw Recluse", 
+                "Maniacal Rage", 
+                "Might of the Masses"
+              ], 
+              "pick": "Might of the Masses"
+            }, 
+            {
+              "cards": [
+                "Wary Okapi", 
+                "Hired Poisoner", 
+                "Hitchclaw Recluse", 
+                "Golgari Raiders"
+              ], 
+              "pick": "Golgari Raiders"
+            }, 
+            {
+              "cards": [
+                "Crushing Canopy", 
+                "Severed Strands", 
+                "Erstwhile Trooper"
+              ], 
+              "pick": "Severed Strands"
+            }, 
+            {
+              "cards": [
+                "Severed Strands", 
+                "Mephitic Vapors"
+              ], 
+              "pick": "Severed Strands"
+            }, 
+            {
+              "cards": [
+                "Book Devourer"
+              ], 
+              "pick": "Book Devourer"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Burglar Rat", 
+                "Selesnya Locket", 
+                "Take Heart", 
+                "Fresh-Faced Recruit", 
+                "Devkarin Dissident", 
+                "Dazzling Lights", 
+                "Goblin Locksmith", 
+                "Piston-Fist Cyclops", 
+                "Healer's Hawk", 
+                "Pack's Favor", 
+                "Crush Contraband", 
+                "Molderhulk", 
+                "Sunhome Stalwart", 
+                "Bounty Agent", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Molderhulk"
+            }, 
+            {
+              "cards": [
+                "Barging Sergeant", 
+                "Capture Sphere", 
+                "Blade Instructor", 
+                "Ironshell Beetle", 
+                "Luminous Bonds", 
+                "Vedalken Mesmerist", 
+                "Devkarin Dissident", 
+                "Kraul Foragers", 
+                "Torch Courier", 
+                "Whisper Agent", 
+                "Thought Erasure", 
+                "Dimir Spybug", 
+                "Gatekeeper Gargoyle", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Whisper Agent"
+            }, 
+            {
+              "cards": [
+                "Intrusive Packbeast", 
+                "Portcullis Vine", 
+                "Artful Takedown", 
+                "Gateway Plaza", 
+                "Deadly Visit", 
+                "Ledev Guardian", 
+                "Vedalken Mesmerist", 
+                "Tenth District Guard", 
+                "Golgari Locket", 
+                "Glowspore Shaman", 
+                "Worldsoul Colossus", 
+                "Rampaging Monument", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Glowspore Shaman"
+            }, 
+            {
+              "cards": [
+                "Skyknight Legionnaire", 
+                "Devious Cover-Up", 
+                "Centaur Peacemaker", 
+                "Spinal Centipede", 
+                "Wall of Mist", 
+                "Douser of Lights", 
+                "Barging Sergeant", 
+                "Portcullis Vine", 
+                "Dimir Guildgate", 
+                "Goblin Electromancer", 
+                "Gird for Battle", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Golgari Guildgate"
+            }, 
+            {
+              "cards": [
+                "Maximize Velocity", 
+                "Command the Storm", 
+                "Collar the Culprit", 
+                "Whisper Agent", 
+                "Undercity Uprising", 
+                "Barging Sergeant", 
+                "Hammer Dropper", 
+                "Mephitic Vapors", 
+                "Wary Okapi", 
+                "Join Shields", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Mephitic Vapors"
+            }, 
+            {
+              "cards": [
+                "Fresh-Faced Recruit", 
+                "Crushing Canopy", 
+                "Hammer Dropper", 
+                "Righteous Blow", 
+                "Collar the Culprit", 
+                "Erstwhile Trooper", 
+                "Never Happened", 
+                "Disdainful Stroke", 
+                "Golgari Raiders", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Crushing Canopy"
+            }, 
+            {
+              "cards": [
+                "Hypothesizzle", 
+                "Barrier of Bones", 
+                "Hired Poisoner", 
+                "Wary Okapi", 
+                "Pause for Reflection", 
+                "Leapfrog", 
+                "Never Happened", 
+                "Wishcoin Crab", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Hired Poisoner"
+            }, 
+            {
+              "cards": [
+                "Torch Courier", 
+                "Wary Okapi", 
+                "Prey Upon", 
+                "Moodmark Painter", 
+                "Devious Cover-Up", 
+                "Never Happened", 
+                "Barging Sergeant", 
+                "Book Devourer"
+              ], 
+              "pick": "Prey Upon"
+            }, 
+            {
+              "cards": [
+                "Selesnya Locket", 
+                "Take Heart", 
+                "Devkarin Dissident", 
+                "Dazzling Lights", 
+                "Goblin Locksmith", 
+                "Pack's Favor", 
+                "Crush Contraband"
+              ], 
+              "pick": "Pack's Favor"
+            }, 
+            {
+              "cards": [
+                "Vedalken Mesmerist", 
+                "Devkarin Dissident", 
+                "Kraul Foragers", 
+                "Torch Courier", 
+                "Thought Erasure", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Kraul Foragers"
+            }, 
+            {
+              "cards": [
+                "Intrusive Packbeast", 
+                "Gateway Plaza", 
+                "Vedalken Mesmerist", 
+                "Golgari Locket", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Golgari Locket"
+            }, 
+            {
+              "cards": [
+                "Wall of Mist", 
+                "Douser of Lights", 
+                "Barging Sergeant", 
+                "Portcullis Vine"
+              ], 
+              "pick": "Douser of Lights"
+            }, 
+            {
+              "cards": [
+                "Barging Sergeant", 
+                "Wary Okapi", 
+                "Join Shields"
+              ], 
+              "pick": "Wary Okapi"
+            }, 
+            {
+              "cards": [
+                "Collar the Culprit", 
+                "Erstwhile Trooper"
+              ], 
+              "pick": "Erstwhile Trooper"
+            }, 
+            {
+              "cards": [
+                "Wary Okapi"
+              ], 
+              "pick": "Wary Okapi"
+            }
+          ], 
+          "productCode": "GRN"
+        }
+      ], 
+      "time": "10/1/2018 9:41:02 PM"
+    }, 
+    "Format": "GRN-GRN-GRN"
+  }, 
+  {
+    "Draft": {
+      "event": "3616", 
+      "packs": [
+        {
+          "picks": [
+            {
+              "cards": [
+                "Unexplained Disappearance", 
+                "Erstwhile Trooper", 
+                "Crushing Canopy", 
+                "Disdainful Stroke", 
+                "Hammer Dropper", 
+                "Capture Sphere", 
+                "Pitiless Gorgon", 
+                "Blade Instructor", 
+                "Parhelion Patrol", 
+                "Darkblade Agent", 
+                "Kraul Harpooner", 
+                "Swathcutter Giant", 
+                "Status/Statue", 
+                "Mission Briefing", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Status/Statue"
+            }, 
+            {
+              "cards": [
+                "Wall of Mist", 
+                "Sworn Companions", 
+                "Veiled Shade", 
+                "Whisper Agent", 
+                "Dimir Informant", 
+                "Ledev Guardian", 
+                "Selesnya Locket", 
+                "Prey Upon", 
+                "Piston-Fist Cyclops", 
+                "Book Devourer", 
+                "Swarm Guildmage", 
+                "Ochran Assassin", 
+                "Chance for Glory", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Swarm Guildmage"
+            }, 
+            {
+              "cards": [
+                "Sworn Companions", 
+                "Hired Poisoner", 
+                "Rubblebelt Boar", 
+                "Passwall Adept", 
+                "Dazzling Lights", 
+                "Selesnya Locket", 
+                "Hitchclaw Recluse", 
+                "Fearless Halberdier", 
+                "Erstwhile Trooper", 
+                "Haazda Marshal", 
+                "Grappling Sundew", 
+                "Vivid Revival", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Vivid Revival"
+            }, 
+            {
+              "cards": [
+                "Moodmark Painter", 
+                "Rosemane Centaur", 
+                "Sumala Woodshaper", 
+                "Wary Okapi", 
+                "Passwall Adept", 
+                "Erstwhile Trooper", 
+                "Douser of Lights", 
+                "Fire Urchin", 
+                "Urban Utopia", 
+                "Sworn Companions", 
+                "Wand of Vertebrae", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Wary Okapi"
+            }, 
+            {
+              "cards": [
+                "Urban Utopia", 
+                "Spinal Centipede", 
+                "Mephitic Vapors", 
+                "Dimir Locket", 
+                "Golgari Locket", 
+                "Candlelight Vigil", 
+                "Muse Drake", 
+                "Righteous Blow", 
+                "Conclave Cavalier", 
+                "Selective Snare", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Conclave Cavalier"
+            }, 
+            {
+              "cards": [
+                "Kraul Foragers", 
+                "Fearless Halberdier", 
+                "Rhizome Lurcher", 
+                "Barrier of Bones", 
+                "Bartizan Bats", 
+                "Fresh-Faced Recruit", 
+                "Tenth District Guard", 
+                "Wild Ceratok", 
+                "Golgari Raiders", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Kraul Foragers"
+            }, 
+            {
+              "cards": [
+                "Izzet Locket", 
+                "Barrier of Bones", 
+                "Dimir Locket", 
+                "Devkarin Dissident", 
+                "Ledev Guardian", 
+                "Wild Ceratok", 
+                "Bartizan Bats", 
+                "Vivid Revival", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Devkarin Dissident"
+            }, 
+            {
+              "cards": [
+                "Collar the Culprit", 
+                "Wild Ceratok", 
+                "Circuitous Route", 
+                "Barrier of Bones", 
+                "Crushing Canopy", 
+                "Prey Upon", 
+                "Swarm Guildmage", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Crushing Canopy"
+            }, 
+            {
+              "cards": [
+                "Erstwhile Trooper", 
+                "Crushing Canopy", 
+                "Disdainful Stroke", 
+                "Hammer Dropper", 
+                "Pitiless Gorgon", 
+                "Parhelion Patrol", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Pitiless Gorgon"
+            }, 
+            {
+              "cards": [
+                "Wall of Mist", 
+                "Veiled Shade", 
+                "Ledev Guardian", 
+                "Selesnya Locket", 
+                "Prey Upon", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Selesnya Guildgate"
+            }, 
+            {
+              "cards": [
+                "Sworn Companions", 
+                "Passwall Adept", 
+                "Selesnya Locket", 
+                "Hitchclaw Recluse", 
+                "Erstwhile Trooper"
+              ], 
+              "pick": "Hitchclaw Recluse"
+            }, 
+            {
+              "cards": [
+                "Moodmark Painter", 
+                "Sumala Woodshaper", 
+                "Erstwhile Trooper", 
+                "Urban Utopia"
+              ], 
+              "pick": "Sumala Woodshaper"
+            }, 
+            {
+              "cards": [
+                "Urban Utopia", 
+                "Spinal Centipede", 
+                "Golgari Locket"
+              ], 
+              "pick": "Spinal Centipede"
+            }, 
+            {
+              "cards": [
+                "Wild Ceratok", 
+                "Golgari Raiders"
+              ], 
+              "pick": "Wild Ceratok"
+            }, 
+            {
+              "cards": [
+                "Wild Ceratok"
+              ], 
+              "pick": "Wild Ceratok"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Generous Stray", 
+                "Veiled Shade", 
+                "Capture Sphere", 
+                "Torch Courier", 
+                "Candlelight Vigil", 
+                "Piston-Fist Cyclops", 
+                "Artful Takedown", 
+                "Centaur Peacemaker", 
+                "Dazzling Lights", 
+                "Crushing Canopy", 
+                "Conclave Tribunal", 
+                "Hellkite Whelp", 
+                "Sprouting Renewal", 
+                "Drowned Secrets", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Conclave Tribunal"
+            }, 
+            {
+              "cards": [
+                "Radical Idea", 
+                "Rhizome Lurcher", 
+                "Never Happened", 
+                "Izzet Locket", 
+                "Direct Current", 
+                "Muse Drake", 
+                "Cosmotronic Wave", 
+                "Parhelion Patrol", 
+                "Boros Locket", 
+                "Mephitic Vapors", 
+                "Nightveil Sprite", 
+                "Demotion", 
+                "Unmoored Ego", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Parhelion Patrol"
+            }, 
+            {
+              "cards": [
+                "Pack's Favor", 
+                "Gateway Plaza", 
+                "Darkblade Agent", 
+                "Sure Strike", 
+                "Loxodon Restorer", 
+                "Barging Sergeant", 
+                "Maniacal Rage", 
+                "Passwall Adept", 
+                "Veiled Shade", 
+                "Golgari Raiders", 
+                "Ochran Assassin", 
+                "Izoni, Thousand-Eyed", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Izoni, Thousand-Eyed"
+            }, 
+            {
+              "cards": [
+                "Parhelion Patrol", 
+                "Mephitic Vapors", 
+                "Dimir Locket", 
+                "Command the Storm", 
+                "Ornery Goblin", 
+                "Vedalken Mesmerist", 
+                "Crushing Canopy", 
+                "Barging Sergeant", 
+                "Plaguecrafter", 
+                "Conclave Guildmage", 
+                "Narcomoeba", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Conclave Guildmage"
+            }, 
+            {
+              "cards": [
+                "Kraul Foragers", 
+                "Hunted Witness", 
+                "Wary Okapi", 
+                "Garrison Sergeant", 
+                "Child of Night", 
+                "Sonic Assault", 
+                "Pitiless Gorgon", 
+                "Goblin Locksmith", 
+                "Book Devourer", 
+                "Pilfering Imp", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Pilfering Imp"
+            }, 
+            {
+              "cards": [
+                "Skyline Scout", 
+                "Fire Urchin", 
+                "Collar the Culprit", 
+                "Rubblebelt Boar", 
+                "Wary Okapi", 
+                "Loxodon Restorer", 
+                "Fresh-Faced Recruit", 
+                "Crush Contraband", 
+                "Glaive of the Guildpact", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Golgari Guildgate"
+            }, 
+            {
+              "cards": [
+                "Devious Cover-Up", 
+                "Hammer Dropper", 
+                "Vernadi Shieldmate", 
+                "Blade Instructor", 
+                "Gateway Plaza", 
+                "Ironshell Beetle", 
+                "Collar the Culprit", 
+                "Enhanced Surveillance", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Ironshell Beetle"
+            }, 
+            {
+              "cards": [
+                "Goblin Locksmith", 
+                "Wild Ceratok", 
+                "Wary Okapi", 
+                "Kraul Foragers", 
+                "Candlelight Vigil", 
+                "Collar the Culprit", 
+                "Inspiring Unicorn", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Dimir Guildgate"
+            }, 
+            {
+              "cards": [
+                "Veiled Shade", 
+                "Candlelight Vigil", 
+                "Centaur Peacemaker", 
+                "Dazzling Lights", 
+                "Crushing Canopy", 
+                "Sprouting Renewal", 
+                "Drowned Secrets"
+              ], 
+              "pick": "Crushing Canopy"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Izzet Locket", 
+                "Boros Locket", 
+                "Mephitic Vapors", 
+                "Demotion", 
+                "Unmoored Ego"
+              ], 
+              "pick": "Mephitic Vapors"
+            }, 
+            {
+              "cards": [
+                "Pack's Favor", 
+                "Gateway Plaza", 
+                "Loxodon Restorer", 
+                "Veiled Shade", 
+                "Golgari Raiders"
+              ], 
+              "pick": "Veiled Shade"
+            }, 
+            {
+              "cards": [
+                "Parhelion Patrol", 
+                "Dimir Locket", 
+                "Vedalken Mesmerist", 
+                "Narcomoeba"
+              ], 
+              "pick": "Narcomoeba"
+            }, 
+            {
+              "cards": [
+                "Kraul Foragers", 
+                "Wary Okapi", 
+                "Garrison Sergeant"
+              ], 
+              "pick": "Kraul Foragers"
+            }, 
+            {
+              "cards": [
+                "Wary Okapi", 
+                "Loxodon Restorer"
+              ], 
+              "pick": "Wary Okapi"
+            }, 
+            {
+              "cards": [
+                "Vernadi Shieldmate"
+              ], 
+              "pick": "Vernadi Shieldmate"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Goblin Electromancer", 
+                "Veiled Shade", 
+                "Boros Locket", 
+                "Torch Courier", 
+                "Devkarin Dissident", 
+                "Skyknight Legionnaire", 
+                "Gateway Plaza", 
+                "Skyline Scout", 
+                "Gravitic Punch", 
+                "Prey Upon", 
+                "Lava Coil", 
+                "Sunhome Stalwart", 
+                "Invert/Invent", 
+                "Risk Factor", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Devkarin Dissident"
+            }, 
+            {
+              "cards": [
+                "Intrusive Packbeast", 
+                "Wary Okapi", 
+                "Crushing Canopy", 
+                "Command the Storm", 
+                "Passwall Adept", 
+                "Vicious Rumors", 
+                "Barging Sergeant", 
+                "Hammer Dropper", 
+                "Hypothesizzle", 
+                "Hunted Witness", 
+                "Creeping Chill", 
+                "Glaive of the Guildpact", 
+                "Nightveil Sprite", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Glaive of the Guildpact"
+            }, 
+            {
+              "cards": [
+                "Erstwhile Trooper", 
+                "Moodmark Painter", 
+                "Child of Night", 
+                "Hypothesizzle", 
+                "Disinformation Campaign", 
+                "Pack's Favor", 
+                "Goblin Electromancer", 
+                "Douser of Lights", 
+                "Parhelion Patrol", 
+                "Dazzling Lights", 
+                "Kraul Swarm", 
+                "Enhanced Surveillance", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Kraul Swarm"
+            }, 
+            {
+              "cards": [
+                "Tenth District Guard", 
+                "Garrison Sergeant", 
+                "Rhizome Lurcher", 
+                "Disdainful Stroke", 
+                "Candlelight Vigil", 
+                "Fearless Halberdier", 
+                "Unexplained Disappearance", 
+                "Izzet Locket", 
+                "Dead Weight", 
+                "Plaguecrafter", 
+                "Trostani Discordant", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Trostani Discordant"
+            }, 
+            {
+              "cards": [
+                "Mephitic Vapors", 
+                "Urban Utopia", 
+                "Douser of Lights", 
+                "Selesnya Locket", 
+                "Watcher in the Mist", 
+                "Unexplained Disappearance", 
+                "Pause for Reflection", 
+                "Righteous Blow", 
+                "Radical Idea", 
+                "Thoughtbound Phantasm", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Golgari Guildgate"
+            }, 
+            {
+              "cards": [
+                "Douser of Lights", 
+                "Righteous Blow", 
+                "Erstwhile Trooper", 
+                "Passwall Adept", 
+                "Moodmark Painter", 
+                "Intrusive Packbeast", 
+                "Wild Ceratok", 
+                "Street Riot", 
+                "Molderhulk", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Douser of Lights"
+            }, 
+            {
+              "cards": [
+                "Kraul Foragers", 
+                "Devious Cover-Up", 
+                "Severed Strands", 
+                "Pitiless Gorgon", 
+                "Vigorspore Wurm", 
+                "Loxodon Restorer", 
+                "Hitchclaw Recluse", 
+                "Undercity Necrolisk", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Vigorspore Wurm"
+            }, 
+            {
+              "cards": [
+                "Candlelight Vigil", 
+                "Parhelion Patrol", 
+                "Wary Okapi", 
+                "Tenth District Guard", 
+                "Urban Utopia", 
+                "Spinal Centipede", 
+                "Haazda Marshal", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Spinal Centipede"
+            }, 
+            {
+              "cards": [
+                "Veiled Shade", 
+                "Boros Locket", 
+                "Torch Courier", 
+                "Gateway Plaza", 
+                "Skyline Scout", 
+                "Invert/Invent", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Gateway Plaza"
+            }, 
+            {
+              "cards": [
+                "Wary Okapi", 
+                "Passwall Adept", 
+                "Vicious Rumors", 
+                "Barging Sergeant", 
+                "Hunted Witness", 
+                "Creeping Chill"
+              ], 
+              "pick": "Passwall Adept"
+            }, 
+            {
+              "cards": [
+                "Erstwhile Trooper", 
+                "Moodmark Painter", 
+                "Pack's Favor", 
+                "Douser of Lights", 
+                "Enhanced Surveillance"
+              ], 
+              "pick": "Pack's Favor"
+            }, 
+            {
+              "cards": [
+                "Garrison Sergeant", 
+                "Rhizome Lurcher", 
+                "Fearless Halberdier", 
+                "Izzet Locket"
+              ], 
+              "pick": "Rhizome Lurcher"
+            }, 
+            {
+              "cards": [
+                "Urban Utopia", 
+                "Selesnya Locket", 
+                "Pause for Reflection"
+              ], 
+              "pick": "Urban Utopia"
+            }, 
+            {
+              "cards": [
+                "Moodmark Painter", 
+                "Wild Ceratok"
+              ], 
+              "pick": "Moodmark Painter"
+            }, 
+            {
+              "cards": [
+                "Hitchclaw Recluse"
+              ], 
+              "pick": "Hitchclaw Recluse"
+            }
+          ], 
+          "productCode": "GRN"
+        }
+      ], 
+      "time": "2018/10/17 21:38:20"
+    }, 
+    "Format": "GRN-GRN-GRN"
+  }, 
+  {
+    "Draft": {
+      "event": "3616", 
+      "packs": [
+        {
+          "picks": [
+            {
+              "cards": [
+                "Artful Takedown", 
+                "Devious Cover-Up", 
+                "Boros Locket", 
+                "Maximize Velocity", 
+                "Hypothesizzle", 
+                "Fearless Halberdier", 
+                "Prey Upon", 
+                "Veiled Shade", 
+                "Tenth District Guard", 
+                "Cosmotronic Wave", 
+                "Boros Challenger", 
+                "Dimir Spybug", 
+                "Street Riot", 
+                "Legion Warboss", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Legion Warboss"
+            }, 
+            {
+              "cards": [
+                "Fresh-Faced Recruit", 
+                "Centaur Peacemaker", 
+                "Wild Ceratok", 
+                "Leapfrog", 
+                "Wojek Bodyguard", 
+                "Torch Courier", 
+                "Gateway Plaza", 
+                "Barrier of Bones", 
+                "Vedalken Mesmerist", 
+                "Maniacal Rage", 
+                "Arboretum Elemental", 
+                "League Guildmage", 
+                "Overgrown Tomb", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Fresh-Faced Recruit"
+            }, 
+            {
+              "cards": [
+                "Hitchclaw Recluse", 
+                "Kraul Foragers", 
+                "Hypothesizzle", 
+                "Piston-Fist Cyclops", 
+                "Boros Locket", 
+                "Vicious Rumors", 
+                "Collar the Culprit", 
+                "Goblin Locksmith", 
+                "Undercity Uprising", 
+                "Sumala Woodshaper", 
+                "Lotleth Giant", 
+                "Beamsplitter Mage", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Hypothesizzle"
+            }, 
+            {
+              "cards": [
+                "Torch Courier", 
+                "Dead Weight", 
+                "Take Heart", 
+                "Leapfrog", 
+                "Golgari Locket", 
+                "Gateway Plaza", 
+                "Selesnya Locket", 
+                "Wall of Mist", 
+                "Ledev Champion", 
+                "Molderhulk", 
+                "Book Devourer", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Dead Weight"
+            }, 
+            {
+              "cards": [
+                "Fearless Halberdier", 
+                "Hired Poisoner", 
+                "Vigorspore Wurm", 
+                "Garrison Sergeant", 
+                "Devious Cover-Up", 
+                "Sure Strike", 
+                "Urban Utopia", 
+                "Generous Stray", 
+                "Vernadi Shieldmate", 
+                "Silent Dart", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Dimir Guildgate"
+            }, 
+            {
+              "cards": [
+                "Rhizome Lurcher", 
+                "Hammer Dropper", 
+                "Righteous Blow", 
+                "Parhelion Patrol", 
+                "Never Happened", 
+                "Gateway Plaza", 
+                "Child of Night", 
+                "Boros Locket", 
+                "Creeping Chill", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Parhelion Patrol"
+            }, 
+            {
+              "cards": [
+                "Hammer Dropper", 
+                "Barging Sergeant", 
+                "Intrusive Packbeast", 
+                "Siege Wurm", 
+                "Wishcoin Crab", 
+                "Goblin Locksmith", 
+                "Leapfrog", 
+                "Take Heart", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Hammer Dropper"
+            }, 
+            {
+              "cards": [
+                "Unexplained Disappearance", 
+                "Command the Storm", 
+                "Hitchclaw Recluse", 
+                "Fire Urchin", 
+                "Righteous Blow", 
+                "Barrier of Bones", 
+                "Wand of Vertebrae", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Command the Storm"
+            }, 
+            {
+              "cards": [
+                "Devious Cover-Up", 
+                "Boros Locket", 
+                "Fearless Halberdier", 
+                "Prey Upon", 
+                "Veiled Shade", 
+                "Cosmotronic Wave", 
+                "Street Riot"
+              ], 
+              "pick": "Fearless Halberdier"
+            }, 
+            {
+              "cards": [
+                "Centaur Peacemaker", 
+                "Wild Ceratok", 
+                "Leapfrog", 
+                "Barrier of Bones", 
+                "Vedalken Mesmerist", 
+                "Maniacal Rage"
+              ], 
+              "pick": "Leapfrog"
+            }, 
+            {
+              "cards": [
+                "Boros Locket", 
+                "Vicious Rumors", 
+                "Collar the Culprit", 
+                "Undercity Uprising", 
+                "Sumala Woodshaper"
+              ], 
+              "pick": "Collar the Culprit"
+            }, 
+            {
+              "cards": [
+                "Torch Courier", 
+                "Golgari Locket", 
+                "Selesnya Locket", 
+                "Book Devourer"
+              ], 
+              "pick": "Torch Courier"
+            }, 
+            {
+              "cards": [
+                "Devious Cover-Up", 
+                "Vernadi Shieldmate", 
+                "Silent Dart"
+              ], 
+              "pick": "Vernadi Shieldmate"
+            }, 
+            {
+              "cards": [
+                "Righteous Blow", 
+                "Never Happened"
+              ], 
+              "pick": "Righteous Blow"
+            }, 
+            {
+              "cards": [
+                "Wishcoin Crab"
+              ], 
+              "pick": "Wishcoin Crab"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Severed Strands", 
+                "Maximize Altitude", 
+                "Selesnya Locket", 
+                "Kraul Foragers", 
+                "Take Heart", 
+                "Parhelion Patrol", 
+                "Boros Locket", 
+                "Hypothesizzle", 
+                "Wild Ceratok", 
+                "Wishcoin Crab", 
+                "House Guildmage", 
+                "Legion Guildmage", 
+                "Street Riot", 
+                "Trostani Discordant", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Legion Guildmage"
+            }, 
+            {
+              "cards": [
+                "Healer's Hawk", 
+                "Torch Courier", 
+                "Wild Ceratok", 
+                "Centaur Peacemaker", 
+                "Barrier of Bones", 
+                "Garrison Sergeant", 
+                "Wall of Mist", 
+                "Prey Upon", 
+                "Mausoleum Secrets", 
+                "Rosemane Centaur", 
+                "Chemister's Insight", 
+                "Pilfering Imp", 
+                "Status/Statue", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Healer's Hawk"
+            }, 
+            {
+              "cards": [
+                "Urban Utopia", 
+                "Devkarin Dissident", 
+                "Spinal Centipede", 
+                "Goblin Electromancer", 
+                "Maximize Velocity", 
+                "Radical Idea", 
+                "Darkblade Agent", 
+                "Rubblebelt Boar", 
+                "Centaur Peacemaker", 
+                "Nightveil Sprite", 
+                "Conclave Cavalier", 
+                "House Guildmage", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Nightveil Sprite"
+            }, 
+            {
+              "cards": [
+                "Devious Cover-Up", 
+                "Take Heart", 
+                "Muse Drake", 
+                "Urban Utopia", 
+                "Wall of Mist", 
+                "Pack's Favor", 
+                "Boros Locket", 
+                "Spinal Centipede", 
+                "Hypothesizzle", 
+                "Citywatch Sphinx", 
+                "Narcomoeba", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Hypothesizzle"
+            }, 
+            {
+              "cards": [
+                "Maniacal Rage", 
+                "Sure Strike", 
+                "Disdainful Stroke", 
+                "Spinal Centipede", 
+                "Portcullis Vine", 
+                "Hired Poisoner", 
+                "Sworn Companions", 
+                "Sumala Woodshaper", 
+                "Haazda Marshal", 
+                "Chemister's Insight", 
+                "Connive/Concoct"
+              ], 
+              "pick": "Connive/Concoct"
+            }, 
+            {
+              "cards": [
+                "Darkblade Agent", 
+                "Vedalken Mesmerist", 
+                "Maximize Velocity", 
+                "Wild Ceratok", 
+                "Collar the Culprit", 
+                "Maximize Altitude", 
+                "Centaur Peacemaker", 
+                "Ironshell Beetle", 
+                "Guild Summit", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Vedalken Mesmerist"
+            }, 
+            {
+              "cards": [
+                "Hammer Dropper", 
+                "Darkblade Agent", 
+                "Torch Courier", 
+                "Goblin Electromancer", 
+                "Gateway Plaza", 
+                "Urban Utopia", 
+                "Electrostatic Field", 
+                "Ionize", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Goblin Electromancer"
+            }, 
+            {
+              "cards": [
+                "Barging Sergeant", 
+                "Vernadi Shieldmate", 
+                "Sonic Assault", 
+                "Fearless Halberdier", 
+                "Undercity Uprising", 
+                "Barrier of Bones", 
+                "Street Riot", 
+                "Narcomoeba"
+              ], 
+              "pick": "Sonic Assault"
+            }, 
+            {
+              "cards": [
+                "Maximize Altitude", 
+                "Selesnya Locket", 
+                "Take Heart", 
+                "Boros Locket", 
+                "Wishcoin Crab", 
+                "Street Riot", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Maximize Altitude"
+            }, 
+            {
+              "cards": [
+                "Wild Ceratok", 
+                "Centaur Peacemaker", 
+                "Barrier of Bones", 
+                "Garrison Sergeant", 
+                "Wall of Mist", 
+                "Mausoleum Secrets"
+              ], 
+              "pick": "Wall of Mist"
+            }, 
+            {
+              "cards": [
+                "Urban Utopia", 
+                "Spinal Centipede", 
+                "Maximize Velocity", 
+                "Radical Idea", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Maximize Velocity"
+            }, 
+            {
+              "cards": [
+                "Devious Cover-Up", 
+                "Muse Drake", 
+                "Wall of Mist", 
+                "Narcomoeba"
+              ], 
+              "pick": "Muse Drake"
+            }, 
+            {
+              "cards": [
+                "Maniacal Rage", 
+                "Disdainful Stroke", 
+                "Spinal Centipede"
+              ], 
+              "pick": "Disdainful Stroke"
+            }, 
+            {
+              "cards": [
+                "Maximize Velocity", 
+                "Wild Ceratok"
+              ], 
+              "pick": "Maximize Velocity"
+            }, 
+            {
+              "cards": [
+                "Gateway Plaza"
+              ], 
+              "pick": "Gateway Plaza"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Undercity Uprising", 
+                "Erstwhile Trooper", 
+                "Notion Rain", 
+                "Vigorspore Wurm", 
+                "Fire Urchin", 
+                "Wild Ceratok", 
+                "Capture Sphere", 
+                "Douser of Lights", 
+                "Take Heart", 
+                "Ledev Guardian", 
+                "Justice Strike", 
+                "Disinformation Campaign", 
+                "Gatekeeper Gargoyle", 
+                "Dawn of Hope", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Capture Sphere"
+            }, 
+            {
+              "cards": [
+                "Sure Strike", 
+                "Notion Rain", 
+                "Maximize Velocity", 
+                "Siege Wurm", 
+                "Gravitic Punch", 
+                "Ledev Guardian", 
+                "Skyknight Legionnaire", 
+                "Skyline Scout", 
+                "Hitchclaw Recluse", 
+                "Grappling Sundew", 
+                "Might of the Masses", 
+                "Boros Challenger", 
+                "Drowned Secrets", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Drowned Secrets"
+            }, 
+            {
+              "cards": [
+                "Sumala Woodshaper", 
+                "Fresh-Faced Recruit", 
+                "Knight of Autumn", 
+                "Urban Utopia", 
+                "Sonic Assault", 
+                "Loxodon Restorer", 
+                "Child of Night", 
+                "Hammer Dropper", 
+                "Severed Strands", 
+                "Whispering Snitch", 
+                "Gird for Battle", 
+                "Beast Whisperer", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Sonic Assault"
+            }, 
+            {
+              "cards": [
+                "Hammer Dropper", 
+                "Boros Locket", 
+                "Centaur Peacemaker", 
+                "Fresh-Faced Recruit", 
+                "Notion Rain", 
+                "Devious Cover-Up", 
+                "Wary Okapi", 
+                "Wild Ceratok", 
+                "Ledev Guardian", 
+                "Chemister's Insight", 
+                "Sunhome Stalwart", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Chemister's Insight"
+            }, 
+            {
+              "cards": [
+                "Sonic Assault", 
+                "Skyline Scout", 
+                "Pack's Favor", 
+                "Maniacal Rage", 
+                "Take Heart", 
+                "Erstwhile Trooper", 
+                "Fearless Halberdier", 
+                "Glowspore Shaman", 
+                "Guild Summit", 
+                "Expansion/Explosion", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Expansion/Explosion"
+            }, 
+            {
+              "cards": [
+                "Boros Locket", 
+                "Ornery Goblin", 
+                "Maximize Altitude", 
+                "Generous Stray", 
+                "Sworn Companions", 
+                "Fearless Halberdier", 
+                "Barrier of Bones", 
+                "Sure Strike", 
+                "Molderhulk", 
+                "Goblin Banneret"
+              ], 
+              "pick": "Goblin Banneret"
+            }, 
+            {
+              "cards": [
+                "Ironshell Beetle", 
+                "Child of Night", 
+                "Fresh-Faced Recruit", 
+                "Wall of Mist", 
+                "Radical Idea", 
+                "Ornery Goblin", 
+                "Hunted Witness", 
+                "Garrison Sergeant", 
+                "Invert/Invent"
+              ], 
+              "pick": "Invert/Invent"
+            }, 
+            {
+              "cards": [
+                "Ornery Goblin", 
+                "Garrison Sergeant", 
+                "Sonic Assault", 
+                "Vicious Rumors", 
+                "Pack's Favor", 
+                "Skyline Scout", 
+                "Take Heart", 
+                "Mission Briefing"
+              ], 
+              "pick": "Mission Briefing"
+            }, 
+            {
+              "cards": [
+                "Undercity Uprising", 
+                "Vigorspore Wurm", 
+                "Wild Ceratok", 
+                "Douser of Lights", 
+                "Take Heart", 
+                "Ledev Guardian", 
+                "Disinformation Campaign"
+              ], 
+              "pick": "Disinformation Campaign"
+            }, 
+            {
+              "cards": [
+                "Maximize Velocity", 
+                "Ledev Guardian", 
+                "Skyline Scout", 
+                "Hitchclaw Recluse", 
+                "Might of the Masses", 
+                "Boros Challenger"
+              ], 
+              "pick": "Boros Challenger"
+            }, 
+            {
+              "cards": [
+                "Urban Utopia", 
+                "Loxodon Restorer", 
+                "Child of Night", 
+                "Hammer Dropper", 
+                "Severed Strands"
+              ], 
+              "pick": "Hammer Dropper"
+            }, 
+            {
+              "cards": [
+                "Hammer Dropper", 
+                "Boros Locket", 
+                "Wild Ceratok", 
+                "Ledev Guardian"
+              ], 
+              "pick": "Hammer Dropper"
+            }, 
+            {
+              "cards": [
+                "Sonic Assault", 
+                "Erstwhile Trooper", 
+                "Fearless Halberdier"
+              ], 
+              "pick": "Sonic Assault"
+            }, 
+            {
+              "cards": [
+                "Boros Locket", 
+                "Maximize Altitude"
+              ], 
+              "pick": "Maximize Altitude"
+            }, 
+            {
+              "cards": [
+                "Wall of Mist"
+              ], 
+              "pick": "Wall of Mist"
+            }
+          ], 
+          "productCode": "GRN"
+        }
+      ], 
+      "time": "10/3/2018 9:20:32 PM"
+    }, 
+    "Format": "GRN-GRN-GRN"
+  }, 
+  {
+    "Draft": {
+      "event": "3622", 
+      "packs": [
+        {
+          "picks": [
+            {
+              "cards": [
+                "Dead Weight", 
+                "Ironshell Beetle", 
+                "Hammer Dropper", 
+                "Hunted Witness", 
+                "Douser of Lights", 
+                "Gravitic Punch", 
+                "Goblin Electromancer", 
+                "Generous Stray", 
+                "Leapfrog", 
+                "Piston-Fist Cyclops", 
+                "Lava Coil", 
+                "Swarm Guildmage", 
+                "Wee Dragonauts", 
+                "Guildmages' Forum", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Lava Coil"
+            }, 
+            {
+              "cards": [
+                "Wall of Mist", 
+                "Loxodon Restorer", 
+                "Centaur Peacemaker", 
+                "Urban Utopia", 
+                "Veiled Shade", 
+                "Unexplained Disappearance", 
+                "Douser of Lights", 
+                "Torch Courier", 
+                "Goblin Locksmith", 
+                "Plaguecrafter", 
+                "Gatekeeper Gargoyle", 
+                "Rampaging Monument", 
+                "Mnemonic Betrayal", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Plaguecrafter"
+            }, 
+            {
+              "cards": [
+                "Fresh-Faced Recruit", 
+                "Child of Night", 
+                "Vigorspore Wurm", 
+                "Centaur Peacemaker", 
+                "Devkarin Dissident", 
+                "Righteous Blow", 
+                "Gruesome Menagerie", 
+                "Undercity Uprising", 
+                "Rosemane Centaur", 
+                "Goblin Banneret", 
+                "Affectionate Indrik", 
+                "Mission Briefing", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Affectionate Indrik"
+            }, 
+            {
+              "cards": [
+                "Douser of Lights", 
+                "Intrusive Packbeast", 
+                "Mephitic Vapors", 
+                "Intrusive Packbeast", 
+                "Wary Okapi", 
+                "Siege Wurm", 
+                "Fresh-Faced Recruit", 
+                "Devious Cover-Up", 
+                "Capture Sphere", 
+                "Join Shields", 
+                "Goblin Cratermaker", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Douser of Lights"
+            }, 
+            {
+              "cards": [
+                "Burglar Rat", 
+                "Urban Utopia", 
+                "Wary Okapi", 
+                "Wishcoin Crab", 
+                "Sumala Woodshaper", 
+                "Sonic Assault", 
+                "Cosmotronic Wave", 
+                "Child of Night", 
+                "Fresh-Faced Recruit", 
+                "Kraul Swarm", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Burglar Rat"
+            }, 
+            {
+              "cards": [
+                "Wishcoin Crab", 
+                "Loxodon Restorer", 
+                "Passwall Adept", 
+                "Sworn Companions", 
+                "Prey Upon", 
+                "Leapfrog", 
+                "Wary Okapi", 
+                "Command the Storm", 
+                "Boros Locket", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Prey Upon"
+            }, 
+            {
+              "cards": [
+                "Ornery Goblin", 
+                "Crushing Canopy", 
+                "Muse Drake", 
+                "Dazzling Lights", 
+                "Candlelight Vigil", 
+                "Leapfrog", 
+                "Loxodon Restorer", 
+                "Rubblebelt Boar", 
+                "Swarm Guildmage"
+              ], 
+              "pick": "Swarm Guildmage"
+            }, 
+            {
+              "cards": [
+                "Collar the Culprit", 
+                "Boros Locket", 
+                "Douser of Lights", 
+                "Sumala Woodshaper", 
+                "Hammer Dropper", 
+                "Barging Sergeant", 
+                "Demotion", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Douser of Lights"
+            }, 
+            {
+              "cards": [
+                "Ironshell Beetle", 
+                "Hammer Dropper", 
+                "Hunted Witness", 
+                "Gravitic Punch", 
+                "Goblin Electromancer", 
+                "Leapfrog", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Goblin Electromancer"
+            }, 
+            {
+              "cards": [
+                "Wall of Mist", 
+                "Loxodon Restorer", 
+                "Douser of Lights", 
+                "Torch Courier", 
+                "Goblin Locksmith", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Douser of Lights"
+            }, 
+            {
+              "cards": [
+                "Fresh-Faced Recruit", 
+                "Devkarin Dissident", 
+                "Righteous Blow", 
+                "Undercity Uprising", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Devkarin Dissident"
+            }, 
+            {
+              "cards": [
+                "Intrusive Packbeast", 
+                "Intrusive Packbeast", 
+                "Wary Okapi", 
+                "Join Shields"
+              ], 
+              "pick": "Wary Okapi"
+            }, 
+            {
+              "cards": [
+                "Wary Okapi", 
+                "Sumala Woodshaper", 
+                "Fresh-Faced Recruit"
+              ], 
+              "pick": "Sumala Woodshaper"
+            }, 
+            {
+              "cards": [
+                "Wishcoin Crab", 
+                "Boros Locket"
+              ], 
+              "pick": "Wishcoin Crab"
+            }, 
+            {
+              "cards": [
+                "Candlelight Vigil"
+              ], 
+              "pick": "Candlelight Vigil"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Generous Stray", 
+                "Gravitic Punch", 
+                "Loxodon Restorer", 
+                "Maniacal Rage", 
+                "Rhizome Lurcher", 
+                "Moodmark Painter", 
+                "Child of Night", 
+                "Vedalken Mesmerist", 
+                "Take Heart", 
+                "Sure Strike", 
+                "Silent Dart", 
+                "Lava Coil", 
+                "Circuitous Route", 
+                "Legion Warboss", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Legion Warboss"
+            }, 
+            {
+              "cards": [
+                "Wishcoin Crab", 
+                "Goblin Electromancer", 
+                "Wall of Mist", 
+                "Rosemane Centaur", 
+                "Hunted Witness", 
+                "Portcullis Vine", 
+                "Bartizan Bats", 
+                "Rubblebelt Boar", 
+                "Wary Okapi", 
+                "Invert/Invent", 
+                "Truefire Captain", 
+                "Chemister's Insight", 
+                "Gruesome Menagerie", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Gruesome Menagerie"
+            }, 
+            {
+              "cards": [
+                "Disdainful Stroke", 
+                "Never Happened", 
+                "Sworn Companions", 
+                "Skyline Scout", 
+                "Sure Strike", 
+                "Portcullis Vine", 
+                "Vernadi Shieldmate", 
+                "Mephitic Vapors", 
+                "Radical Idea", 
+                "Pilfering Imp", 
+                "Ochran Assassin", 
+                "Ritual of Soot", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Ritual of Soot"
+            }, 
+            {
+              "cards": [
+                "Muse Drake", 
+                "Pitiless Gorgon", 
+                "Barging Sergeant", 
+                "Spinal Centipede", 
+                "Goblin Locksmith", 
+                "Hunted Witness", 
+                "Garrison Sergeant", 
+                "Severed Strands", 
+                "Gatekeeper Gargoyle", 
+                "Flight of Equenauts", 
+                "Discovery/Dispersal", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Pitiless Gorgon"
+            }, 
+            {
+              "cards": [
+                "Leapfrog", 
+                "Skyknight Legionnaire", 
+                "Selesnya Locket", 
+                "Devious Cover-Up", 
+                "Vedalken Mesmerist", 
+                "Goblin Electromancer", 
+                "Vicious Rumors", 
+                "Ornery Goblin", 
+                "Crushing Canopy", 
+                "Haazda Marshal", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Golgari Guildgate"
+            }, 
+            {
+              "cards": [
+                "Moodmark Painter", 
+                "Muse Drake", 
+                "Gateway Plaza", 
+                "Rhizome Lurcher", 
+                "Dimir Informant", 
+                "Artful Takedown", 
+                "Fearless Halberdier", 
+                "Street Riot", 
+                "Glaive of the Guildpact", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Rhizome Lurcher"
+            }, 
+            {
+              "cards": [
+                "Hunted Witness", 
+                "Leapfrog", 
+                "Wild Ceratok", 
+                "Muse Drake", 
+                "Dimir Informant", 
+                "Never Happened", 
+                "Izzet Locket", 
+                "Fire Urchin", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Never Happened"
+            }, 
+            {
+              "cards": [
+                "Fresh-Faced Recruit", 
+                "Notion Rain", 
+                "Mephitic Vapors", 
+                "Pack's Favor", 
+                "Garrison Sergeant", 
+                "Vedalken Mesmerist", 
+                "Torch Courier", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Notion Rain"
+            }, 
+            {
+              "cards": [
+                "Gravitic Punch", 
+                "Loxodon Restorer", 
+                "Maniacal Rage", 
+                "Moodmark Painter", 
+                "Child of Night", 
+                "Vedalken Mesmerist", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Child of Night"
+            }, 
+            {
+              "cards": [
+                "Goblin Electromancer", 
+                "Wall of Mist", 
+                "Hunted Witness", 
+                "Rubblebelt Boar", 
+                "Wary Okapi", 
+                "Truefire Captain"
+              ], 
+              "pick": "Truefire Captain"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Sworn Companions", 
+                "Sure Strike", 
+                "Portcullis Vine", 
+                "Mephitic Vapors"
+              ], 
+              "pick": "Portcullis Vine"
+            }, 
+            {
+              "cards": [
+                "Spinal Centipede", 
+                "Goblin Locksmith", 
+                "Hunted Witness", 
+                "Garrison Sergeant"
+              ], 
+              "pick": "Spinal Centipede"
+            }, 
+            {
+              "cards": [
+                "Vedalken Mesmerist", 
+                "Vicious Rumors", 
+                "Ornery Goblin"
+              ], 
+              "pick": "Vicious Rumors"
+            }, 
+            {
+              "cards": [
+                "Muse Drake", 
+                "Street Riot"
+              ], 
+              "pick": "Muse Drake"
+            }, 
+            {
+              "cards": [
+                "Muse Drake"
+              ], 
+              "pick": "Muse Drake"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Loxodon Restorer", 
+                "Parhelion Patrol", 
+                "Unexplained Disappearance", 
+                "Maximize Altitude", 
+                "Vigorspore Wurm", 
+                "Goblin Locksmith", 
+                "Garrison Sergeant", 
+                "Devious Cover-Up", 
+                "Siege Wurm", 
+                "Bartizan Bats", 
+                "Circuitous Route", 
+                "Roc Charger", 
+                "Integrity/Intervention", 
+                "Izoni, Thousand-Eyed", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Izoni, Thousand-Eyed"
+            }, 
+            {
+              "cards": [
+                "Righteous Blow", 
+                "Loxodon Restorer", 
+                "Generous Stray", 
+                "Notion Rain", 
+                "Cosmotronic Wave", 
+                "Piston-Fist Cyclops", 
+                "Crushing Canopy", 
+                "Sure Strike", 
+                "Wishcoin Crab", 
+                "Luminous Bonds", 
+                "Ledev Champion", 
+                "Conclave Tribunal", 
+                "Swathcutter Giant", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Generous Stray"
+            }, 
+            {
+              "cards": [
+                "Dimir Locket", 
+                "Tenth District Guard", 
+                "Burglar Rat", 
+                "Urban Utopia", 
+                "Parhelion Patrol", 
+                "Cosmotronic Wave", 
+                "Collar the Culprit", 
+                "Vedalken Mesmerist", 
+                "Devkarin Dissident", 
+                "Piston-Fist Cyclops", 
+                "Nightveil Sprite", 
+                "Book Devourer", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Golgari Guildgate"
+            }, 
+            {
+              "cards": [
+                "Take Heart", 
+                "Wary Okapi", 
+                "Wojek Bodyguard", 
+                "Bartizan Bats", 
+                "Radical Idea", 
+                "Pitiless Gorgon", 
+                "Dazzling Lights", 
+                "Golgari Locket", 
+                "Flight of Equenauts", 
+                "Enhanced Surveillance", 
+                "Unmoored Ego", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Pitiless Gorgon"
+            }, 
+            {
+              "cards": [
+                "Pause for Reflection", 
+                "Skyknight Legionnaire", 
+                "Veiled Shade", 
+                "Crushing Canopy", 
+                "Parhelion Patrol", 
+                "Pack's Favor", 
+                "Centaur Peacemaker", 
+                "Darkblade Agent", 
+                "Wall of Mist", 
+                "Enhanced Surveillance", 
+                "Beamsplitter Mage"
+              ], 
+              "pick": "Crushing Canopy"
+            }, 
+            {
+              "cards": [
+                "Take Heart", 
+                "Leapfrog", 
+                "Barging Sergeant", 
+                "Ornery Goblin", 
+                "Veiled Shade", 
+                "Wild Ceratok", 
+                "Portcullis Vine", 
+                "Golgari Locket", 
+                "Boros Challenger", 
+                "Flower/Flourish"
+              ], 
+              "pick": "Wild Ceratok"
+            }, 
+            {
+              "cards": [
+                "Garrison Sergeant", 
+                "Vigorspore Wurm", 
+                "Watcher in the Mist", 
+                "Sworn Companions", 
+                "Intrusive Packbeast", 
+                "Vicious Rumors", 
+                "Undercity Uprising", 
+                "Citywatch Sphinx", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Vigorspore Wurm"
+            }, 
+            {
+              "cards": [
+                "Disdainful Stroke", 
+                "Fire Urchin", 
+                "Veiled Shade", 
+                "Fresh-Faced Recruit", 
+                "Sumala Woodshaper", 
+                "Torch Courier", 
+                "Crush Contraband", 
+                "Chance for Glory"
+              ], 
+              "pick": "Veiled Shade"
+            }, 
+            {
+              "cards": [
+                "Loxodon Restorer", 
+                "Parhelion Patrol", 
+                "Maximize Altitude", 
+                "Goblin Locksmith", 
+                "Garrison Sergeant", 
+                "Circuitous Route", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Circuitous Route"
+            }, 
+            {
+              "cards": [
+                "Loxodon Restorer", 
+                "Notion Rain", 
+                "Cosmotronic Wave", 
+                "Sure Strike", 
+                "Wishcoin Crab", 
+                "Ledev Champion"
+              ], 
+              "pick": "Ledev Champion"
+            }, 
+            {
+              "cards": [
+                "Tenth District Guard", 
+                "Cosmotronic Wave", 
+                "Vedalken Mesmerist", 
+                "Piston-Fist Cyclops", 
+                "Book Devourer"
+              ], 
+              "pick": "Vedalken Mesmerist"
+            }, 
+            {
+              "cards": [
+                "Golgari Locket", 
+                "Enhanced Surveillance", 
+                "Unmoored Ego", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Golgari Locket"
+            }, 
+            {
+              "cards": [
+                "Pause for Reflection", 
+                "Darkblade Agent", 
+                "Enhanced Surveillance"
+              ], 
+              "pick": "Darkblade Agent"
+            }, 
+            {
+              "cards": [
+                "Leapfrog", 
+                "Ornery Goblin"
+              ], 
+              "pick": "Leapfrog"
+            }, 
+            {
+              "cards": [
+                "Vicious Rumors"
+              ], 
+              "pick": "Vicious Rumors"
+            }
+          ], 
+          "productCode": "GRN"
+        }
+      ], 
+      "time": "10/12/2018 12:33:01 AM"
+    }, 
+    "Format": "GRN-GRN-GRN"
+  }, 
+  {
+    "Draft": {
+      "event": "3616", 
+      "packs": [
+        {
+          "picks": [
+            {
+              "cards": [
+                "Capture Sphere", 
+                "Parhelion Patrol", 
+                "Dead Weight", 
+                "Never Happened", 
+                "Goblin Electromancer", 
+                "Cosmotronic Wave", 
+                "Crushing Canopy", 
+                "Passwall Adept", 
+                "Mephitic Vapors", 
+                "Dimir Informant", 
+                "Conclave Guildmage", 
+                "Nightveil Sprite", 
+                "Beamsplitter Mage", 
+                "Guildmages' Forum", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Nightveil Sprite"
+            }, 
+            {
+              "cards": [
+                "Barging Sergeant", 
+                "Intrusive Packbeast", 
+                "Fire Urchin", 
+                "Siege Wurm", 
+                "Wishcoin Crab", 
+                "Goblin Locksmith", 
+                "Leapfrog", 
+                "Take Heart", 
+                "Devious Cover-Up", 
+                "Plaguecrafter", 
+                "Electrostatic Field", 
+                "Swarm Guildmage", 
+                "Sacred Foundry", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Plaguecrafter"
+            }, 
+            {
+              "cards": [
+                "Maximize Altitude", 
+                "Selesnya Locket", 
+                "Kraul Foragers", 
+                "Take Heart", 
+                "Parhelion Patrol", 
+                "Boros Locket", 
+                "Hypothesizzle", 
+                "Wild Ceratok", 
+                "Wishcoin Crab", 
+                "Douser of Lights", 
+                "Kraul Harpooner", 
+                "Crush Contraband", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Hypothesizzle"
+            }, 
+            {
+              "cards": [
+                "Hammer Dropper", 
+                "Righteous Blow", 
+                "Veiled Shade", 
+                "Parhelion Patrol", 
+                "Never Happened", 
+                "Gateway Plaza", 
+                "Child of Night", 
+                "Boros Locket", 
+                "Might of the Masses", 
+                "Flower/Flourish", 
+                "Grappling Sundew", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Izzet Guildgate"
+            }, 
+            {
+              "cards": [
+                "Devkarin Dissident", 
+                "Spinal Centipede", 
+                "Rhizome Lurcher", 
+                "Goblin Electromancer", 
+                "Maximize Velocity", 
+                "Radical Idea", 
+                "Rubblebelt Boar", 
+                "Centaur Peacemaker", 
+                "Portcullis Vine", 
+                "Demotion", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Rubblebelt Boar"
+            }, 
+            {
+              "cards": [
+                "Wary Okapi", 
+                "Intrusive Packbeast", 
+                "Parhelion Patrol", 
+                "Pause for Reflection", 
+                "Wojek Bodyguard", 
+                "Cosmotronic Wave", 
+                "Fire Urchin", 
+                "Kraul Foragers", 
+                "Arboretum Elemental", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Wojek Bodyguard"
+            }, 
+            {
+              "cards": [
+                "Veiled Shade", 
+                "Siege Wurm", 
+                "Severed Strands", 
+                "Vigorspore Wurm", 
+                "Collar the Culprit", 
+                "Sonic Assault", 
+                "Maniacal Rage", 
+                "Flower/Flourish", 
+                "Beamsplitter Mage"
+              ], 
+              "pick": "Beamsplitter Mage"
+            }, 
+            {
+              "cards": [
+                "Mephitic Vapors", 
+                "Prey Upon", 
+                "Wild Ceratok", 
+                "Kraul Foragers", 
+                "Collar the Culprit", 
+                "Hammer Dropper", 
+                "Undercity Necrolisk", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Undercity Necrolisk"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Goblin Electromancer", 
+                "Cosmotronic Wave", 
+                "Crushing Canopy", 
+                "Passwall Adept", 
+                "Mephitic Vapors", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Goblin Electromancer"
+            }, 
+            {
+              "cards": [
+                "Intrusive Packbeast", 
+                "Wishcoin Crab", 
+                "Goblin Locksmith", 
+                "Leapfrog", 
+                "Take Heart", 
+                "Electrostatic Field"
+              ], 
+              "pick": "Leapfrog"
+            }, 
+            {
+              "cards": [
+                "Kraul Foragers", 
+                "Take Heart", 
+                "Wild Ceratok", 
+                "Crush Contraband", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Selesnya Guildgate"
+            }, 
+            {
+              "cards": [
+                "Never Happened", 
+                "Boros Locket", 
+                "Might of the Masses", 
+                "Grappling Sundew"
+              ], 
+              "pick": "Boros Locket"
+            }, 
+            {
+              "cards": [
+                "Devkarin Dissident", 
+                "Centaur Peacemaker", 
+                "Portcullis Vine"
+              ], 
+              "pick": "Portcullis Vine"
+            }, 
+            {
+              "cards": [
+                "Wary Okapi", 
+                "Pause for Reflection"
+              ], 
+              "pick": "Wary Okapi"
+            }, 
+            {
+              "cards": [
+                "Maniacal Rage"
+              ], 
+              "pick": "Maniacal Rage"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Candlelight Vigil", 
+                "Vedalken Mesmerist", 
+                "Cosmotronic Wave", 
+                "Devious Cover-Up", 
+                "Dimir Locket", 
+                "Rhizome Lurcher", 
+                "Righteous Blow", 
+                "Unexplained Disappearance", 
+                "Gateway Plaza", 
+                "Piston-Fist Cyclops", 
+                "Swathcutter Giant", 
+                "Arboretum Elemental", 
+                "Integrity/Intervention", 
+                "Arclight Phoenix", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Arclight Phoenix"
+            }, 
+            {
+              "cards": [
+                "Sonic Assault", 
+                "Skyline Scout", 
+                "Pack's Favor", 
+                "Parhelion Patrol", 
+                "Maniacal Rage", 
+                "Take Heart", 
+                "Erstwhile Trooper", 
+                "Fearless Halberdier", 
+                "Burglar Rat", 
+                "Beamsplitter Mage", 
+                "Lotleth Giant", 
+                "Inescapable Blaze", 
+                "Vivid Revival", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Sonic Assault"
+            }, 
+            {
+              "cards": [
+                "Pack's Favor", 
+                "Intrusive Packbeast", 
+                "Unexplained Disappearance", 
+                "Candlelight Vigil", 
+                "Fire Urchin", 
+                "Artful Takedown", 
+                "Wojek Bodyguard", 
+                "Pause for Reflection", 
+                "Ornery Goblin", 
+                "Crackling Drake", 
+                "Lotleth Giant", 
+                "Discovery/Dispersal", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Wojek Bodyguard"
+            }, 
+            {
+              "cards": [
+                "Centaur Peacemaker", 
+                "Leapfrog", 
+                "Wojek Bodyguard", 
+                "Torch Courier", 
+                "Gateway Plaza", 
+                "Barrier of Bones", 
+                "Vedalken Mesmerist", 
+                "Maniacal Rage", 
+                "Wishcoin Crab", 
+                "Gird for Battle", 
+                "Erratic Cyclops", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Leapfrog"
+            }, 
+            {
+              "cards": [
+                "Golgari Locket", 
+                "Leapfrog", 
+                "Prey Upon", 
+                "Hammer Dropper", 
+                "Maximize Altitude", 
+                "Gravitic Punch", 
+                "Centaur Peacemaker", 
+                "Nightveil Predator", 
+                "Might of the Masses", 
+                "Inspiring Unicorn", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Maximize Altitude"
+            }, 
+            {
+              "cards": [
+                "Erstwhile Trooper", 
+                "Notion Rain", 
+                "Wild Ceratok", 
+                "Capture Sphere", 
+                "Douser of Lights", 
+                "Take Heart", 
+                "Ledev Guardian", 
+                "Vicious Rumors", 
+                "Enhanced Surveillance", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Capture Sphere"
+            }, 
+            {
+              "cards": [
+                "Sure Strike", 
+                "Take Heart", 
+                "Disdainful Stroke", 
+                "Portcullis Vine", 
+                "Hired Poisoner", 
+                "Sumala Woodshaper", 
+                "Loxodon Restorer", 
+                "Book Devourer", 
+                "Dimir Guildgate"
+              ], 
+              "pick": "Sure Strike"
+            }, 
+            {
+              "cards": [
+                "Garrison Sergeant", 
+                "Passwall Adept", 
+                "Sonic Assault", 
+                "Hammer Dropper", 
+                "Golgari Locket", 
+                "Notion Rain", 
+                "Candlelight Vigil", 
+                "Izzet Guildgate"
+              ], 
+              "pick": "Sonic Assault"
+            }, 
+            {
+              "cards": [
+                "Candlelight Vigil", 
+                "Vedalken Mesmerist", 
+                "Cosmotronic Wave", 
+                "Devious Cover-Up", 
+                "Dimir Locket", 
+                "Righteous Blow", 
+                "Arboretum Elemental"
+              ], 
+              "pick": "Vedalken Mesmerist"
+            }, 
+            {
+              "cards": [
+                "Pack's Favor", 
+                "Maniacal Rage", 
+                "Take Heart", 
+                "Erstwhile Trooper", 
+                "Fearless Halberdier", 
+                "Lotleth Giant"
+              ], 
+              "pick": "Maniacal Rage"
+            }, 
+            {
+              "cards": [
+                "Pack's Favor", 
+                "Candlelight Vigil", 
+                "Pause for Reflection", 
+                "Ornery Goblin", 
+                "Lotleth Giant"
+              ], 
+              "pick": "Ornery Goblin"
+            }, 
+            {
+              "cards": [
+                "Centaur Peacemaker", 
+                "Torch Courier", 
+                "Vedalken Mesmerist", 
+                "Wishcoin Crab"
+              ], 
+              "pick": "Vedalken Mesmerist"
+            }, 
+            {
+              "cards": [
+                "Golgari Locket", 
+                "Centaur Peacemaker", 
+                "Might of the Masses"
+              ], 
+              "pick": "Might of the Masses"
+            }, 
+            {
+              "cards": [
+                "Douser of Lights", 
+                "Vicious Rumors"
+              ], 
+              "pick": "Douser of Lights"
+            }, 
+            {
+              "cards": [
+                "Loxodon Restorer"
+              ], 
+              "pick": "Loxodon Restorer"
+            }
+          ], 
+          "productCode": "GRN"
+        }, 
+        {
+          "picks": [
+            {
+              "cards": [
+                "Direct Current", 
+                "Hired Poisoner", 
+                "Darkblade Agent", 
+                "Dead Weight", 
+                "Disdainful Stroke", 
+                "Pause for Reflection", 
+                "Unexplained Disappearance", 
+                "Tenth District Guard", 
+                "Erstwhile Trooper", 
+                "Wojek Bodyguard", 
+                "Smelt-Ward Minotaur", 
+                "Nightveil Predator", 
+                "Sprouting Renewal", 
+                "Hatchery Spider", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Direct Current"
+            }, 
+            {
+              "cards": [
+                "Blade Instructor", 
+                "Vicious Rumors", 
+                "Goblin Electromancer", 
+                "Radical Idea", 
+                "Dimir Locket", 
+                "Wojek Bodyguard", 
+                "Capture Sphere", 
+                "Devkarin Dissident", 
+                "Rubblebelt Boar", 
+                "Goblin Locksmith", 
+                "Guild Summit", 
+                "Thoughtbound Phantasm", 
+                "Creeping Chill", 
+                "Golgari Guildgate"
+              ], 
+              "pick": "Rubblebelt Boar"
+            }, 
+            {
+              "cards": [
+                "Boros Locket", 
+                "Centaur Peacemaker", 
+                "Passwall Adept", 
+                "Notion Rain", 
+                "Devious Cover-Up", 
+                "Wary Okapi", 
+                "Wild Ceratok", 
+                "Ledev Guardian", 
+                "Disdainful Stroke", 
+                "Integrity/Intervention", 
+                "Goblin Banneret", 
+                "Izoni, Thousand-Eyed", 
+                "Selesnya Guildgate"
+              ], 
+              "pick": "Goblin Banneret"
+            }, 
+            {
+              "cards": [
+                "Portcullis Vine", 
+                "Maximize Velocity", 
+                "Notion Rain", 
+                "Maximize Altitude", 
+                "Capture Sphere", 
+                "Ornery Goblin", 
+                "Centaur Peacemaker", 
+                "Pitiless Gorgon", 
+                "Izzet Locket", 
+                "Wall of Mist", 
+                "Join Shields", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Maximize Altitude"
+            }, 
+            {
+              "cards": [
+                "Fresh-Faced Recruit", 
+                "Vigorspore Wurm", 
+                "Garrison Sergeant", 
+                "Devious Cover-Up", 
+                "Sure Strike", 
+                "Urban Utopia", 
+                "Generous Stray", 
+                "Vernadi Shieldmate", 
+                "Wishcoin Crab", 
+                "Temple Garden", 
+                "Boros Guildgate"
+              ], 
+              "pick": "Fresh-Faced Recruit"
+            }, 
+            {
+              "cards": [
+                "Devious Cover-Up", 
+                "Notion Rain", 
+                "Fearless Halberdier", 
+                "Sonic Assault", 
+                "Rubblebelt Boar", 
+                "Burglar Rat", 
+                "Take Heart", 
+                "Integrity/Intervention", 
+                "Pilfering Imp", 
+                "Golgari Findbroker"
+              ], 
+              "pick": "Rubblebelt Boar"
+            }, 
+            {
+              "cards": [
+                "Collar the Culprit", 
+                "Torch Courier", 
+                "Sonic Assault", 
+                "Rosemane Centaur", 
+                "Notion Rain", 
+                "Devkarin Dissident", 
+                "Hired Poisoner", 
+                "Undercity Necrolisk", 
+                "Selective Snare"
+              ], 
+              "pick": "Selective Snare"
+            }, 
+            {
+              "cards": [
+                "Sumala Woodshaper", 
+                "Vernadi Shieldmate", 
+                "Piston-Fist Cyclops", 
+                "Sonic Assault", 
+                "Fearless Halberdier", 
+                "Undercity Uprising", 
+                "Spinal Centipede", 
+                "Barrier of Bones"
+              ], 
+              "pick": "Piston-Fist Cyclops"
+            }, 
+            {
+              "cards": [
+                "Hired Poisoner", 
+                "Darkblade Agent", 
+                "Disdainful Stroke", 
+                "Pause for Reflection", 
+                "Unexplained Disappearance", 
+                "Tenth District Guard", 
+                "Erstwhile Trooper"
+              ], 
+              "pick": "Unexplained Disappearance"
+            }, 
+            {
+              "cards": [
+                "Vicious Rumors", 
+                "Goblin Electromancer", 
+                "Capture Sphere", 
+                "Guild Summit", 
+                "Thoughtbound Phantasm", 
+                "Creeping Chill"
+              ], 
+              "pick": "Creeping Chill"
+            }, 
+            {
+              "cards": [
+                "Boros Locket", 
+                "Centaur Peacemaker", 
+                "Devious Cover-Up", 
+                "Wary Okapi", 
+                "Wild Ceratok"
+              ], 
+              "pick": "Devious Cover-Up"
+            }, 
+            {
+              "cards": [
+                "Portcullis Vine", 
+                "Centaur Peacemaker", 
+                "Izzet Locket", 
+                "Wall of Mist"
+              ], 
+              "pick": "Wall of Mist"
+            }, 
+            {
+              "cards": [
+                "Garrison Sergeant", 
+                "Generous Stray", 
+                "Vernadi Shieldmate"
+              ], 
+              "pick": "Garrison Sergeant"
+            }, 
+            {
+              "cards": [
+                "Devious Cover-Up", 
+                "Pilfering Imp"
+              ], 
+              "pick": "Devious Cover-Up"
+            }, 
+            {
+              "cards": [
+                "Devkarin Dissident"
+              ], 
+              "pick": "Devkarin Dissident"
+            }
+          ], 
+          "productCode": "GRN"
+        }
+      ], 
+      "time": "10/2/2018 7:14:37 PM"
+    }, 
+    "Format": "GRN-GRN-GRN"
+  }
+]
