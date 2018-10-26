@@ -1,0 +1,708 @@
+Event #: 3622
+Time:    10/4/2018 6:55:39 AM
+Players:
+    MrSeanie
+--> viralmisnomer
+    _Gwendolyn_
+    beenunn
+    wantai
+    ernopetteri
+    Drazelito
+    kaneba
+
+--: Legion Warboss
+
+--: Legion Warboss
+
+------ GRN ------ 
+
+Pack 1 pick 1:
+    Whisper Agent
+    Deadly Visit
+    Barging Sergeant
+    Sonic Assault
+    Hunted Witness
+    Hitchclaw Recluse
+    Portcullis Vine
+    Direct Current
+    Maximize Velocity
+    Artful Takedown
+    Arboretum Elemental
+    Integrity/Intervention
+    Beacon Bolt
+--> Legion Warboss
+    Dimir Guildgate
+
+--: Chance for Glory
+
+--: Command the Storm
+
+Pack 1 pick 2:
+    Deadly Visit
+    Hypothesizzle
+    Fire Urchin
+    Ornery Goblin
+--> Command the Storm
+    Generous Stray
+    Sumala Woodshaper
+    Cosmotronic Wave
+    Piston-Fist Cyclops
+    Vigorspore Wurm
+    Guild Summit
+    Conclave Guildmage
+    Chance for Glory
+    Selesnya Guildgate
+
+--: Guildmages' Forum
+
+--: Electrostatic Field
+
+--: Wee Dragonauts
+
+--: Parhelion Patrol
+
+--: Piston-Fist Cyclops
+
+--: Parhelion Patrol
+
+Pack 1 pick 3:
+    Ledev Guardian
+    Pack's Favor
+    Bartizan Bats
+--> Parhelion Patrol
+    Dimir Informant
+    Erstwhile Trooper
+    Portcullis Vine
+    Hired Poisoner
+    Piston-Fist Cyclops
+    Wee Dragonauts
+    Electrostatic Field
+    Guildmages' Forum
+    Dimir Guildgate
+
+--: Izzet Locket
+
+--: Legion Guildmage
+
+--: Legion Guildmage
+
+Pack 1 pick 4:
+    Izzet Locket
+    Devious Cover-Up
+    Loxodon Restorer
+    Vigorspore Wurm
+    Hired Poisoner
+    Passwall Adept
+    Hitchclaw Recluse
+    Barging Sergeant
+    Maximize Velocity
+    Skyline Scout
+--> Legion Guildmage
+    Boros Guildgate
+
+--: Urban Utopia
+
+--: Wojek Bodyguard
+
+--: Wojek Bodyguard
+
+Pack 1 pick 5:
+    Urban Utopia
+    Sworn Companions
+    Never Happened
+    Torch Courier
+    Maximize Velocity
+--> Wojek Bodyguard
+    Muse Drake
+    Crushing Canopy
+    Tenth District Guard
+    Creeping Chill
+    Boros Guildgate
+
+--: Garrison Sergeant
+
+--: Take Heart
+
+--: Take Heart
+
+--: Take Heart
+
+--: Take Heart
+
+Pack 1 pick 6:
+    Garrison Sergeant
+    Wild Ceratok
+    Moodmark Painter
+--> Take Heart
+    Sonic Assault
+    Tenth District Guard
+    Boros Locket
+    Crushing Canopy
+    Wall of Mist
+    Selesnya Guildgate
+
+--: Unmoored Ego
+
+--: Collar the Culprit
+
+--: Intrusive Packbeast
+
+--: Intrusive Packbeast
+
+Pack 1 pick 7:
+    Righteous Blow
+    Wild Ceratok
+    Wary Okapi
+--> Intrusive Packbeast
+    Collar the Culprit
+    Maniacal Rage
+    Undercity Uprising
+    Unmoored Ego
+    Izzet Guildgate
+
+--: Mephitic Vapors
+
+--: Collar the Culprit
+
+--: Collar the Culprit
+
+Pack 1 pick 8:
+    Mephitic Vapors
+    Spinal Centipede
+--> Collar the Culprit
+    Siege Wurm
+    Vicious Rumors
+    Vernadi Shieldmate
+    Dimir Locket
+    Selesnya Guildgate
+
+--: Whisper Agent
+
+--: Barging Sergeant
+
+--: Hunted Witness
+
+--: Hunted Witness
+
+--: Hunted Witness
+
+--: Hunted Witness
+
+Pack 1 pick 9:
+    Whisper Agent
+    Barging Sergeant
+    Sonic Assault
+--> Hunted Witness
+    Hitchclaw Recluse
+    Portcullis Vine
+    Maximize Velocity
+
+--: Chance for Glory
+
+--: Chance for Glory
+
+--: Cosmotronic Wave
+
+--: Cosmotronic Wave
+
+Pack 1 pick 10:
+    Generous Stray
+    Sumala Woodshaper
+--> Cosmotronic Wave
+    Vigorspore Wurm
+    Chance for Glory
+    Selesnya Guildgate
+
+--: Pack's Favor
+
+--: Portcullis Vine
+
+--: Hired Poisoner
+
+Pack 1 pick 11:
+    Pack's Favor
+    Bartizan Bats
+    Erstwhile Trooper
+    Portcullis Vine
+--> Hired Poisoner
+
+--: Devious Cover-Up
+
+--: Boros Guildgate
+
+Pack 1 pick 12:
+    Devious Cover-Up
+    Loxodon Restorer
+    Barging Sergeant
+--> Boros Guildgate
+
+--: Torch Courier
+
+--: Maximize Velocity
+
+Pack 1 pick 13:
+    Torch Courier
+--> Maximize Velocity
+    Creeping Chill
+
+--: Tenth District Guard
+
+Pack 1 pick 14:
+--> Tenth District Guard
+    Boros Locket
+
+--: Wild Ceratok
+
+Pack 1 pick 15:
+--> Wild Ceratok
+
+--: Assassin's Trophy
+
+--: Assassin's Trophy
+
+------ GRN ------ 
+
+Pack 2 pick 1:
+    Garrison Sergeant
+    Hitchclaw Recluse
+    Bartizan Bats
+    Dimir Informant
+    Devious Cover-Up
+    Wojek Bodyguard
+    Dimir Locket
+    Vigorspore Wurm
+    Dead Weight
+    Cosmotronic Wave
+    Selective Snare
+    Conclave Cavalier
+    Flower/Flourish
+--> Assassin's Trophy
+    Selesnya Guildgate
+
+--: Portcullis Vine
+
+--: Healer's Hawk
+
+Pack 2 pick 2:
+    Portcullis Vine
+--> Healer's Hawk
+    Deadly Visit
+    Boros Locket
+    Selesnya Locket
+    Child of Night
+    Dazzling Lights
+    Veiled Shade
+    Gravitic Punch
+    Dimir Locket
+    Disinformation Campaign
+    Nightveil Predator
+    Swathcutter Giant
+    Golgari Guildgate
+
+--: Prey Upon
+
+--: Inspiring Unicorn
+
+--: Luminous Bonds
+
+Pack 2 pick 3:
+    Prey Upon
+    Torch Courier
+    Darkblade Agent
+    Never Happened
+    Healer's Hawk
+    Intrusive Packbeast
+    Maximize Altitude
+    Garrison Sergeant
+    Sonic Assault
+--> Luminous Bonds
+    Might of the Masses
+    Inspiring Unicorn
+    Dimir Guildgate
+
+--: Rosemane Centaur
+
+--: Demotion
+
+--: Fresh-Faced Recruit
+
+--: Skyknight Legionnaire
+
+Pack 2 pick 4:
+    Rosemane Centaur
+    Radical Idea
+    Tenth District Guard
+    Spinal Centipede
+--> Skyknight Legionnaire
+    Vedalken Mesmerist
+    Fresh-Faced Recruit
+    Vernadi Shieldmate
+    Cosmotronic Wave
+    Conclave Guildmage
+    Demotion
+    Boros Guildgate
+
+--: Maximize Velocity
+
+--: Boros Guildgate
+
+--: Hammer Dropper
+
+--: Sworn Companions
+
+--: Hammer Dropper
+
+--: Boros Guildgate
+
+--: Hammer Dropper
+
+Pack 2 pick 5:
+    Maximize Velocity
+    Candlelight Vigil
+    Sumala Woodshaper
+    Erstwhile Trooper
+    Sworn Companions
+--> Hammer Dropper
+    Never Happened
+    Guild Summit
+    Thought Erasure
+    Grappling Sundew
+    Boros Guildgate
+
+--: Bounty Agent
+
+--: Garrison Sergeant
+
+--: Take Heart
+
+Pack 2 pick 6:
+    Izzet Locket
+    Selesnya Locket
+    Muse Drake
+    Leapfrog
+    Erstwhile Trooper
+    Hitchclaw Recluse
+--> Take Heart
+    Garrison Sergeant
+    Worldsoul Colossus
+    Bounty Agent
+
+--: Wary Okapi
+
+--: Hunted Witness
+
+Pack 2 pick 7:
+    Wary Okapi
+    Torch Courier
+    Vernadi Shieldmate
+    Never Happened
+    Tenth District Guard
+    Muse Drake
+--> Hunted Witness
+    House Guildmage
+    Izzet Guildgate
+
+--: Pitiless Gorgon
+
+--: Righteous Blow
+
+Pack 2 pick 8:
+    Pitiless Gorgon
+    Disdainful Stroke
+    Ledev Guardian
+--> Righteous Blow
+    Whisper Agent
+    Passwall Adept
+    Glaive of the Guildpact
+    Selesnya Guildgate
+
+--: Garrison Sergeant
+
+--: Garrison Sergeant
+
+Pack 2 pick 9:
+--> Garrison Sergeant
+    Hitchclaw Recluse
+    Bartizan Bats
+    Dimir Locket
+    Vigorspore Wurm
+    Cosmotronic Wave
+    Flower/Flourish
+
+--: Portcullis Vine
+
+--: Veiled Shade
+
+Pack 2 pick 10:
+    Portcullis Vine
+--> Boros Locket
+    Child of Night
+    Veiled Shade
+    Dimir Locket
+    Golgari Guildgate
+
+--: Torch Courier
+
+--: Intrusive Packbeast
+
+Pack 2 pick 11:
+    Torch Courier
+    Never Happened
+--> Intrusive Packbeast
+    Garrison Sergeant
+    Might of the Masses
+
+--: Tenth District Guard
+
+--: Boros Guildgate
+
+Pack 2 pick 12:
+    Tenth District Guard
+    Vernadi Shieldmate
+    Cosmotronic Wave
+--> Boros Guildgate
+
+--: Candlelight Vigil
+
+Pack 2 pick 13:
+--> Candlelight Vigil
+    Never Happened
+    Guild Summit
+
+--: Izzet Locket
+
+--: Izzet Locket
+
+Pack 2 pick 14:
+--> Izzet Locket
+    Selesnya Locket
+
+--: Torch Courier
+
+Pack 2 pick 15:
+--> Torch Courier
+
+--: Thief of Sanity
+
+--: Healer's Hawk
+
+--: Righteous Blow
+
+--: Healer's Hawk
+
+------ GRN ------ 
+
+Pack 3 pick 1:
+    Righteous Blow
+--> Healer's Hawk
+    Dimir Informant
+    Golgari Locket
+    Cosmotronic Wave
+    Fearless Halberdier
+    Hammer Dropper
+    Whisper Agent
+    Goblin Locksmith
+    Rhizome Lurcher
+    Selective Snare
+    House Guildmage
+    Kraul Swarm
+    Thief of Sanity
+    Boros Guildgate
+
+--: Tenth District Guard
+
+--: Fresh-Faced Recruit
+
+Pack 3 pick 2:
+    Tenth District Guard
+    Child of Night
+    Severed Strands
+    Hitchclaw Recluse
+--> Fresh-Faced Recruit
+    Crushing Canopy
+    Radical Idea
+    Parhelion Patrol
+    Candlelight Vigil
+    Leapfrog
+    Pilfering Imp
+    Golgari Findbroker
+    Plaguecrafter
+    Selesnya Guildgate
+
+--: Moodmark Painter
+
+--: Legion Guildmage
+
+--: Parhelion Patrol
+
+--: Legion Guildmage
+
+--: Parhelion Patrol
+
+Pack 3 pick 3:
+    Moodmark Painter
+    Never Happened
+    Maximize Altitude
+    Devious Cover-Up
+    Piston-Fist Cyclops
+--> Parhelion Patrol
+    Torch Courier
+    Pack's Favor
+    Tenth District Guard
+    Wary Okapi
+    Legion Guildmage
+    Selective Snare
+    Dimir Guildgate
+
+--: Drowned Secrets
+
+--: Command the Storm
+
+Pack 3 pick 4:
+    Vedalken Mesmerist
+--> Command the Storm
+    Sumala Woodshaper
+    Righteous Blow
+    Vernadi Shieldmate
+    Wary Okapi
+    Prey Upon
+    Spinal Centipede
+    Discovery/Dispersal
+    Ochran Assassin
+    Drowned Secrets
+    Izzet Guildgate
+
+--: Portcullis Vine
+
+--: Justice Strike
+
+--: Justice Strike
+
+Pack 3 pick 5:
+    Portcullis Vine
+    Mephitic Vapors
+    Disdainful Stroke
+    Fire Urchin
+    Loxodon Restorer
+    Wary Okapi
+    Child of Night
+--> Justice Strike
+    Flower/Flourish
+    Sinister Sabotage
+    Golgari Guildgate
+
+--: Burglar Rat
+
+--: Wojek Bodyguard
+
+Pack 3 pick 6:
+    Burglar Rat
+    Disdainful Stroke
+    Gravitic Punch
+    Never Happened
+    Rhizome Lurcher
+    Leapfrog
+--> Wojek Bodyguard
+    Hitchclaw Recluse
+    Swathcutter Giant
+    Izzet Guildgate
+
+--: Hammer Dropper
+
+--: Barging Sergeant
+
+--: Hammer Dropper
+
+Pack 3 pick 7:
+    Hammer Dropper
+    Passwall Adept
+    Ledev Guardian
+    Moodmark Painter
+--> Barging Sergeant
+    Ironshell Beetle
+    Izzet Locket
+    Prey Upon
+    Enhanced Surveillance
+
+--: Collar the Culprit
+
+--: Blade Instructor
+
+Pack 3 pick 8:
+    Collar the Culprit
+--> Blade Instructor
+    Moodmark Painter
+    Hammer Dropper
+    Wild Ceratok
+    Kraul Foragers
+    Selective Snare
+    Boros Guildgate
+
+--: Golgari Locket
+
+--: Goblin Locksmith
+
+Pack 3 pick 9:
+    Golgari Locket
+    Cosmotronic Wave
+    Fearless Halberdier
+    Whisper Agent
+--> Goblin Locksmith
+    Rhizome Lurcher
+    Selective Snare
+
+--: Tenth District Guard
+
+--: Tenth District Guard
+
+Pack 3 pick 10:
+--> Tenth District Guard
+    Severed Strands
+    Hitchclaw Recluse
+    Crushing Canopy
+    Candlelight Vigil
+    Pilfering Imp
+
+--: Moodmark Painter
+
+--: Torch Courier
+
+Pack 3 pick 11:
+    Moodmark Painter
+    Never Happened
+    Maximize Altitude
+--> Torch Courier
+    Wary Okapi
+
+--: Righteous Blow
+
+--: Righteous Blow
+
+Pack 3 pick 12:
+--> Righteous Blow
+    Wary Okapi
+    Prey Upon
+    Spinal Centipede
+
+--: Portcullis Vine
+
+--: Mephitic Vapors
+
+Pack 3 pick 13:
+    Portcullis Vine
+--> Mephitic Vapors
+    Wary Okapi
+
+--: Never Happened
+
+--: Swathcutter Giant
+
+Pack 3 pick 14:
+    Never Happened
+--> Swathcutter Giant
+
+--: Moodmark Painter
+
+Pack 3 pick 15:
+--> Moodmark Painter
+
