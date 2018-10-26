@@ -3,8 +3,8 @@
 These instructions will have you set up a MySQL database loading in draft logs for analysis. It uses [SQLAlchemy](https://www.sqlalchemy.org/) as the ORM layer to turn Python objects into the relevant SQL data (`model.py` describes the mapping).
 
 ## Necessary Installation
-1. Ensure Python3 and MariaDB / MySQL are installed (instructions vary by operating system)
-1. Install the following python packages: sqlalchemy, mysql-connector-python, pymysql (`pip3 install sqlalchemy mysql-connector-python pymysql`} should work.)
+1. Ensure Python3 and MariaDB / MySQL are installed (instructions will vary by OS).
+1. Install the following python packages: sqlalchemy, mysql-connector-python, pymysql (`pip3 install sqlalchemy mysql-connector-python pymysql` should work.)
 
 ## Database setup
 Set up a database and user as follows (replace `'this is a password'` with your own password):
