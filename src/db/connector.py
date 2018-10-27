@@ -1,7 +1,14 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from model import Base, Expansion, Card, User, Draft, DraftSeat, Pack, PackCard, Pick
+from db.model import Base
+
+import logging
+logging.basicConfig(
+  format='%(asctime)s,%(levelname)s,%(message)s',
+  datefmt='%Y%m%d %H%M%S',
+  level=logging.INFO,
+)
 
 with open('.secret') as f:
   p = f.readlines()[0].strip()
