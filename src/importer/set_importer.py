@@ -3,8 +3,8 @@ import os
 import logging
 import re
 
-from model import Expansion, Card, User, Draft, DraftSeat, Pack, PackCard, Pick
-from db_connector import getSession
+from db.model import Expansion, Card
+from db.connector import getSession
 
 
 JSON_FOLDER = 'sets'
@@ -66,7 +66,6 @@ def addFromJson(session, blob):
   for cardBlob in blob['cards']:
     getOrAddCard(session, cardBlob, expansionId=s.id)
   session.commit()
-
 
 if __name__ == '__main__':
   session = getSession()

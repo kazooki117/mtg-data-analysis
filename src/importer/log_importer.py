@@ -4,8 +4,8 @@ import logging
 import re
 import datetime
 
-from model import Expansion, Card, User, Draft, DraftSeat, Pack, PackCard, Pick
-from db_connector import getSession
+from db.model import Expansion, Card, User, Draft, DraftSeat, Pack, PackCard, Pick
+from db.connector import getSession
 
 
 SEATS = 8

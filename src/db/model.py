@@ -1,17 +1,10 @@
 import re
 
-from sqlalchemy import Column, Integer, String, DateTime, Numeric, Boolean
+from sqlalchemy import Column, Integer, String, DateTime
 from sqlalchemy import ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
-
-import logging
-logging.basicConfig(
-  format='%(asctime)s,%(levelname)s,%(message)s',
-  datefmt='%Y%m%d %H%M%S',
-  level=logging.INFO,
-)
 
 class SimplePrinterBase(object):
   def __repr__(self):
