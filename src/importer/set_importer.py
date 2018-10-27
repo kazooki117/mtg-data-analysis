@@ -19,19 +19,20 @@ def normalizeStringForDb(s):
     s = s.replace(k, v)
   return s
 
+def convertBlobToExpansion(blob):
+  lastLandSlot = max([int(c['number']) for c in blob['cards'] if c['type'].startswith('Basic Land')])
+  return Expansion(
+    name=name,
+    max_booster_number=lastLandSlot,
+    abbreviation=blob['code'],
+  )
+
 def getOrAddExpansion(session, blob):
   name = blob['name']
   s = session.query(Expansion).filter_by(name=name).one_or_none()
   if s is None:
     logging.info('Adding expansion %s' % (name,))
-    lastLandSlot = max([int(c['number']) for c in blob['cards'] if c['type'].startswith('Basic Land')])
-    logging.info(lastLandSlot)
-    expansion = Expansion(
-      name=name,
-      max_booster_number=lastLandSlot,
-      abbreviation=blob['code'],
-    )
-    session.add(expansion)
+    session.add(convertBlobToExpansion(blob))
     session.commit()
     return session.query(Expansion).filter_by(name=name).one_or_none()
   return s
