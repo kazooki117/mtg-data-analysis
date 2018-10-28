@@ -20,6 +20,7 @@ def normalizeStringForDb(s):
   return s
 
 def convertBlobToExpansion(blob):
+  name = blob['name']
   lastLandSlot = max([int(c['number']) for c in blob['cards'] if c['type'].startswith('Basic Land')])
   return Expansion(
     name=name,
@@ -27,45 +28,51 @@ def convertBlobToExpansion(blob):
     abbreviation=blob['code'],
   )
 
-def getOrAddExpansion(session, blob):
-  name = blob['name']
-  s = session.query(Expansion).filter_by(name=name).one_or_none()
-  if s is None:
-    logging.info('Adding expansion %s' % (name,))
-    session.add(convertBlobToExpansion(blob))
-    session.commit()
-    return session.query(Expansion).filter_by(name=name).one_or_none()
-  return s
-
-def getOrAddCard(session, blob, expansionId):
+def convertBlobToCard(blob, expansionId):
   name = normalizeStringForDb(blob['name'])
   parsedNumber = re.match('(\\d+)(\\D*)', blob['number'])
   number = int(parsedNumber.group(1))
   face = None if parsedNumber.group(2) == '' else parsedNumber.group(2)
-  c = session.query(Card).filter_by(expansion=expansionId, number=number, face=face).one_or_none()
-  if c is None:
-    c = Card(
-      expansion=expansionId,
-      name=name,
-      number=number,
-      type=normalizeStringForDb(blob['type']),
-      rarity=blob['rarity'],
-    )
-    if 'manaCost' in blob: c.mana_cost = blob['manaCost']
-    if 'text' in blob: c.text = normalizeStringForDb(blob['text'])
-    if 'power' in blob and blob['power'] != '*': c.power = int(blob['power'])
-    if 'toughness' in blob and blob['toughness'] != '*': c.toughness = int(blob['toughness'])
-    if 'loyalty' in blob: c.loyalty = int(blob['loyalty'])
-    if face != '': c.face = face
 
-    logging.info('Adding card {name}'.format(name=c.name,))
-    session.add(c)
+  c = Card(
+    expansion=expansionId,
+    name=name,
+    number=number,
+    type=normalizeStringForDb(blob['type']),
+    rarity=blob['rarity'],
+  )
+  if 'manaCost' in blob: c.mana_cost = blob['manaCost']
+  if 'text' in blob: c.text = normalizeStringForDb(blob['text'])
+  if 'power' in blob and blob['power'] != '*': c.power = int(blob['power'])
+  if 'toughness' in blob and blob['toughness'] != '*': c.toughness = int(blob['toughness'])
+  if 'loyalty' in blob: c.loyalty = int(blob['loyalty'])
+  if face != '': c.face = face
+
   return c
 
+def getOrPersistExpansion(session, expansion):
+  existing = session.query(Expansion).filter_by(name=expansion.name).one_or_none()
+  if existing is not None:
+    return existing
+
+  logging.info('Adding expansion %s' % (expansion.name,))
+  session.add(expansion)
+  session.flush()
+  return expansion
+
+def getOrPersistCard(session, card):
+  existing = session.query(Card).filter_by(expansion=card.expansion, number=card.number, face=card.face).one_or_none()
+  if existing is not None:
+    return existing
+
+  logging.debug('Adding card {name}'.format(name=card.name,))
+  session.add(card)
+  return card
+
 def addFromJson(session, blob):
-  s = getOrAddExpansion(session, blob)
+  expansion = getOrPersistExpansion(session, convertBlobToExpansion(blob))
   for cardBlob in blob['cards']:
-    getOrAddCard(session, cardBlob, expansionId=s.id)
+    getOrPersistCard(session, convertBlobToCard(cardBlob, expansion.id))
   session.commit()
 
 if __name__ == '__main__':

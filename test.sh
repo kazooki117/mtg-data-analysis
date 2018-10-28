@@ -1,1 +1,1 @@
-PYTHONPATH=src/ pytest
+PYTHONPATH=src/ pytest-3
