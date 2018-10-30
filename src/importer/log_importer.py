@@ -23,61 +23,61 @@ SUFFIXES_TO_STRIP = (' (a)', ' (b)')
 LOG_DIR = 'logs'
 
 
-def importMTGOLog(session, filename):
-    if draftExists(session, filename):
+def import_MTGO_log(session, filename):
+    if draft_exists(session, filename):
         logging.info(f'Skipping import of {filename}')
         return
     
     logging.info(f'Importing draft from {filename}')
 
     with open(filename) as f:
-        draftTime = maybeGetDraftTime(f)
-        logging.debug(f'Importing draft with time {draftTime}')
-        user = maybeGetUser(f)
+        draft_time = maybe_get_draft_time(f)
+        logging.debug(f'Importing draft with time {draft_time}')
+        user = maybe_get_user(f)
         logging.debug(f'User is {user}')
-        draft, seat = initializeDraft(session, draftTime, user, filename)
+        draft, seat = initialize_draft(session, draft_time, user, filename)
 
         while True:
-            expansionAbbreviation = maybeGetNextPackExpansion(f)
-            if expansionAbbreviation is None:
+            expansion_abbreviation = maybe_get_next_pack_expansion(f)
+            if expansion_abbreviation is None:
                 logging.debug('No more packs')
                 break
-            logging.debug(f'Next pack is {expansionAbbreviation}')
-            expansion = queryExpansion(session, expansionAbbreviation)
+            logging.debug(f'Next pack is {expansion_abbreviation}')
+            expansion = query_expansion(session, expansion_abbreviation)
 
             while True:
-                pickNumber, packCardNames, pick = getNextPackCards(f)
-                logging.debug(f'Pick {pickNumber} sees {packCardNames} and takes {pick}')
-                addPack(session, seat, expansion, pickNumber, packCardNames, pick)
+                pick_number, pack_card_names, pick = get_next_pack_cards(f)
+                logging.debug(f'Pick {pick_number} sees {pack_card_names} and takes {pick}')
+                add_pack(session, seat, expansion, pick_number, pack_card_names, pick)
 
-                if len(packCardNames) == 1:
+                if len(pack_card_names) == 1:
                     break
 
     session.commit()
 
-def maybeGetDraftTime(file):
+def maybe_get_draft_time(file):
     while True:
-        nextLine = file.readline()
-        match = TIME_REGEX.match(nextLine)
+        next_line = file.readline()
+        match = TIME_REGEX.match(next_line)
         if match:
             try:
                 return datetime.datetime.strptime(match.group(1), TIME_FORMAT)
             except ValueError:
                 return None
 
-def maybeGetUser(file):
+def maybe_get_user(file):
     while not USER_LIST_REGEX.match(file.readline()):
         pass
 
     user = None
     while True:
-        nextLine = file.readline()
-        if nextLine == '\n':
+        next_line = file.readline()
+        if next_line == '\n':
             return user
-        elif nextLine.startswith(PICK_INDICATOR):
-            user = nextLine[len(PICK_INDICATOR):].strip()
+        elif next_line.startswith(PICK_INDICATOR):
+            user = next_line[len(PICK_INDICATOR):].strip()
 
-def maybeGetNextPackExpansion(file):
+def maybe_get_next_pack_expansion(file):
     while True:
         line = file.readline()
         if len(line) == 0:
@@ -87,40 +87,40 @@ def maybeGetNextPackExpansion(file):
         if match:
             return match.group(1)
 
-def getNextPackCards(file):
+def get_next_pack_cards(file):
     while True:
-        nextLine = file.readline()
-        match = PACK_X_PICK_Y_REGEX.match(nextLine)
+        next_line = file.readline()
+        match = PACK_X_PICK_Y_REGEX.match(next_line)
         if match:
-            packNumber = int(match.group(1))
-            pickInPack = int(match.group(2))
-            pickNumber = packNumber * CARDS_IN_PACK + pickInPack
+            pack_number = int(match.group(1))
+            pick_in_pack = int(match.group(2))
+            pick_number = pack_number * CARDS_IN_PACK + pick_in_pack
             break
 
-    packCardNames = []
+    pack_card_names = []
     while True:
         line = file.readline()
         if line == '\n':
-            return pickNumber, packCardNames, pick
+            return pick_number, pack_card_names, pick
 
         if line.startswith(PICK_INDICATOR):
             pick = line[len(PICK_INDICATOR):].strip()
-            packCardNames.append(pick)
+            pack_card_names.append(pick)
         else:
-            packCardNames.append(line.strip())
+            pack_card_names.append(line.strip())
 
-def initializeDraft(session, draftTime, username, name):
-    draft = Draft(start_time=draftTime, name=name)
+def initialize_draft(session, draft_time, username, name):
+    draft = Draft(start_time=draft_time, name=name)
     session.add(draft)
 
-    user = getOrAddUser(session, username)
+    user = get_or_add_user(session, username)
 
     seat = DraftSeat(draft=draft.id, user=user.id)
     session.add(seat)
 
     return draft, seat
 
-def getOrAddUser(session, username):
+def get_or_add_user(session, username):
     if username is None:
         username = ''
     user = session.query(User).filter_by(username=username).one_or_none()
@@ -133,46 +133,46 @@ def getOrAddUser(session, username):
 
     return user
 
-def addPack(session, seat, expansion, pickNumber, packCardNames, pick):
-    pack = Pack(draft_seat=seat.id, pick_number=pickNumber, expansion=expansion.id)
+def add_pack(session, seat, expansion, pick_number, pack_card_names, pick):
+    pack = Pack(draft_seat=seat.id, pick_number=pick_number, expansion=expansion.id)
     session.add(pack)
 
     picked = False
-    for cardName in packCardNames:
-        card = queryCard(session, expansion, cardName)
-        packCard = PackCard(pack=pack.id, card=card.id)
-        session.add(packCard)
+    for card_name in pack_card_names:
+        card = query_card(session, expansion, card_name)
+        pack_card = PackCard(pack=pack.id, card=card.id)
+        session.add(pack_card)
 
-        if cardName == pick and not picked:
+        if card_name == pick and not picked:
             session.flush()
-            session.add(Pick(user=seat.user, pick_number=pickNumber, pack_card=packCard.id))
+            session.add(Pick(user=seat.user, pick_number=pick_number, pack_card=pack_card.id))
             picked = True
 
     assert picked, 'No cards were picked'
 
-def queryCard(session, expansion, cardName):
-    if SPLIT_CARD_JOIN in cardName:
-        cardName = cardName[:cardName.find(SPLIT_CARD_JOIN)]
+def query_card(session, expansion, card_name):
+    if SPLIT_CARD_JOIN in card_name:
+        card_name = card_name[:card_name.find(SPLIT_CARD_JOIN)]
 
-    cardName = cardName.strip()
+    card_name = card_name.strip()
 
-    result = session.query(Card).filter_by(expansion=expansion.id, name=cardName).scalar()
+    result = session.query(Card).filter_by(expansion=expansion.id, name=card_name).scalar()
     if result:
         return result
 
     for suffix in SUFFIXES_TO_STRIP:
-        result = session.query(Card).filter_by(expansion=expansion.id, name=f'{cardName}{suffix}').scalar()
+        result = session.query(Card).filter_by(expansion=expansion.id, name=f'{card_name}{suffix}').scalar()
         if result:
             return result
 
-def queryExpansion(session, abbreviation):
+def query_expansion(session, abbreviation):
     return session.query(Expansion).filter_by(abbreviation=abbreviation).scalar()
 
-def draftExists(session, name):
+def draft_exists(session, name):
     return session.query(Draft).filter_by(name=name).one_or_none() is not None
 
 
 if __name__ == '__main__':
     session = get_session()
     for filename in os.listdir(LOG_DIR):
-        importMTGOLog(session, os.path.join(LOG_DIR, filename))
+        import_MTGO_log(session, os.path.join(LOG_DIR, filename))
