@@ -55,9 +55,8 @@ def getOrPersistExpansion(session, expansion):
   if existing is not None:
     return existing
 
-  logging.info('Adding expansion %s' % (expansion.name,))
+  logging.info('Adding expansion {expansion.name}')
   session.add(expansion)
-  session.flush()
   return expansion
 
 def getOrPersistCard(session, card):
@@ -71,6 +70,7 @@ def getOrPersistCard(session, card):
 
 def addFromJson(session, blob):
   expansion = getOrPersistExpansion(session, convertBlobToExpansion(blob))
+  session.flush()
   for cardBlob in blob['cards']:
     getOrPersistCard(session, convertBlobToCard(cardBlob, expansion.id))
   session.commit()
