@@ -37,53 +37,6 @@ class Card(Base, SimplePrinterBase):
     toughness = Column(Integer)
     loyalty = Column(Integer)
 
-    def isSupertype(self, supertype):
-        cardType = self.type
-        if '-' in cardType:
-            cardType = cardType[:cardType.index(' -')]
-        return supertype in cardType
-
-    def getColors(self):
-        if self.mana_cost is None:
-            return []
-        return [color for color in 'WUBRG' if color in self.mana_cost]
-
-    def isColor(self, color):
-        return color.upper() in self.getColors()
-
-    def isColorless(self):
-        return self.mana_cost is None or not any([color in self.mana_cost for color in 'WUBRG'])
-
-    def getConvertedCost(self):
-        if self.mana_cost is None:
-            return 0
-        return sum([int(x) for x in re.findall('{(\\d+)}', re.sub('{X}', '', re.sub('{[CWUBRGP/]+}', '{1}', self.mana_cost)))])
-
-    def getShortStr(self):
-        otherStr = ''
-        if self.loyalty is not None:
-            otherStr = str(self.loyalty)
-        elif self.power is not None:
-            otherStr = '{power}/{toughness}'.format(power=self.power, toughness=self.toughness)
-        if len(otherStr):
-            otherStr += ' | '
-
-        return '{name} | {mana_cost} | {type} | {other}{text}'.format(
-            name=self.name,
-            mana_cost=self.mana_cost,
-            type=self.type,
-            other=otherStr,
-            text=('' if self.text is None else self.text).replace('\n', '\\n'),
-        )
-
-    def getSortKey(self, colors):
-        return (
-            not (self.isColorless() or any([self.isColor(c) for c in colors])),
-            0 if self.isSupertype('Creature') else 2 if self.isSupertype('Land') else 1,
-            self.getConvertedCost(),
-            self.id,
-        )
-
 class User(Base, SimplePrinterBase):
     __tablename__ = 'users'
 
