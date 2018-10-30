@@ -8,10 +8,8 @@ Base = declarative_base()
 
 class SimplePrinterBase(object):
     def __repr__(self):
-        return '{clazz}<{attributes}>'.format(
-            clazz=type(self).__name__,
-            attributes={k: v for (k, v) in self.__dict__.items() if k != '_sa_instance_state'},
-        )
+        attributes = {k: v for (k, v) in self.__dict__.items() if k != '_sa_instance_state'}
+        return f'{type(self).__name__}<{attributes}>'
 
 class Expansion(Base, SimplePrinterBase):
     __tablename__ = 'expansions'

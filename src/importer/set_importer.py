@@ -58,7 +58,7 @@ def get_or_persist_expansion(session, expansion):
     if existing is not None:
         return existing
 
-    logging.info('Adding expansion {expansion.name}')
+    logging.info(f'Adding expansion {expansion}')
     session.add(expansion)
     return expansion
 
@@ -67,7 +67,7 @@ def get_or_persist_card(session, card):
     if existing is not None:
         return existing
 
-    logging.debug('Adding card {name}'.format(name=card.name,))
+    logging.debug(f'Adding card {card.name}')
     session.add(card)
     return card
 

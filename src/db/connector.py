@@ -12,7 +12,7 @@ logging.basicConfig(
 
 with open('.secret') as f:
     p = f.readlines()[0].strip()
-s = 'mysql+pymysql://draft_log_code:{p}@localhost/mtg_draft_logs'.format(p=p)
+s = f'mysql+pymysql://draft_log_code:{p}@localhost/mtg_draft_logs'
 
 engine = create_engine(s, echo=False)
 Base.metadata.create_all(engine)
