@@ -38,6 +38,7 @@ def convert_blob_to_card(blob, expansion_id):
     face = None if parsed_number.group(2) == '' else parsed_number.group(2)
 
     c = Card(
+        multiverse_id=blob['multiverseid'],
         expansion=expansion_id,
         name=name,
         number=number,

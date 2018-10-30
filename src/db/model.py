@@ -23,6 +23,7 @@ class Card(Base, SimplePrinterBase):
     __tablename__ = 'cards'
 
     id = Column(Integer, primary_key=True)
+    multiverse_id = Column(Integer, nullable=False)
     expansion = Column(Integer, ForeignKey('expansions.id'), nullable=False)
     name = Column(String(255), nullable=False)
     rarity = Column(String(255), nullable=False)
@@ -69,12 +70,10 @@ class PackCard(Base, SimplePrinterBase):
 
     id = Column(Integer, primary_key=True)
     pack = Column(Integer, ForeignKey('packs.id'), nullable=False)
-    card = Column(Integer, ForeignKey('cards.id'), nullable=False)
+    card_multiverse_id = Column(Integer, nullable=False)
 
 class Pick(Base, SimplePrinterBase):
     __tablename__ = 'picks'
 
     id = Column(Integer, primary_key=True)
-    user = Column(Integer, ForeignKey('users.id'), nullable=False)
-    pick_number = Column(Integer, nullable=False)
     pack_card = Column(Integer, ForeignKey('pack_cards.id'), nullable=False)

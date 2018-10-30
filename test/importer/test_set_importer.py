@@ -51,6 +51,7 @@ def test_convert_blob_to_card_basic_creatures():
     blob = {
         "manaCost": "{2}{R}",
         "name": "Fearless Halberdier",
+        "multiverseid": 452850,
         "number": "100",
         "power": "3",
         "rarity": "Common",
@@ -60,6 +61,7 @@ def test_convert_blob_to_card_basic_creatures():
 
     actual = importer.set_importer.convert_blob_to_card(blob, expansion_id=123)
 
+    assert 452850 == actual.multiverse_id
     assert 123 == actual.expansion
     assert 'Fearless Halberdier' == actual.name
     assert 'Common' == actual.rarity
@@ -107,6 +109,7 @@ def test_convert_blob_to_card_variable_power_creatures():
 
     actual = importer.set_importer.convert_blob_to_card(blob, expansion_id=123)
 
+    assert 452913 == actual.multiverse_id
     assert 123 == actual.expansion
     assert 'Crackling Drake' == actual.name
     assert 'Uncommon' == actual.rarity
@@ -121,6 +124,7 @@ def test_convert_blob_to_card_variable_power_creatures():
 
 def test_convert_blob_to_card_planeswalkers():
     blob = {
+        "multiverseid": 452945,
         "loyalty": 5,
         "manaCost": "{3}{U}{R}",
         "name": "Ral, Izzet Viceroy",
@@ -132,6 +136,7 @@ def test_convert_blob_to_card_planeswalkers():
 
     actual = importer.set_importer.convert_blob_to_card(blob, expansion_id=321)
 
+    assert 452945 == actual.multiverse_id
     assert 321 == actual.expansion
     assert 'Ral, Izzet Viceroy' == actual.name
     assert 'Mythic Rare' == actual.rarity
