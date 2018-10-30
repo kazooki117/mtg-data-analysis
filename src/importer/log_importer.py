@@ -140,12 +140,12 @@ def add_pack(session, seat, expansion, pick_number, pack_card_names, pick):
     picked = False
     for card_name in pack_card_names:
         card = query_card(session, expansion, card_name)
-        pack_card = PackCard(pack=pack.id, card=card.id)
+        pack_card = PackCard(pack=pack.id, card_multiverse_id=card.multiverse_id)
         session.add(pack_card)
 
         if card_name == pick and not picked:
             session.flush()
-            session.add(Pick(user=seat.user, pick_number=pick_number, pack_card=pack_card.id))
+            session.add(Pick(pack_card=pack_card.id))
             picked = True
 
     assert picked, 'No cards were picked'
