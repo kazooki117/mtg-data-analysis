@@ -14,8 +14,7 @@ class SimplePrinterBase(object):
 class Expansion(Base, SimplePrinterBase):
     __tablename__ = 'expansions'
 
-    id = Column(Integer, primary_key=True)
-    abbreviation = Column(String(255), nullable=False)
+    abbreviation = Column(String(3), nullable=False, primary_key=True)
     name = Column(String(255), nullable=False)
     max_booster_number = Column(Integer, nullable=False)
 
@@ -24,7 +23,7 @@ class Card(Base, SimplePrinterBase):
 
     id = Column(Integer, primary_key=True)
     multiverse_id = Column(Integer, nullable=False)
-    expansion = Column(Integer, ForeignKey('expansions.id'), nullable=False)
+    expansion = Column(String(3), ForeignKey('expansions.abbreviation'), nullable=False)
     name = Column(String(255), nullable=False)
     rarity = Column(String(255), nullable=False)
     number = Column(Integer, nullable=False)
@@ -63,7 +62,7 @@ class Pack(Base, SimplePrinterBase):
     id = Column(Integer, primary_key=True)
     draft_seat = Column(Integer, ForeignKey('draft_seats.id'), nullable=False)
     pick_number = Column(Integer, nullable=False)
-    expansion = Column(Integer, ForeignKey('expansions.id'), nullable=False)
+    expansion = Column(String(3), ForeignKey('expansions.abbreviation'), nullable=False)
 
 class PackCard(Base, SimplePrinterBase):
     __tablename__ = 'pack_cards'

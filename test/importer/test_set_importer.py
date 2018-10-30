@@ -59,10 +59,10 @@ def test_convert_blob_to_card_basic_creatures():
         "type": "Creature — Human Warrior",
     }
 
-    actual = importer.set_importer.convert_blob_to_card(blob, expansion_id=123)
+    actual = importer.set_importer.convert_blob_to_card(blob, expansion_id='GRN')
 
     assert 452850 == actual.multiverse_id
-    assert 123 == actual.expansion
+    assert 'GRN' == actual.expansion
     assert 'Fearless Halberdier' == actual.name
     assert 'Common' == actual.rarity
     assert 100 == actual.number
@@ -107,10 +107,10 @@ def test_convert_blob_to_card_variable_power_creatures():
         "watermark": "Izzet"
     }
 
-    actual = importer.set_importer.convert_blob_to_card(blob, expansion_id=123)
+    actual = importer.set_importer.convert_blob_to_card(blob, expansion_id='GRN')
 
     assert 452913 == actual.multiverse_id
-    assert 123 == actual.expansion
+    assert 'GRN' == actual.expansion
     assert 'Crackling Drake' == actual.name
     assert 'Uncommon' == actual.rarity
     assert 163 == actual.number
@@ -134,10 +134,10 @@ def test_convert_blob_to_card_planeswalkers():
         "type": "Legendary Planeswalker — Ral",
     }
 
-    actual = importer.set_importer.convert_blob_to_card(blob, expansion_id=321)
+    actual = importer.set_importer.convert_blob_to_card(blob, expansion_id='GRN')
 
     assert 452945 == actual.multiverse_id
-    assert 321 == actual.expansion
+    assert 'GRN' == actual.expansion
     assert 'Ral, Izzet Viceroy' == actual.name
     assert 'Mythic Rare' == actual.rarity
     assert 195 == actual.number
@@ -151,9 +151,9 @@ def test_convert_blob_to_card_planeswalkers():
 
 def test_get_or_persist_expansion_existing_expansion(mocker):
     get_expansion = mocker.patch('db.expansion_repository.get_expansion')
-    get_expansion.return_value = Expansion(id=123)
+    get_expansion.return_value = Expansion(abbreviation='ABC')
 
-    assert 123 == importer.set_importer.get_or_persist_expansion('my-session', Expansion(name='my-expansion')).id
+    assert 'ABC' == importer.set_importer.get_or_persist_expansion('my-session', Expansion(name='my-expansion')).abbreviation
     db.expansion_repository.get_expansion.assert_called_once_with('my-session', 'my-expansion')
 
 def test_get_or_persist_expansion_new_expansion(mocker):
@@ -171,16 +171,16 @@ def test_get_or_persist_card_existing_card(mocker):
     get_card = mocker.patch('db.card_repository.get_card')
     get_card.return_value = Card(id=123)
 
-    assert 123 == importer.set_importer.get_or_persist_card('my-session', Card(expansion=42, number=100, face='A')).id
-    db.card_repository.get_card.assert_called_once_with(session='my-session', expansion_id=42, number=100, face='A')
+    assert 123 == importer.set_importer.get_or_persist_card('my-session', Card(expansion='ABC', number=100, face='A')).id
+    db.card_repository.get_card.assert_called_once_with(session='my-session', expansion_id='ABC', number=100, face='A')
 
 def test_get_or_persist_card_new_card(mocker):
     get_card = mocker.patch('db.card_repository.get_card')
     get_card.return_value = None
 
     mock_session = MagicMock()
-    input_card = Card(expansion=42, number=100, face='A')
+    input_card = Card(expansion='ABC', number=100, face='A')
 
     assert input_card == importer.set_importer.get_or_persist_card(mock_session, input_card)
-    db.card_repository.get_card.assert_called_once_with(session=mock_session, expansion_id=42, number=100, face='A')
+    db.card_repository.get_card.assert_called_once_with(session=mock_session, expansion_id='ABC', number=100, face='A')
     mock_session.add.assert_called_once_with(input_card)

@@ -134,7 +134,7 @@ def get_or_add_user(session, username):
     return user
 
 def add_pack(session, seat, expansion, pick_number, pack_card_names, pick):
-    pack = Pack(draft_seat=seat.id, pick_number=pick_number, expansion=expansion.id)
+    pack = Pack(draft_seat=seat.id, pick_number=pick_number, expansion=expansion.abbreviation)
     session.add(pack)
 
     picked = False
@@ -156,12 +156,12 @@ def query_card(session, expansion, card_name):
 
     card_name = card_name.strip()
 
-    result = session.query(Card).filter_by(expansion=expansion.id, name=card_name).scalar()
+    result = session.query(Card).filter_by(expansion=expansion.abbreviation, name=card_name).scalar()
     if result:
         return result
 
     for suffix in SUFFIXES_TO_STRIP:
-        result = session.query(Card).filter_by(expansion=expansion.id, name=f'{card_name}{suffix}').scalar()
+        result = session.query(Card).filter_by(expansion=expansion.abbreviation, name=f'{card_name}{suffix}').scalar()
         if result:
             return result
 
