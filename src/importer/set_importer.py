@@ -3,6 +3,9 @@ import os
 import logging
 import re
 
+import db.expansion_repository
+import db.card_repository
+
 from db.model import Expansion, Card
 from db.connector import getSession
 
@@ -51,7 +54,7 @@ def convertBlobToCard(blob, expansionId):
   return c
 
 def getOrPersistExpansion(session, expansion):
-  existing = session.query(Expansion).filter_by(name=expansion.name).one_or_none()
+  existing = db.expansion_repository.get_expansion(session, expansion.name)
   if existing is not None:
     return existing
 
@@ -60,7 +63,7 @@ def getOrPersistExpansion(session, expansion):
   return expansion
 
 def getOrPersistCard(session, card):
-  existing = session.query(Card).filter_by(expansion=card.expansion, number=card.number, face=card.face).one_or_none()
+  existing = db.card_repository.get_card(session=session, expansion_id=card.expansion, number=card.number, face=card.face)
   if existing is not None:
     return existing
 
