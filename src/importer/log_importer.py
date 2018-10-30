@@ -27,6 +27,8 @@ def importMTGOLog(session, filename):
   if draftExists(session, filename):
     logging.info(f'Skipping import of {filename}')
     return
+  
+  logging.info(f'Importing draft from {filename}')
 
   with open(filename) as f:
     draftTime = maybeGetDraftTime(f)
