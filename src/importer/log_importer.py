@@ -94,7 +94,7 @@ def get_next_pack_cards(file):
         if match:
             pack_number = int(match.group(1))
             pick_in_pack = int(match.group(2))
-            pick_number = pack_number * CARDS_IN_PACK + pick_in_pack
+            pick_number = (pack_number - 1) * CARDS_IN_PACK + pick_in_pack
             break
 
     pack_card_names = []
