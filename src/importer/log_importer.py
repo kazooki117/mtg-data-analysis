@@ -131,7 +131,7 @@ def get_or_add_user(session, username):
     return user
 
 def add_pack(session, draft, expansion, pick_number, pack_card_names, pick):
-    pack = Pack(draft=draft.id, pick_number=pick_number, expansion=expansion.abbreviation)
+    pack = Pack(draft=draft.id, pick_number=pick_number)
     session.add(pack)
 
     picked = False

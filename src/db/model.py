@@ -55,7 +55,6 @@ class Pack(Base, SimplePrinterBase):
     id = Column(Integer, primary_key=True)
     draft = Column(Integer, ForeignKey('drafts.id'), nullable=False)
     pick_number = Column(Integer, nullable=False)
-    expansion = Column(String(3), ForeignKey('expansions.abbreviation'), nullable=False)
 
 class PackCard(Base, SimplePrinterBase):
     __tablename__ = 'pack_cards'
