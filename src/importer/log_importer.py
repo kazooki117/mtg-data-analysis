@@ -4,7 +4,7 @@ import logging
 import re
 import datetime
 
-from db.model import Expansion, Card, User, Draft, DraftSeat, Pack, PackCard, Pick
+from db.model import Expansion, Card, User, Draft, Pack, PackCard, Pick
 from db.connector import get_session
 
 
@@ -35,7 +35,7 @@ def import_MTGO_log(session, filename):
         logging.debug(f'Importing draft with time {draft_time}')
         user = maybe_get_user(f)
         logging.debug(f'User is {user}')
-        draft, seat = initialize_draft(session, draft_time, user, filename)
+        draft = initialize_draft(session, draft_time, user, filename)
 
         while True:
             expansion_abbreviation = maybe_get_next_pack_expansion(f)
@@ -48,7 +48,7 @@ def import_MTGO_log(session, filename):
             while True:
                 pick_number, pack_card_names, pick = get_next_pack_cards(f)
                 logging.debug(f'Pick {pick_number} sees {pack_card_names} and takes {pick}')
-                add_pack(session, seat, expansion, pick_number, pack_card_names, pick)
+                add_pack(session, draft, expansion, pick_number, pack_card_names, pick)
 
                 if len(pack_card_names) == 1:
                     break
@@ -110,15 +110,12 @@ def get_next_pack_cards(file):
             pack_card_names.append(line.strip())
 
 def initialize_draft(session, draft_time, username, name):
-    draft = Draft(start_time=draft_time, name=name)
-    session.add(draft)
-
     user = get_or_add_user(session, username)
 
-    seat = DraftSeat(draft=draft.id, user=user.id)
-    session.add(seat)
+    draft = Draft(start_time=draft_time, name=name, user=user.id)
+    session.add(draft)
 
-    return draft, seat
+    return draft
 
 def get_or_add_user(session, username):
     if username is None:
@@ -133,8 +130,8 @@ def get_or_add_user(session, username):
 
     return user
 
-def add_pack(session, seat, expansion, pick_number, pack_card_names, pick):
-    pack = Pack(draft_seat=seat.id, pick_number=pick_number, expansion=expansion.abbreviation)
+def add_pack(session, draft, expansion, pick_number, pack_card_names, pick):
+    pack = Pack(draft=draft.id, pick_number=pick_number, expansion=expansion.abbreviation)
     session.add(pack)
 
     picked = False

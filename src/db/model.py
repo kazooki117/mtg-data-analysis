@@ -45,22 +45,15 @@ class Draft(Base, SimplePrinterBase):
     __tablename__ = 'drafts'
 
     id = Column(Integer, primary_key=True)
+    user = Column(Integer, ForeignKey('users.id'), nullable=False)
     name = Column(String(255), nullable=False)
     start_time = Column(DateTime, nullable=True)
-
-class DraftSeat(Base, SimplePrinterBase):
-    __tablename__ = 'draft_seats'
-
-    id = Column(Integer, primary_key=True)
-    draft = Column(Integer, ForeignKey('drafts.id'), nullable=False)
-    user = Column(Integer, ForeignKey('users.id'), nullable=False)
-    seat_number = Column(Integer, nullable=True)
 
 class Pack(Base, SimplePrinterBase):
     __tablename__ = 'packs'
 
     id = Column(Integer, primary_key=True)
-    draft_seat = Column(Integer, ForeignKey('draft_seats.id'), nullable=False)
+    draft = Column(Integer, ForeignKey('drafts.id'), nullable=False)
     pick_number = Column(Integer, nullable=False)
     expansion = Column(String(3), ForeignKey('expansions.abbreviation'), nullable=False)
 
