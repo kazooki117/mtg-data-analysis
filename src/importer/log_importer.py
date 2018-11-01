@@ -4,7 +4,7 @@ import logging
 import re
 import datetime
 
-from db.model import Expansion, Card, User, Draft, DraftSeat, Pack, PackCard, Pick
+from db.model import Expansion, Card, User, Draft, Pack, PackCard, Pick
 from db.connector import get_session
 
 
@@ -35,7 +35,7 @@ def import_MTGO_log(session, filename):
         logging.debug(f'Importing draft with time {draft_time}')
         user = maybe_get_user(f)
         logging.debug(f'User is {user}')
-        draft, seat = initialize_draft(session, draft_time, user, filename)
+        draft = initialize_draft(session, draft_time, user, filename)
 
         while True:
             expansion_abbreviation = maybe_get_next_pack_expansion(f)
@@ -48,7 +48,7 @@ def import_MTGO_log(session, filename):
             while True:
                 pick_number, pack_card_names, pick = get_next_pack_cards(f)
                 logging.debug(f'Pick {pick_number} sees {pack_card_names} and takes {pick}')
-                add_pack(session, seat, expansion, pick_number, pack_card_names, pick)
+                add_pack(session, draft, expansion, pick_number, pack_card_names, pick)
 
                 if len(pack_card_names) == 1:
                     break
@@ -94,7 +94,7 @@ def get_next_pack_cards(file):
         if match:
             pack_number = int(match.group(1))
             pick_in_pack = int(match.group(2))
-            pick_number = pack_number * CARDS_IN_PACK + pick_in_pack
+            pick_number = (pack_number - 1) * CARDS_IN_PACK + pick_in_pack
             break
 
     pack_card_names = []
@@ -110,15 +110,12 @@ def get_next_pack_cards(file):
             pack_card_names.append(line.strip())
 
 def initialize_draft(session, draft_time, username, name):
-    draft = Draft(start_time=draft_time, name=name)
-    session.add(draft)
-
     user = get_or_add_user(session, username)
 
-    seat = DraftSeat(draft=draft.id, user=user.id)
-    session.add(seat)
+    draft = Draft(start_time=draft_time, name=name, user=user.id)
+    session.add(draft)
 
-    return draft, seat
+    return draft
 
 def get_or_add_user(session, username):
     if username is None:
@@ -133,19 +130,19 @@ def get_or_add_user(session, username):
 
     return user
 
-def add_pack(session, seat, expansion, pick_number, pack_card_names, pick):
-    pack = Pack(draft_seat=seat.id, pick_number=pick_number, expansion=expansion.id)
+def add_pack(session, draft, expansion, pick_number, pack_card_names, pick):
+    pack = Pack(draft=draft.id, pick_number=pick_number)
     session.add(pack)
 
     picked = False
     for card_name in pack_card_names:
         card = query_card(session, expansion, card_name)
-        pack_card = PackCard(pack=pack.id, card=card.id)
+        pack_card = PackCard(pack=pack.id, card_multiverse_id=card.multiverse_id)
         session.add(pack_card)
 
         if card_name == pick and not picked:
             session.flush()
-            session.add(Pick(user=seat.user, pick_number=pick_number, pack_card=pack_card.id))
+            session.add(Pick(pack_card=pack_card.id))
             picked = True
 
     assert picked, 'No cards were picked'
@@ -156,12 +153,12 @@ def query_card(session, expansion, card_name):
 
     card_name = card_name.strip()
 
-    result = session.query(Card).filter_by(expansion=expansion.id, name=card_name).scalar()
+    result = session.query(Card).filter_by(expansion=expansion.abbreviation, name=card_name).scalar()
     if result:
         return result
 
     for suffix in SUFFIXES_TO_STRIP:
-        result = session.query(Card).filter_by(expansion=expansion.id, name=f'{card_name}{suffix}').scalar()
+        result = session.query(Card).filter_by(expansion=expansion.abbreviation, name=f'{card_name}{suffix}').scalar()
         if result:
             return result
 

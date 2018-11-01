@@ -14,8 +14,7 @@ class SimplePrinterBase(object):
 class Expansion(Base, SimplePrinterBase):
     __tablename__ = 'expansions'
 
-    id = Column(Integer, primary_key=True)
-    abbreviation = Column(String(255), nullable=False)
+    abbreviation = Column(String(3), nullable=False, primary_key=True)
     name = Column(String(255), nullable=False)
     max_booster_number = Column(Integer, nullable=False)
 
@@ -23,7 +22,8 @@ class Card(Base, SimplePrinterBase):
     __tablename__ = 'cards'
 
     id = Column(Integer, primary_key=True)
-    expansion = Column(Integer, ForeignKey('expansions.id'), nullable=False)
+    multiverse_id = Column(Integer, nullable=False)
+    expansion = Column(String(3), ForeignKey('expansions.abbreviation'), nullable=False)
     name = Column(String(255), nullable=False)
     rarity = Column(String(255), nullable=False)
     number = Column(Integer, nullable=False)
@@ -45,36 +45,26 @@ class Draft(Base, SimplePrinterBase):
     __tablename__ = 'drafts'
 
     id = Column(Integer, primary_key=True)
+    user = Column(Integer, ForeignKey('users.id'), nullable=False)
     name = Column(String(255), nullable=False)
     start_time = Column(DateTime, nullable=True)
-
-class DraftSeat(Base, SimplePrinterBase):
-    __tablename__ = 'draft_seats'
-
-    id = Column(Integer, primary_key=True)
-    draft = Column(Integer, ForeignKey('drafts.id'), nullable=False)
-    user = Column(Integer, ForeignKey('users.id'), nullable=False)
-    seat_number = Column(Integer, nullable=True)
 
 class Pack(Base, SimplePrinterBase):
     __tablename__ = 'packs'
 
     id = Column(Integer, primary_key=True)
-    draft_seat = Column(Integer, ForeignKey('draft_seats.id'), nullable=False)
+    draft = Column(Integer, ForeignKey('drafts.id'), nullable=False)
     pick_number = Column(Integer, nullable=False)
-    expansion = Column(Integer, ForeignKey('expansions.id'), nullable=False)
 
 class PackCard(Base, SimplePrinterBase):
     __tablename__ = 'pack_cards'
 
     id = Column(Integer, primary_key=True)
     pack = Column(Integer, ForeignKey('packs.id'), nullable=False)
-    card = Column(Integer, ForeignKey('cards.id'), nullable=False)
+    card_multiverse_id = Column(Integer, nullable=False)
 
 class Pick(Base, SimplePrinterBase):
     __tablename__ = 'picks'
 
     id = Column(Integer, primary_key=True)
-    user = Column(Integer, ForeignKey('users.id'), nullable=False)
-    pick_number = Column(Integer, nullable=False)
     pack_card = Column(Integer, ForeignKey('pack_cards.id'), nullable=False)

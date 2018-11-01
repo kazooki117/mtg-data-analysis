@@ -38,6 +38,7 @@ def convert_blob_to_card(blob, expansion_id):
     face = None if parsed_number.group(2) == '' else parsed_number.group(2)
 
     c = Card(
+        multiverse_id=blob['multiverseid'],
         expansion=expansion_id,
         name=name,
         number=number,
@@ -75,7 +76,7 @@ def add_from_json(session, blob):
     expansion = get_or_persist_expansion(session, convert_blob_to_expansion(blob))
     session.flush()
     for cardBlob in blob['cards']:
-        get_or_persist_card(session, convert_blob_to_card(cardBlob, expansion.id))
+        get_or_persist_card(session, convert_blob_to_card(cardBlob, expansion.abbreviation))
     session.commit()
 
 if __name__ == '__main__':
