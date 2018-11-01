@@ -55,7 +55,7 @@ def convert_blob_to_card(blob, expansion_id):
     return c
 
 def get_or_persist_expansion(session, expansion):
-    existing = db.expansion_repository.get_expansion(session, expansion.name)
+    existing = db.expansion_repository.get_expansion(session, name=expansion.name)
     if existing is not None:
         return existing
 

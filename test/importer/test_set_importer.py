@@ -154,7 +154,7 @@ def test_get_or_persist_expansion_existing_expansion(mocker):
     get_expansion.return_value = Expansion(abbreviation='ABC')
 
     assert 'ABC' == importer.set_importer.get_or_persist_expansion('my-session', Expansion(name='my-expansion')).abbreviation
-    db.expansion_repository.get_expansion.assert_called_once_with('my-session', 'my-expansion')
+    db.expansion_repository.get_expansion.assert_called_once_with('my-session', name='my-expansion')
 
 def test_get_or_persist_expansion_new_expansion(mocker):
     get_expansion = mocker.patch('db.expansion_repository.get_expansion')
@@ -164,7 +164,7 @@ def test_get_or_persist_expansion_new_expansion(mocker):
     input_expansion = Expansion(abbreviation='ABC', name='my-expansion', max_booster_number=321)
 
     assert input_expansion == importer.set_importer.get_or_persist_expansion(mock_session, input_expansion)
-    db.expansion_repository.get_expansion.assert_called_once_with(mock_session, 'my-expansion')
+    db.expansion_repository.get_expansion.assert_called_once_with(mock_session, name='my-expansion')
     mock_session.add.assert_called_once_with(input_expansion)
 
 def test_get_or_persist_card_existing_card(mocker):

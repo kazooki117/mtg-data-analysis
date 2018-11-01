@@ -4,6 +4,11 @@ import logging
 import re
 import datetime
 
+import db.draft_repository
+import db.expansion_repository
+import db.user_repository
+import db.card_repository
+
 from db.model import Expansion, Card, User, Draft, Pack, PackCard, Pick
 from db.connector import get_session
 
@@ -17,8 +22,6 @@ TIME_FORMAT = '%m/%d/%Y %I:%M:%S %p'
 USER_LIST_REGEX = re.compile(r'Players:')
 CARDS_IN_PACK = 15
 
-SPLIT_CARD_JOIN = '/'
-SUFFIXES_TO_STRIP = (' (a)', ' (b)')
 
 LOG_DIR = 'logs'
 
@@ -43,7 +46,7 @@ def import_MTGO_log(session, filename):
                 logging.debug('No more packs')
                 break
             logging.debug(f'Next pack is {expansion_abbreviation}')
-            expansion = query_expansion(session, expansion_abbreviation)
+            expansion = db.expansion_repository.get_expansion(session, abbreviation=expansion_abbreviation)
 
             while True:
                 pick_number, pack_card_names, pick = get_next_pack_cards(f)
@@ -120,7 +123,7 @@ def initialize_draft(session, draft_time, username, name):
 def get_or_add_user(session, username):
     if username is None:
         username = ''
-    user = session.query(User).filter_by(username=username).one_or_none()
+    user = db.user_repository.get_user(session, username)
 
     if user is None:
         logging.debug(f'Adding user {username}')
@@ -136,7 +139,7 @@ def add_pack(session, draft, expansion, pick_number, pack_card_names, pick):
 
     picked = False
     for card_name in pack_card_names:
-        card = query_card(session, expansion, card_name)
+        card = db.card_repository.get_card_by_approximate_name(session, expansion.abbreviation, card_name)
         pack_card = PackCard(pack=pack.id, card_multiverse_id=card.multiverse_id)
         session.add(pack_card)
 
@@ -147,26 +150,8 @@ def add_pack(session, draft, expansion, pick_number, pack_card_names, pick):
 
     assert picked, 'No cards were picked'
 
-def query_card(session, expansion, card_name):
-    if SPLIT_CARD_JOIN in card_name:
-        card_name = card_name[:card_name.find(SPLIT_CARD_JOIN)]
-
-    card_name = card_name.strip()
-
-    result = session.query(Card).filter_by(expansion=expansion.abbreviation, name=card_name).scalar()
-    if result:
-        return result
-
-    for suffix in SUFFIXES_TO_STRIP:
-        result = session.query(Card).filter_by(expansion=expansion.abbreviation, name=f'{card_name}{suffix}').scalar()
-        if result:
-            return result
-
-def query_expansion(session, abbreviation):
-    return session.query(Expansion).filter_by(abbreviation=abbreviation).scalar()
-
 def draft_exists(session, name):
-    return session.query(Draft).filter_by(name=name).one_or_none() is not None
+    return db.draft_repository.get_draft(session, name) is not None
 
 
 if __name__ == '__main__':
