@@ -22,35 +22,28 @@ CARDS_IN_PACK = 15
 LOG_DIR = 'logs'
 
 
-def import_MTGO_log(session, filename):
-    if importer.draft_helper.draft_exists(session, filename):
-        logging.info(f'Skipping import of {filename}')
-        return
-    
-    logging.info(f'Importing draft from {filename}')
+def import_MTGO_log(session, file, filename):
+    draft_time = maybe_get_draft_time(file)
+    logging.debug(f'Importing draft with time {draft_time}')
+    user = maybe_get_user(file)
+    logging.debug(f'User is {user}')
+    draft = importer.draft_helper.initialize_draft(session, draft_time, user, filename)
 
-    with open(filename) as f:
-        draft_time = maybe_get_draft_time(f)
-        logging.debug(f'Importing draft with time {draft_time}')
-        user = maybe_get_user(f)
-        logging.debug(f'User is {user}')
-        draft = importer.draft_helper.initialize_draft(session, draft_time, user, filename)
+    while True:
+        expansion_abbreviation = maybe_get_next_pack_expansion(file)
+        if expansion_abbreviation is None:
+            logging.debug('No more packs')
+            break
+        logging.debug(f'Next pack is {expansion_abbreviation}')
+        expansion = db.expansion_repository.get_expansion(session, abbreviation=expansion_abbreviation)
 
         while True:
-            expansion_abbreviation = maybe_get_next_pack_expansion(f)
-            if expansion_abbreviation is None:
-                logging.debug('No more packs')
+            pick_number, pack_card_names, pick = get_next_pack_cards(file)
+            logging.debug(f'Pick {pick_number} sees {pack_card_names} and takes {pick}')
+            importer.draft_helper.add_pack(session, draft, expansion, pick_number, pack_card_names, pick)
+
+            if len(pack_card_names) == 1:
                 break
-            logging.debug(f'Next pack is {expansion_abbreviation}')
-            expansion = db.expansion_repository.get_expansion(session, abbreviation=expansion_abbreviation)
-
-            while True:
-                pick_number, pack_card_names, pick = get_next_pack_cards(f)
-                logging.debug(f'Pick {pick_number} sees {pack_card_names} and takes {pick}')
-                importer.draft_helper.add_pack(session, draft, expansion, pick_number, pack_card_names, pick)
-
-                if len(pack_card_names) == 1:
-                    break
 
     session.commit()
 
@@ -112,4 +105,10 @@ def get_next_pack_cards(file):
 if __name__ == '__main__':
     session = get_session()
     for filename in os.listdir(LOG_DIR):
-        import_MTGO_log(session, os.path.join(LOG_DIR, filename))
+        if importer.draft_helper.draft_exists(session, filename):
+            logging.info(f'Skipping import of {filename}')
+            continue
+        
+        logging.info(f'Importing draft from {filename}')
+        with open(os.path.join(LOG_DIR, filename)) as f:
+            import_MTGO_log(session, file=f, filename=filename)
