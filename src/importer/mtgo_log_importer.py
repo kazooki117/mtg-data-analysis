@@ -1,4 +1,3 @@
-import json
 import os
 import logging
 import re
@@ -50,7 +49,11 @@ def get_draft_picks(file):
         logging.debug(f'Next pack is {expansion_abbreviation}')
 
         while True:
-            pick_number, pack_card_names, pick = _get_next_pack_cards(file)
+            result = _get_next_pack_cards(file)
+            if result is None:
+                break
+            pick_number, pack_card_names, pick = result
+
             logging.debug(f'Pick {pick_number} sees {pack_card_names} and takes {pick}')
             picks.append(importer.draft_helper.PickInfo(
                 expansion=expansion_abbreviation,
@@ -97,6 +100,8 @@ def _maybe_get_next_pack_expansion(file):
 def _get_next_pack_cards(file):
     while True:
         next_line = file.readline()
+        if next_line == '':
+            return None
         match = PACK_X_PICK_Y_REGEX.match(next_line)
         if match:
             pack_number = int(match.group(1))
@@ -107,7 +112,7 @@ def _get_next_pack_cards(file):
     pack_card_names = []
     while True:
         line = file.readline()
-        if line == '\n':
+        if line == '' or line == '\n':
             return pick_number, pack_card_names, pick
 
         if line.startswith(PICK_INDICATOR):
