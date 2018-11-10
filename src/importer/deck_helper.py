@@ -1,6 +1,9 @@
+import logging
+
 from collections import namedtuple
 
 import db.card_repository
+import db.deck_repository
 
 from db.model import Deck, DeckCard, Match
 
@@ -28,7 +31,14 @@ def get_primary_cards_for_decks(decks, cards):
 def get_cards_by_name(session, names, expansions):
     return {name: db.card_repository.get_card_from_first_expansion(session, expansions, name) for name in names}
 
+def deck_exists(session, name):
+    return db.deck_repository.get_deck(session, name) is not None
+
 def add_deck_data(session, deck_data, cards_by_name, format, expansion):
+    if deck_exists(session, deck_data.deck_name):
+        logging.debug(f'Skipping import of {deck_data.deck_name}')
+        return
+
     deck = Deck(
         name=deck_data.deck_name,
         format=format,

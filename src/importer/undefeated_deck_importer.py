@@ -1,4 +1,5 @@
 import csv
+import logging
 
 import importer.deck_helper
 from db.connector import get_session
@@ -16,8 +17,10 @@ def get_decks_data(legend_file, deck_file, deck_name_prefix):
 
     decks_data = []
     for (index, deck) in enumerate(decks):
+        deck_name = f'{deck_name_prefix}-{index}'
+
         decks_data.append(importer.deck_helper.DeckData(
-            deck_name=f'{deck_name_prefix}-{index}',
+            deck_name=deck_name,
             maindeck_card_names=[name for (name, count) in zip(card_names, deck) for ignored in range(count)],
             sideboard_card_names=[],
             match_record=(3,0,),
