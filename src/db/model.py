@@ -1,6 +1,6 @@
 import re
 
-from sqlalchemy import Column, Integer, String, DateTime
+from sqlalchemy import Column, Integer, String, DateTime, Boolean
 from sqlalchemy import ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 
@@ -68,3 +68,42 @@ class Pick(Base, SimplePrinterBase):
 
     id = Column(Integer, primary_key=True)
     pack_card = Column(Integer, ForeignKey('pack_cards.id'), nullable=False)
+
+class Deck(Base, SimplePrinterBase):
+    __tablename__ = 'decks'
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String(255), nullable=False)
+    format = Column(String, nullable=False)
+    expansion = Column(String(3), ForeignKey('expansions.abbreviation'), nullable=False)
+
+class DeckCard(Base, SimplePrinterBase):
+    __tablename__ = 'deck_cards'
+    
+    id = Column(Integer, primary_key=True)
+    deck = Column(Integer, ForeignKey('decks.id'), nullable=False)
+    card_multiverse_id = Column(Integer, nullable=False)
+    in_maindeck = Column(Boolean, nullable=False)
+
+class Match(Base, SimplePrinterBase):
+    __tablename__ = 'matches'
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String(255), nullable=False)
+    deck = Column(Integer, ForeignKey('decks.id'), nullable=False)
+    wins = Column(Integer, nullable=False)
+    losses = Column(Integer, nullable=False)
+
+class Game(Base, SimplePrinterBase):
+    __tablename__ = 'games'
+
+    id = Column(Integer, primary_key=True)
+    match = Column(Integer, ForeignKey('matches.id'), nullable=False)
+    is_win = Column(Boolean, nullable=False)
+    game_in_match = Column(Integer, nullable=True)
+    on_play = Column(Boolean, nullable=True)
+    final_turn = Column(Integer, nullable=True)
+    mulligans = Column(Integer, nullable=True)
+    opponent_mulligans = Column(Integer, nullable=True)
+    opponent_base_colors = Column(String(5), nullable=True)
+    opponent_splashes = Column(String(5), nullable=True)
