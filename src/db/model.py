@@ -4,6 +4,10 @@ from sqlalchemy import Column, Integer, String, DateTime, Boolean
 from sqlalchemy import ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 
+'''
+DROP TABLE IF EXISTS games, matches, deck_cards, decks, picks, pack_cards, packs, drafts, users, cards, expansions;
+'''
+
 Base = declarative_base()
 
 class SimplePrinterBase(object):
@@ -38,7 +42,7 @@ class Card(Base, SimplePrinterBase):
     loyalty = Column(Integer)
 
     def is_primary(self):
-        return self.face is None or self.face = Card.PRIMARY_FACE
+        return self.face is None or self.face == Card.PRIMARY_FACE
 
 class User(Base, SimplePrinterBase):
     __tablename__ = 'users'
@@ -79,7 +83,7 @@ class Deck(Base, SimplePrinterBase):
 
     id = Column(Integer, primary_key=True)
     name = Column(String(255), nullable=False)
-    format = Column(String, nullable=False)
+    format = Column(String(255), nullable=False)
     expansion = Column(String(3), ForeignKey('expansions.abbreviation'), nullable=False)
 
 class DeckCard(Base, SimplePrinterBase):
@@ -94,7 +98,6 @@ class Match(Base, SimplePrinterBase):
     __tablename__ = 'matches'
 
     id = Column(Integer, primary_key=True)
-    name = Column(String(255), nullable=False)
     deck = Column(Integer, ForeignKey('decks.id'), nullable=False)
     wins = Column(Integer, nullable=False)
     losses = Column(Integer, nullable=False)

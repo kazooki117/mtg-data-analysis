@@ -1,25 +1,29 @@
 import csv
 
-import db.card_repository
-
+import importer.deck_helper
 from db.connector import get_session
 
+def import_undefeated_decks(session, legend_filename, deck_filename, expansions, format):
+    with open(legend_filename) as legend_file,\
+         open(deck_filename) as deck_file:
+        decks_data = get_decks_data(legend_file, deck_file, deck_filename)
 
-def foo(session, legend_file, deck_file, expansions):
-    (names, decks) = get_card_names_and_counts(legend_file, deck_file)
-    cards = get_cards_from_names(session, names, expansions)
-    return get_primary_cards_for_decks(decks, cards)
+    importer.deck_helper.add_decks_data(session, decks_data, expansions, format)
 
-def get_primary_cards_for_decks(decks, cards):
-    return ({card.multiverse_id: count for (card, count) in zip(cards, deck_card_counts) if card.is_primary()} for deck_card_counts in decks)
-
-def get_card_names_and_counts(legend_file, deck_file):
-    names = read_legend(legend_file)
+def get_decks_data(legend_file, deck_file, deck_name_prefix):
+    card_names = read_legend(legend_file)
     decks = read_decks(deck_file)
-    return (names, decks)
 
-def get_cards_from_names(session, names, expansions):
-    return (db.card_repository.get_card_from_first_expansion(session, expansions, name) for name in names)
+    decks_data = []
+    for (index, deck) in enumerate(decks):
+        decks_data.append(importer.deck_helper.DeckData(
+            deck_name=f'{deck_name_prefix}-{index}',
+            maindeck_card_names=[name for (name, count) in zip(card_names, deck) for ignored in range(count)],
+            sideboard_card_names=[],
+            match_record=(3,0,),
+        ))
+
+    return decks_data
 
 def read_decks(file):
     counts = []
@@ -48,8 +52,11 @@ def read_legend(file):
 
 if __name__ == '__main__':
     session = get_session()
-    with open('raw_data_from_contributor/three_zero_trophy_hype/grn_3_0_raw_legend.csv') as legend_file,\
-         open('raw_data_from_contributor/three_zero_trophy_hype/grn_3_0_raw_deck.csv') as deck_file:
-        
-        result = foo(session, legend_file, deck_file, expansions=('GRN',))
-    print(result)
+    import_undefeated_decks(
+        session=session,
+        legend_filename='raw_data_from_contributor/three_zero_trophy_hype/grn_3_0_raw_legend.csv',
+        deck_filename='raw_data_from_contributor/three_zero_trophy_hype/grn_3_0_raw_deck.csv',
+        expansions=('GRN',),
+        format='draft',
+    )
+    session.commit()
