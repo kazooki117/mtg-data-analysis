@@ -19,6 +19,8 @@ class Expansion(Base, SimplePrinterBase):
     max_booster_number = Column(Integer, nullable=False)
 
 class Card(Base, SimplePrinterBase):
+    PRIMARY_FACE = 'a'
+
     __tablename__ = 'cards'
 
     id = Column(Integer, primary_key=True)
@@ -34,6 +36,9 @@ class Card(Base, SimplePrinterBase):
     power = Column(Integer)
     toughness = Column(Integer)
     loyalty = Column(Integer)
+
+    def is_primary(self):
+        return self.face is None or self.face = Card.PRIMARY_FACE
 
 class User(Base, SimplePrinterBase):
     __tablename__ = 'users'

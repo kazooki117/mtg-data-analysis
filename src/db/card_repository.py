@@ -3,6 +3,14 @@ from db.model import Card
 SPLIT_CARD_JOIN = '/'
 SUFFIXES_TO_STRIP = (' (a)', ' (b)')
 
+def get_card_from_first_expansion(session, expansion_ids, name):
+    for expansion_id in expansion_ids:
+        result = session.query(Card).filter_by(expansion=expansion_id, name=name).one_or_none()
+        if result:
+            return result
+
+    return None
+
 def get_card(session, expansion_id, number=None, name=None, face=None):
     query = session.query(Card).filter_by(expansion=expansion_id)
     if number is not None:
