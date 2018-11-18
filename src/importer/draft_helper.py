@@ -1,3 +1,4 @@
+import datetime
 import logging
 
 from collections import namedtuple
@@ -8,10 +9,28 @@ import db.user_repository
 
 from db.model import User, Draft, Pack, PackCard, Pick
 
+
+TIME_FORMATS = (
+    '%Y-%m-%d %I:%M:%S %p',
+    '%Y-%m-%d %H:%M:%S',
+    '%m/%d/%Y %I:%M:%S %p',
+    '%m/%d/%Y %H:%M:%S',
+    '%Y/%m/%d %I:%M:%S %p',
+    '%Y/%m/%d %H:%M:%S',
+)
+
+
 PickInfo = namedtuple('PickInfo', ['expansion', 'pick_number', 'pack_card_names', 'pick'])
 DraftData = namedtuple('DraftData', ['draft_time', 'user', 'draft_name', 'picks'])
 
+
 def add_draft_data(session, draft_data):
+    if draft_exists(session, draft_data.draft_name):
+        logging.info(f'Skipping import of {draft_data.draft_name}')
+        return
+    
+    logging.info(f'Loading {draft_data.draft_name} into database')
+
     draft = initialize_draft(session, draft_data.draft_time, draft_data.user, draft_data.draft_name)
     session.flush()
     for p in draft_data.picks:
@@ -58,3 +77,11 @@ def add_pack(session, draft, pick_info):
 
 def draft_exists(session, name):
     return db.draft_repository.get_draft(session, name) is not None
+
+def extract_time(time_str):
+    for possible_format in TIME_FORMATS:
+        try:
+            return datetime.datetime.strptime(time_str, possible_format)
+        except ValueError:
+            pass
+    raise ValueError(f'Unsupported time format: {time_str}')
