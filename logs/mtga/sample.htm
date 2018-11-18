@@ -1,0 +1,2276 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://opencoding.net/TouchConsolePro/log_assets/v1/style.css">
+		<title>Log Email</title>
+	</head>
+	<body>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="http://opencoding.net/TouchConsolePro/log_assets/v1/script.js"></script>
+
+		<div>
+
+		  	<div id="top-nav">
+		  		<a id="brand" href="http://www.opencoding.net/TouchConsolePro">Powered by TouchConsole Pro</a>
+				<ul class="nav nav-pills" role="tablist">
+					<li role="presentation" class="active"><a href="#log-tab" aria-controls="log" role="tab" data-toggle="tab">Log</a></li>
+					<li role="presentation"><a href="#device-info-tab" aria-controls="info" role="tab" data-toggle="tab">Info</a></li>
+					<li role="presentation" id="screenshot-tab-button"><a href="#screenshot-tab" aria-controls="screenshot" role="tab" data-toggle="tab">Screenshot</a></li>
+					<li role="presentation" id="save-file-tab-button"><a href="#save-file-tab" aria-controls="save-file" role="tab" data-toggle="tab">Save File</a></li>
+				</ul>
+			</div>
+		  	<div id="top-padding"></div>
+
+		  <div class="tab-content">
+		    <div role="tabpanel" class="tab-pane active" id="log-tab">
+
+				<div id="jump-bar">
+					<div class="section">
+
+						<span class="icon exception-icon" title="Exceptions"></span>
+						<span class="count" id="exception-count"></span>
+						<div class="btn-group dropdown">
+						  <button type="button" class="btn btn-default btn-sm" id="previous-exception">
+						    <span class="glyphicon glyphicon-chevron-up"></span>
+						  </button>
+						  <button type="button" class="btn btn-default btn-sm" id="next-exception">
+						    <span class="glyphicon glyphicon-chevron-down"></span>
+						  </button>
+						</div>
+
+						<span class="icon error-icon" title="Errors"></span>
+					    <span class="count" id="error-count"></span>
+						<div class="btn-group dropdown">
+						  <button type="button" class="btn btn-default btn-sm" id="previous-error">
+						    <span class="glyphicon glyphicon-chevron-up"></span>
+						  </button>
+						  <button type="button" class="btn btn-default btn-sm" id="next-error">
+						    <span class="glyphicon glyphicon-chevron-down"></span>
+						  </button>
+						</div>
+
+						<span class="icon assert-icon" title="Asserts"></span>
+					    <span class="count" id="assert-count"></span>
+						<div class="btn-group dropdown">
+						  <button type="button" class="btn btn-default btn-sm" id="previous-assert">
+						    <span class="glyphicon glyphicon-chevron-up"></span>
+						  </button>
+						  <button type="button" class="btn btn-default btn-sm" id="next-assert">
+						    <span class="glyphicon glyphicon-chevron-down"></span>
+						  </button>
+						</div>
+
+						<span class="icon warning-icon" title="Warnings"></span>
+					    <span class="count" id="warning-count"></span>
+						<div class="btn-group dropdown">
+						  <button type="button" class="btn btn-default btn-sm" id="previous-warning">
+						    <span class="glyphicon glyphicon-chevron-up"></span>
+						  </button>
+						  <button type="button" class="btn btn-default btn-sm" id="next-warning">
+						    <span class="glyphicon glyphicon-chevron-down"></span>
+						  </button>
+						</div>
+
+						<span class="icon info-icon" title="Infos"></span>
+					    <span class="count" id="info-count"></span>
+						<div class="btn-group dropdown">
+						  <button type="button" class="btn btn-default btn-sm" id="previous-info">
+						    <span class="glyphicon glyphicon-chevron-up"></span>
+						  </button>
+						  <button type="button" class="btn btn-default btn-sm" id="next-info">
+						    <span class="glyphicon glyphicon-chevron-down"></span>
+						  </button>
+						</div>
+					</div>
+					<div class="section filter-section">
+						<div class="input-group input-group-sm">
+						  <span class="input-group-addon" id="filter-addon">Filter</span>
+						  <input type="text" class="form-control" id="filter-input" placeholder="" aria-describedby="filter-addon">
+						</div>
+					</div>
+					
+
+					<div id="time-settings">
+						<input type="checkbox" id="show-real-time"></input>
+						<label id="show-real-time-label" for="show-real-time">Show device time</label>
+					</div>    
+				</div>
+
+				<div id='log'>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:38:13 AM'>7421.968</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 9:38:13 AM
+==> Draft.MakePick(348):
+{
+  "jsonrpc": "2.0",
+  "method": "Draft.MakePick",
+  "params": {
+    "draftId": "U7FZQKWMBZE7XGSHBQKYBFS7TE:QuickDraft_GRN_11082018:Draft",
+    "cardId": "68566",
+    "packNumber": "1",
+    "pickNumber": "10"
+  },
+  "id": "348"
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:38:13 AM'>7421.969</div><div class='header-text'>loading bundle grn_cardart_37933fe92fe01538ec0916e19dd5e883.mtga</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:38:13 AM'>7421.969</div><div class='header-text'>loading bundle grn_cardart_37933fe92fe01538ec0916e19dd5e883.mtga</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:38:13 AM'>7422.08</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 9:38:13 AM
+<== Draft.MakePick(348)
+{
+  "playerId": "U7FZQKWMBZE7XGSHBQKYBFS7TE",
+  "eventName": "QuickDraft_GRN_11082018",
+  "draftId": "U7FZQKWMBZE7XGSHBQKYBFS7TE:QuickDraft_GRN_11082018:Draft",
+  "draftStatus": "Draft.PickNext",
+  "packNumber": 1,
+  "pickNumber": 11,
+  "draftPack": [
+    "68611",
+    "68590",
+    "68601",
+    "68580"
+  ],
+  "pickedCards": [
+    "68531",
+    "68738",
+    "68556",
+    "68569",
+    "68478",
+    "68477",
+    "68572",
+    "68551",
+    "68490",
+    "68677",
+    "68486",
+    "68470",
+    "68477",
+    "68642",
+    "68553",
+    "68490",
+    "68706",
+    "68556",
+    "68562",
+    "68725",
+    "68581",
+    "68643",
+    "68566",
+    "68493",
+    "68728",
+    "68665"
+  ],
+  "requestUnits": 0.0
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:38:15 AM'>7424.164</div><div class='header-text'>Card picked: Torch Courier</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:38:15 AM'>7424.166</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 9:38:15 AM
+==> Draft.MakePick(349):
+{
+  "jsonrpc": "2.0",
+  "method": "Draft.MakePick",
+  "params": {
+    "draftId": "U7FZQKWMBZE7XGSHBQKYBFS7TE:QuickDraft_GRN_11082018:Draft",
+    "cardId": "68580",
+    "packNumber": "1",
+    "pickNumber": "11"
+  },
+  "id": "349"
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:38:15 AM'>7424.167</div><div class='header-text'>loading bundle grn_cardart_37933fe92fe01538ec0916e19dd5e883.mtga</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:38:15 AM'>7424.167</div><div class='header-text'>loading bundle grn_cardart_37933fe92fe01538ec0916e19dd5e883.mtga</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:38:15 AM'>7424.264</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 9:38:15 AM
+<== Draft.MakePick(349)
+{
+  "playerId": "U7FZQKWMBZE7XGSHBQKYBFS7TE",
+  "eventName": "QuickDraft_GRN_11082018",
+  "draftId": "U7FZQKWMBZE7XGSHBQKYBFS7TE:QuickDraft_GRN_11082018:Draft",
+  "draftStatus": "Draft.PickNext",
+  "packNumber": 1,
+  "pickNumber": 12,
+  "draftPack": [
+    "68596",
+    "68661",
+    "68610"
+  ],
+  "pickedCards": [
+    "68531",
+    "68738",
+    "68556",
+    "68569",
+    "68478",
+    "68477",
+    "68572",
+    "68551",
+    "68490",
+    "68677",
+    "68486",
+    "68470",
+    "68477",
+    "68642",
+    "68553",
+    "68490",
+    "68706",
+    "68556",
+    "68562",
+    "68725",
+    "68581",
+    "68580",
+    "68643",
+    "68566",
+    "68493",
+    "68728",
+    "68665"
+  ],
+  "requestUnits": 0.0
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:38:20 AM'>7429.131</div><div class='header-text'>Card picked: Wary Okapi</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:38:20 AM'>7429.132</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 9:38:20 AM
+==> Draft.MakePick(350):
+{
+  "jsonrpc": "2.0",
+  "method": "Draft.MakePick",
+  "params": {
+    "draftId": "U7FZQKWMBZE7XGSHBQKYBFS7TE:QuickDraft_GRN_11082018:Draft",
+    "cardId": "68610",
+    "packNumber": "1",
+    "pickNumber": "12"
+  },
+  "id": "350"
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:38:20 AM'>7429.133</div><div class='header-text'>loading bundle grn_cardart_37933fe92fe01538ec0916e19dd5e883.mtga</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:38:20 AM'>7429.133</div><div class='header-text'>loading bundle grn_cardart_37933fe92fe01538ec0916e19dd5e883.mtga</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:38:20 AM'>7429.139</div><div class='header-text'>loading bundle grn_cardart_37933fe92fe01538ec0916e19dd5e883.mtga</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:38:20 AM'>7429.23</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 9:38:20 AM
+<== Draft.MakePick(350)
+{
+  "playerId": "U7FZQKWMBZE7XGSHBQKYBFS7TE",
+  "eventName": "QuickDraft_GRN_11082018",
+  "draftId": "U7FZQKWMBZE7XGSHBQKYBFS7TE:QuickDraft_GRN_11082018:Draft",
+  "draftStatus": "Draft.PickNext",
+  "packNumber": 1,
+  "pickNumber": 13,
+  "draftPack": [
+    "68587",
+    "68661"
+  ],
+  "pickedCards": [
+    "68531",
+    "68738",
+    "68556",
+    "68569",
+    "68478",
+    "68477",
+    "68572",
+    "68551",
+    "68490",
+    "68677",
+    "68486",
+    "68470",
+    "68477",
+    "68642",
+    "68553",
+    "68490",
+    "68706",
+    "68556",
+    "68562",
+    "68725",
+    "68581",
+    "68610",
+    "68580",
+    "68643",
+    "68566",
+    "68493",
+    "68728",
+    "68665"
+  ],
+  "requestUnits": 0.0
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:38:23 AM'>7432.246</div><div class='header-text'>Card picked: Crushing Canopy</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:45:54 AM'>7883.125</div><div class='header-text'>Applying timer delay fix of 0.033612 seconds.</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:45:58 AM'>7886.674</div><div class='header-text'>[Client GRE]11/17/2018 9:45:58 AM: Match to U7FZQKWMBZE7XGSHBQKYBFS7TE: GreToClientEvent
+{
+  "transactionId": "8f8e1088-8b61-4ea0-bf8a-1cc92aca33f1",
+  "timestamp": "636780735582658632",
+  "greToClientEvent": {
+    "greToClientMessages": [
+      {
+        "type": "GREMessageType_UIMessage",
+        "systemSeatIds": [
+          1
+        ],
+        "uiMessage": {
+          "seatIds": [
+            2
+          ],
+          "onHover": {
+            "objectId": 244
+          }
+        }
+      }
+    ]
+  }
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:45:58 AM'>7886.857</div><div class='header-text'>[Client GRE]11/17/2018 9:45:58 AM: Match to U7FZQKWMBZE7XGSHBQKYBFS7TE: GreToClientEvent
+{
+  "transactionId": "5e03228d-a56b-4fd8-8eaa-9bc4ad82a498",
+  "timestamp": "636780735584378520",
+  "greToClientEvent": {
+    "greToClientMessages": [
+      {
+        "type": "GREMessageType_UIMessage",
+        "systemSeatIds": [
+          1
+        ],
+        "uiMessage": {
+          "seatIds": [
+            2
+          ],
+          "onHover": {}
+        }
+      }
+    ]
+  }
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7897.825</div><div class='header-text'>[Client GRE]11/17/2018 9:46:09 AM: U7FZQKWMBZE7XGSHBQKYBFS7TE to Match: ClientToMatchServiceMessageType_ClientToGREMessage
+{
+  "requestId": 69,
+  "clientToMatchServiceMessageType": "ClientToMatchServiceMessageType_ClientToGREMessage",
+  "payload": {
+    "type": "ClientMessageType_PerformActionResp",
+    "systemSeatId": 1,
+    "gameStateId": 195,
+    "respId": 262,
+    "performActionResp": {
+      "actions": [
+        {
+          "actionType": "ActionType_Pass",
+          "grouping": "Grouping_Single"
+        }
+      ]
+    }
+  }
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7897.945</div><div class='header-text'>[Client GRE]11/17/2018 9:46:09 AM: Match to U7FZQKWMBZE7XGSHBQKYBFS7TE: GreToClientEvent
+{
+  "transactionId": "558592dd-e846-4ca9-bfbf-2ce0445a3d14",
+  "timestamp": "636780735695324030",
+  "greToClientEvent": {
+    "greToClientMessages": [
+      {
+        "type": "GREMessageType_GameStateMessage",
+        "systemSeatIds": [
+          1
+        ],
+        "msgId": 263,
+        "gameStateId": 196,
+        "gameStateMessage": {
+          "type": "GameStateType_Diff",
+          "gameStateId": 196,
+          "turnInfo": {
+            "phase": "Phase_Main1",
+            "turnNumber": 9,
+            "activePlayer": 1,
+            "priorityPlayer": 2,
+            "decisionPlayer": 1,
+            "nextPhase": "Phase_Combat",
+            "nextStep": "Step_BeginCombat"
+          },
+          "annotations": [
+            {
+              "id": 2004,
+              "affectorId": 28,
+              "affectedIds": [
+                289
+              ],
+              "type": [
+                "AnnotationType_EnteredZoneThisTurn"
+              ]
+            },
+            {
+              "id": 2009,
+              "affectorId": 31,
+              "affectedIds": [
+                288
+              ],
+              "type": [
+                "AnnotationType_EnteredZoneThisTurn"
+              ]
+            },
+            {
+              "id": 2203,
+              "affectorId": 81,
+              "affectedIds": [
+                81
+              ],
+              "type": [
+                "AnnotationType_AbilityWordActive"
+              ],
+              "details": [
+                {
+                  "key": "AbilityWordName",
+                  "type": "KeyValuePairValueType_string",
+                  "valueString": [
+                    "Convoke"
+                  ]
+                }
+              ],
+              "allowRedaction": true
+            }
+          ],
+          "prevGameStateId": 195,
+          "timers": [
+            {
+              "timerId": 3,
+              "type": "TimerType_ActivePlayer",
+              "durationSec": 83,
+              "elapsedSec": 21,
+              "behavior": "TimerBehavior_TakeControl",
+              "warningThresholdSec": 30,
+              "elapsedMs": 21031
+            },
+            {
+              "timerId": 5,
+              "type": "TimerType_Inactivity",
+              "durationSec": 150,
+              "behavior": "TimerBehavior_Timeout",
+              "warningThresholdSec": 130
+            }
+          ],
+          "update": "GameStateUpdate_SendHiFi",
+          "actions": [
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Cast",
+                "instanceId": 87,
+                "manaCost": [
+                  {
+                    "color": [
+                      "ManaColor_White"
+                    ],
+                    "count": 1,
+                    "costId": 16887
+                  }
+                ]
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Cast",
+                "instanceId": 86,
+                "manaCost": [
+                  {
+                    "color": [
+                      "ManaColor_Generic"
+                    ],
+                    "count": 4,
+                    "costId": 16888
+                  },
+                  {
+                    "color": [
+                      "ManaColor_Red"
+                    ],
+                    "count": 1,
+                    "costId": 16889
+                  }
+                ]
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Cast",
+                "instanceId": 81,
+                "manaCost": [
+                  {
+                    "color": [
+                      "ManaColor_Generic"
+                    ],
+                    "count": 4,
+                    "costId": 16890
+                  },
+                  {
+                    "color": [
+                      "ManaColor_White"
+                    ],
+                    "count": 2,
+                    "costId": 16891
+                  }
+                ]
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 241
+              }
+            },
+            {
+              "seatId": 2,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 243
+              }
+            },
+            {
+              "seatId": 2,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 254
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 256
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 274
+              }
+            },
+            {
+              "seatId": 2,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 282
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 289
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1004,
+                "sourceId": 249
+              }
+            },
+            {
+              "seatId": 2,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1004,
+                "sourceId": 259
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "GREMessageType_GameStateMessage",
+        "systemSeatIds": [
+          1
+        ],
+        "msgId": 264,
+        "gameStateId": 197,
+        "gameStateMessage": {
+          "type": "GameStateType_Diff",
+          "gameStateId": 197,
+          "turnInfo": {
+            "phase": "Phase_Combat",
+            "step": "Step_BeginCombat",
+            "turnNumber": 9,
+            "activePlayer": 1,
+            "priorityPlayer": 1,
+            "decisionPlayer": 1,
+            "nextPhase": "Phase_Combat",
+            "nextStep": "Step_DeclareAttack"
+          },
+          "annotations": [
+            {
+              "id": 2311,
+              "affectedIds": [
+                1
+              ],
+              "type": [
+                "AnnotationType_PhaseOrStepModified"
+              ],
+              "details": [
+                {
+                  "key": "phase",
+                  "type": "KeyValuePairValueType_int32",
+                  "valueInt32": [
+                    3
+                  ]
+                },
+                {
+                  "key": "step",
+                  "type": "KeyValuePairValueType_int32",
+                  "valueInt32": [
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2004,
+              "affectorId": 28,
+              "affectedIds": [
+                289
+              ],
+              "type": [
+                "AnnotationType_EnteredZoneThisTurn"
+              ]
+            },
+            {
+              "id": 2009,
+              "affectorId": 31,
+              "affectedIds": [
+                288
+              ],
+              "type": [
+                "AnnotationType_EnteredZoneThisTurn"
+              ]
+            },
+            {
+              "id": 2203,
+              "affectorId": 81,
+              "affectedIds": [
+                81
+              ],
+              "type": [
+                "AnnotationType_AbilityWordActive"
+              ],
+              "details": [
+                {
+                  "key": "AbilityWordName",
+                  "type": "KeyValuePairValueType_string",
+                  "valueString": [
+                    "Convoke"
+                  ]
+                }
+              ],
+              "allowRedaction": true
+            }
+          ],
+          "prevGameStateId": 196,
+          "update": "GameStateUpdate_SendHiFi",
+          "actions": [
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Cast",
+                "instanceId": 87,
+                "manaCost": [
+                  {
+                    "color": [
+                      "ManaColor_White"
+                    ],
+                    "count": 1,
+                    "costId": 16903
+                  }
+                ]
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Cast",
+                "instanceId": 86,
+                "manaCost": [
+                  {
+                    "color": [
+                      "ManaColor_Generic"
+                    ],
+                    "count": 4,
+                    "costId": 16904
+                  },
+                  {
+                    "color": [
+                      "ManaColor_Red"
+                    ],
+                    "count": 1,
+                    "costId": 16905
+                  }
+                ]
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Cast",
+                "instanceId": 81,
+                "manaCost": [
+                  {
+                    "color": [
+                      "ManaColor_Generic"
+                    ],
+                    "count": 4,
+                    "costId": 16906
+                  },
+                  {
+                    "color": [
+                      "ManaColor_White"
+                    ],
+                    "count": 2,
+                    "costId": 16907
+                  }
+                ]
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 241
+              }
+            },
+            {
+              "seatId": 2,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 243
+              }
+            },
+            {
+              "seatId": 2,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 254
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 256
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 274
+              }
+            },
+            {
+              "seatId": 2,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 282
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 289
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1004,
+                "sourceId": 249
+              }
+            },
+            {
+              "seatId": 2,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1004,
+                "sourceId": 259
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "GREMessageType_GameStateMessage",
+        "systemSeatIds": [
+          1
+        ],
+        "msgId": 265,
+        "gameStateId": 198,
+        "gameStateMessage": {
+          "type": "GameStateType_Diff",
+          "gameStateId": 198,
+          "turnInfo": {
+            "phase": "Phase_Combat",
+            "step": "Step_BeginCombat",
+            "turnNumber": 9,
+            "activePlayer": 1,
+            "priorityPlayer": 2,
+            "decisionPlayer": 1,
+            "nextPhase": "Phase_Combat",
+            "nextStep": "Step_DeclareAttack"
+          },
+          "annotations": [
+            {
+              "id": 2004,
+              "affectorId": 28,
+              "affectedIds": [
+                289
+              ],
+              "type": [
+                "AnnotationType_EnteredZoneThisTurn"
+              ]
+            },
+            {
+              "id": 2009,
+              "affectorId": 31,
+              "affectedIds": [
+                288
+              ],
+              "type": [
+                "AnnotationType_EnteredZoneThisTurn"
+              ]
+            },
+            {
+              "id": 2203,
+              "affectorId": 81,
+              "affectedIds": [
+                81
+              ],
+              "type": [
+                "AnnotationType_AbilityWordActive"
+              ],
+              "details": [
+                {
+                  "key": "AbilityWordName",
+                  "type": "KeyValuePairValueType_string",
+                  "valueString": [
+                    "Convoke"
+                  ]
+                }
+              ],
+              "allowRedaction": true
+            }
+          ],
+          "prevGameStateId": 197,
+          "update": "GameStateUpdate_SendHiFi",
+          "actions": [
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Cast",
+                "instanceId": 87,
+                "manaCost": [
+                  {
+                    "color": [
+                      "ManaColor_White"
+                    ],
+                    "count": 1,
+                    "costId": 16919
+                  }
+                ]
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Cast",
+                "instanceId": 86,
+                "manaCost": [
+                  {
+                    "color": [
+                      "ManaColor_Generic"
+                    ],
+                    "count": 4,
+                    "costId": 16920
+                  },
+                  {
+                    "color": [
+                      "ManaColor_Red"
+                    ],
+                    "count": 1,
+                    "costId": 16921
+                  }
+                ]
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Cast",
+                "instanceId": 81,
+                "manaCost": [
+                  {
+                    "color": [
+                      "ManaColor_Generic"
+                    ],
+                    "count": 4,
+                    "costId": 16922
+                  },
+                  {
+                    "color": [
+                      "ManaColor_White"
+                    ],
+                    "count": 2,
+                    "costId": 16923
+                  }
+                ]
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 241
+              }
+            },
+            {
+              "seatId": 2,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 243
+              }
+            },
+            {
+              "seatId": 2,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 254
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 256
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 274
+              }
+            },
+            {
+              "seatId": 2,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 282
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 289
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1004,
+                "sourceId": 249
+              }
+            },
+            {
+              "seatId": 2,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1004,
+                "sourceId": 259
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "GREMessageType_GameStateMessage",
+        "systemSeatIds": [
+          1
+        ],
+        "msgId": 266,
+        "gameStateId": 199,
+        "gameStateMessage": {
+          "type": "GameStateType_Diff",
+          "gameStateId": 199,
+          "turnInfo": {
+            "phase": "Phase_Combat",
+            "step": "Step_DeclareAttack",
+            "turnNumber": 9,
+            "activePlayer": 1,
+            "priorityPlayer": 1,
+            "decisionPlayer": 1,
+            "nextPhase": "Phase_Combat",
+            "nextStep": "Step_EndCombat"
+          },
+          "annotations": [
+            {
+              "id": 2312,
+              "affectedIds": [
+                1
+              ],
+              "type": [
+                "AnnotationType_PhaseOrStepModified"
+              ],
+              "details": [
+                {
+                  "key": "phase",
+                  "type": "KeyValuePairValueType_int32",
+                  "valueInt32": [
+                    3
+                  ]
+                },
+                {
+                  "key": "step",
+                  "type": "KeyValuePairValueType_int32",
+                  "valueInt32": [
+                    5
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2004,
+              "affectorId": 28,
+              "affectedIds": [
+                289
+              ],
+              "type": [
+                "AnnotationType_EnteredZoneThisTurn"
+              ]
+            },
+            {
+              "id": 2009,
+              "affectorId": 31,
+              "affectedIds": [
+                288
+              ],
+              "type": [
+                "AnnotationType_EnteredZoneThisTurn"
+              ]
+            },
+            {
+              "id": 2203,
+              "affectorId": 81,
+              "affectedIds": [
+                81
+              ],
+              "type": [
+                "AnnotationType_AbilityWordActive"
+              ],
+              "details": [
+                {
+                  "key": "AbilityWordName",
+                  "type": "KeyValuePairValueType_string",
+                  "valueString": [
+                    "Convoke"
+                  ]
+                }
+              ],
+              "allowRedaction": true
+            }
+          ],
+          "pendingMessageCount": 1,
+          "prevGameStateId": 198,
+          "timers": [
+            {
+              "timerId": 3,
+              "type": "TimerType_ActivePlayer",
+              "durationSec": 95,
+              "elapsedSec": 21,
+              "running": true,
+              "behavior": "TimerBehavior_TakeControl",
+              "warningThresholdSec": 30,
+              "elapsedMs": 21031
+            },
+            {
+              "timerId": 5,
+              "type": "TimerType_Inactivity",
+              "durationSec": 150,
+              "running": true,
+              "behavior": "TimerBehavior_Timeout",
+              "warningThresholdSec": 130
+            }
+          ],
+          "update": "GameStateUpdate_SendAndRecord",
+          "actions": [
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Cast",
+                "instanceId": 87,
+                "manaCost": [
+                  {
+                    "color": [
+                      "ManaColor_White"
+                    ],
+                    "count": 1,
+                    "costId": 16927
+                  }
+                ]
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Cast",
+                "instanceId": 86,
+                "manaCost": [
+                  {
+                    "color": [
+                      "ManaColor_Generic"
+                    ],
+                    "count": 4,
+                    "costId": 16928
+                  },
+                  {
+                    "color": [
+                      "ManaColor_Red"
+                    ],
+                    "count": 1,
+                    "costId": 16929
+                  }
+                ]
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Cast",
+                "instanceId": 81,
+                "manaCost": [
+                  {
+                    "color": [
+                      "ManaColor_Generic"
+                    ],
+                    "count": 4,
+                    "costId": 16930
+                  },
+                  {
+                    "color": [
+                      "ManaColor_White"
+                    ],
+                    "count": 2,
+                    "costId": 16931
+                  }
+                ]
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 241
+              }
+            },
+            {
+              "seatId": 2,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 243
+              }
+            },
+            {
+              "seatId": 2,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 254
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 256
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 274
+              }
+            },
+            {
+              "seatId": 2,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 282
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1001,
+                "sourceId": 289
+              }
+            },
+            {
+              "seatId": 1,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1004,
+                "sourceId": 249
+              }
+            },
+            {
+              "seatId": 2,
+              "action": {
+                "actionType": "ActionType_Activate",
+                "abilityGrpId": 1004,
+                "sourceId": 259
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "GREMessageType_DeclareAttackersReq",
+        "systemSeatIds": [
+          1
+        ],
+        "msgId": 267,
+        "gameStateId": 199,
+        "prompt": {
+          "promptId": 6
+        },
+        "declareAttackersReq": {
+          "attackers": [
+            {
+              "attackerInstanceId": 275,
+              "legalDamageRecipients": [
+                {
+                  "type": "DamageRecType_Player",
+                  "playerSystemSeatId": 2
+                }
+              ]
+            },
+            {
+              "attackerInstanceId": 250,
+              "legalDamageRecipients": [
+                {
+                  "type": "DamageRecType_Player",
+                  "playerSystemSeatId": 2
+                }
+              ]
+            }
+          ]
+        },
+        "nonDecisionPlayerPrompt": {
+          "promptId": 16,
+          "parameters": [
+            {
+              "parameterName": "PlayerId",
+              "type": "ParameterType_Number",
+              "numberValue": 1
+            }
+          ]
+        }
+      }
+    ]
+  }
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7898.008</div><div class='header-text'>Applying timer delay fix of 0.033918 seconds.</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7898.008</div><div class='header-text'>Applying timer delay fix of 0.03398 seconds.</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7898.008</div><div class='header-text'>Applying timer delay fix of 0.034008 seconds.</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7898.024</div><div class='header-text'>Applying timer delay fix of 0.015992 seconds.</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7898.024</div><div class='header-text'>Applying timer delay fix of 0.016056 seconds.</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7898.024</div><div class='header-text'>Applying timer delay fix of 0.016096 seconds.</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7898.058</div><div class='header-text'>Applying timer delay fix of 0.034009 seconds.</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7898.058</div><div class='header-text'>Applying timer delay fix of 0.03407 seconds.</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7898.058</div><div class='header-text'>Applying timer delay fix of 0.03411 seconds.</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7898.091</div><div class='header-text'>Applying timer delay fix of 0.033697 seconds.</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7898.091</div><div class='header-text'>Applying timer delay fix of 0.033771 seconds.</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7898.091</div><div class='header-text'>Applying timer delay fix of 0.033807 seconds.</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7898.125</div><div class='header-text'>[Client GRE]11/17/2018 9:46:09 AM: Match to U7FZQKWMBZE7XGSHBQKYBFS7TE: GreToClientEvent
+{
+  "transactionId": "058295b1-0ad4-48c1-85bc-65f21901e94f",
+  "timestamp": "636780735695324030",
+  "greToClientEvent": {
+    "greToClientMessages": [
+      {
+        "type": "GREMessageType_UIMessage",
+        "systemSeatIds": [
+          1
+        ],
+        "uiMessage": {
+          "seatIds": [
+            2
+          ],
+          "onHover": {
+            "objectId": 258
+          }
+        }
+      }
+    ]
+  }
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7898.247</div><div class='header-text'>loading bundle grn_cardart_37933fe92fe01538ec0916e19dd5e883.mtga</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7898.247</div><div class='header-text'>attempted to load art with suffix, but found none -> path: Assets/Core/Shared/Resources/CardArt/GRN/404908_AIF.jpg, suffix: crop, finalPath: Assets/Core/Shared/Resources/CardArt/GRN/404908_crop.jpg</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:09 AM'>7898.248</div><div class='header-text'>loading bundle grn_cardart_37933fe92fe01538ec0916e19dd5e883.mtga</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:10 AM'>7898.607</div><div class='header-text'>[Client GRE]11/17/2018 9:46:10 AM: Match to U7FZQKWMBZE7XGSHBQKYBFS7TE: GreToClientEvent
+{
+  "transactionId": "3ac7afe2-4747-41c5-99b3-fa9ce0193cb8",
+  "timestamp": "636780735701886586",
+  "greToClientEvent": {
+    "greToClientMessages": [
+      {
+        "type": "GREMessageType_UIMessage",
+        "systemSeatIds": [
+          1
+        ],
+        "uiMessage": {
+          "seatIds": [
+            2
+          ],
+          "onHover": {}
+        }
+      }
+    ]
+  }
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:46:10 AM'>7898.741</div><div class='header-text'>[Client GRE]11/17/2018 9:46:10 AM: Match to U7FZQKWMBZE7XGSHBQKYBFS7TE: GreToClientEvent
+{
+  "transactionId": "621e3654-168d-4138-81b3-a4faccda127a",
+  "timestamp": "636780735703449049",
+  "greToClientEvent": {
+    "greToClientMessages": [
+      {
+        "type": "GREMessageType_UIMessage",
+        "systemSeatIds": [
+          1
+        ],
+        "uiMessage": {
+          "seatIds": [
+            2
+          ],
+          "onHover": {
+            "objectId": 201
+          }
+        }
+      }
+    ]
+  }
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:49:00 AM'>8069.239</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 9:49:00 AM
+==> Config.JoinEventQueueStatus(390):
+{
+  "jsonrpc": "2.0",
+  "method": "Config.JoinEventQueueStatus",
+  "params": {},
+  "id": "390"
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:49:00 AM'>8069.239</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 9:49:00 AM
+==> Event.GetPlayerCourse(391):
+{
+  "jsonrpc": "2.0",
+  "method": "Event.GetPlayerCourse",
+  "params": {
+    "eventName": "QuickDraft_GRN_11082018"
+  },
+  "id": "391"
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:49:01 AM'>8069.353</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 9:49:01 AM
+<== Config.JoinEventQueueStatus(390)
+true</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:49:01 AM'>8069.437</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 9:49:01 AM
+<== Event.GetPlayerCourse(391)
+{
+  "Id": "f4422d55-7e34-4e39-969b-895f92cd1dc1",
+  "InternalEventName": "QuickDraft_GRN_11082018",
+  "PlayerId": "U7FZQKWMBZE7XGSHBQKYBFS7TE",
+  "ModuleInstanceData": {
+    "HasPaidEntry": "Gem",
+    "DraftInfo": {
+      "DraftId": "U7FZQKWMBZE7XGSHBQKYBFS7TE:QuickDraft_GRN_11082018:Draft"
+    },
+    "DraftComplete": true,
+    "HasGranted": true,
+    "DeckSelected": true,
+    "WinLossGate": {
+      "MaxWins": 7,
+      "MaxLosses": 3,
+      "CurrentWins": 1,
+      "CurrentLosses": 0,
+      "ProcessedMatchIds": [
+        "ae8f6cae-42e0-489c-b268-f51c568b0615"
+      ]
+    }
+  },
+  "CurrentEventState": "ReadyToMatch",
+  "CurrentModule": "WinLossGate",
+  "CardPool": [
+    68531,
+    68738,
+    68556,
+    68569,
+    68478,
+    68477,
+    68572,
+    68551,
+    68490,
+    68677,
+    68486,
+    68470,
+    68477,
+    68642,
+    68553,
+    68490,
+    68706,
+    68556,
+    68562,
+    68572,
+    68587,
+    68725,
+    68581,
+    68610,
+    68580,
+    68643,
+    68566,
+    68493,
+    68728,
+    68665,
+    68490,
+    68567,
+    68680,
+    68501,
+    68481,
+    68538,
+    68571,
+    68579,
+    68486,
+    68513,
+    68580,
+    68473,
+    68478,
+    68721,
+    68489
+  ],
+  "CourseDeck": {
+    "id": "fd580f50-a9a5-4b1b-b450-b964388b1745",
+    "name": "Draft Deck",
+    "description": "",
+    "format": "Limited",
+    "resourceId": "00000000-0000-0000-0000-000000000000",
+    "deckTileId": 68721,
+    "mainDeck": [
+      {
+        "id": "68738",
+        "quantity": 0
+      },
+      {
+        "id": "68569",
+        "quantity": 1
+      },
+      {
+        "id": "68477",
+        "quantity": 2
+      },
+      {
+        "id": "68677",
+        "quantity": 1
+      },
+      {
+        "id": "68486",
+        "quantity": 2
+      },
+      {
+        "id": "68553",
+        "quantity": 1
+      },
+      {
+        "id": "68556",
+        "quantity": 1
+      },
+      {
+        "id": "68478",
+        "quantity": 1
+      },
+      {
+        "id": "68572",
+        "quantity": 0
+      },
+      {
+        "id": "68490",
+        "quantity": 2
+      },
+      {
+        "id": "68470",
+        "quantity": 1
+      },
+      {
+        "id": "68706",
+        "quantity": 1
+      },
+      {
+        "id": "68665",
+        "quantity": 1
+      },
+      {
+        "id": "68643",
+        "quantity": 1
+      },
+      {
+        "id": "68581",
+        "quantity": 1
+      },
+      {
+        "id": "68725",
+        "quantity": 1
+      },
+      {
+        "id": "68728",
+        "quantity": 0
+      },
+      {
+        "id": "68566",
+        "quantity": 0
+      },
+      {
+        "id": "68580",
+        "quantity": 1
+      },
+      {
+        "id": "68567",
+        "quantity": 1
+      },
+      {
+        "id": "68680",
+        "quantity": 1
+      },
+      {
+        "id": "68579",
+        "quantity": 1
+      },
+      {
+        "id": "68473",
+        "quantity": 1
+      },
+      {
+        "id": "68489",
+        "quantity": 1
+      },
+      {
+        "id": "68481",
+        "quantity": 1
+      },
+      {
+        "id": "68571",
+        "quantity": 0
+      },
+      {
+        "id": "68721",
+        "quantity": 0
+      },
+      {
+        "id": "67015",
+        "quantity": 10
+      },
+      {
+        "id": "67021",
+        "quantity": 6
+      }
+    ],
+    "sideboard": [
+      {
+        "id": "68642",
+        "quantity": 1
+      },
+      {
+        "id": "68531",
+        "quantity": 1
+      },
+      {
+        "id": "68551",
+        "quantity": 1
+      },
+      {
+        "id": "68493",
+        "quantity": 1
+      },
+      {
+        "id": "68610",
+        "quantity": 1
+      },
+      {
+        "id": "68587",
+        "quantity": 1
+      },
+      {
+        "id": "68538",
+        "quantity": 1
+      },
+      {
+        "id": "68556",
+        "quantity": 1
+      },
+      {
+        "id": "68562",
+        "quantity": 1
+      },
+      {
+        "id": "68580",
+        "quantity": 1
+      },
+      {
+        "id": "68572",
+        "quantity": 2
+      },
+      {
+        "id": "68501",
+        "quantity": 1
+      },
+      {
+        "id": "68513",
+        "quantity": 1
+      },
+      {
+        "id": "68721",
+        "quantity": 1
+      },
+      {
+        "id": "68738",
+        "quantity": 1
+      },
+      {
+        "id": "68728",
+        "quantity": 1
+      },
+      {
+        "id": "68478",
+        "quantity": 1
+      },
+      {
+        "id": "68571",
+        "quantity": 1
+      },
+      {
+        "id": "68566",
+        "quantity": 1
+      },
+      {
+        "id": "68490",
+        "quantity": 1
+      }
+    ],
+    "lastUpdated": "2018-11-17T17:43:43.340821",
+    "lockedForUse": false,
+    "lockedForEdit": false,
+    "isValid": true
+  }
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:49:01 AM'>8069.438</div><div class='header-text'>loading bundle grn_cardart_37933fe92fe01538ec0916e19dd5e883.mtga</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:49:01 AM'>8069.44</div><div class='header-text'>loading bundle grn_cardart_37933fe92fe01538ec0916e19dd5e883.mtga</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:49:01 AM'>8069.441</div><div class='header-text'>new prize bar state is: QuestShow</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:49:01 AM'>8069.441</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 9:49:01 AM
+==> PlayerInventory.GetPlayerSequenceData(392):
+{
+  "jsonrpc": "2.0",
+  "method": "PlayerInventory.GetPlayerSequenceData",
+  "params": {},
+  "id": "392"
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:49:01 AM'>8069.538</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 9:49:01 AM
+<== PlayerInventory.GetPlayerSequenceData(392)
+{
+  "playerId": "U7FZQKWMBZE7XGSHBQKYBFS7TE",
+  "dailySequence": 4,
+  "weeklySequence": 28,
+  "dailyLastAwarded": "2018-11-17T17:48:50.9644559",
+  "weeklyLastAwarded": "2018-11-17T17:48:50.9644559"
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:49:02 AM'>8071.134</div><div class='header-text'>new prize bar state is: QuestReward</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:49:03 AM'>8072.001</div><div class='header-text'>new prize bar state is: PrizeDisplay</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:49:04 AM'>8073.288</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 9:49:04 AM
+==> MotD.GetMotD(393):
+{
+  "jsonrpc": "2.0",
+  "method": "MotD.GetMotD",
+  "params": {},
+  "id": "393"
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:49:05 AM'>8073.371</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 9:49:05 AM
+<== MotD.GetMotD(393)
+{
+  "Message": null,
+  "Title": null,
+  "ImageId": "00000000-0000-0000-0000-000000000000"
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:49:05 AM'>8073.372</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 9:49:05 AM
+==> Log.Info(394):
+{
+  "jsonrpc": "2.0",
+  "method": "Log.Info",
+  "params": {
+    "messageName": "Client.SceneChange",
+    "humanContext": "Client changed scenes to Home, duration 00:00:04.4009760",
+    "payloadObject": {
+      "fromSceneName": "EventLanding",
+      "toSceneName": "Home",
+      "timestamp": "2018-11-17T17:49:05.035967Z",
+      "duration": "00:00:04.4009760",
+      "initiator": "System",
+      "context": "Landing Page 'Home'",
+      "playerId": "U7FZQKWMBZE7XGSHBQKYBFS7TE"
+    },
+    "transactionId": "00000000-0000-0000-0000-000000000000"
+  },
+  "id": "394"
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 9:49:05 AM'>8073.455</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 9:49:05 AM
+<== Log.Info(394)
+True</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 10:16:22 AM'>9711.173</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 10:16:22 AM
+<== PlayerInventory.GetPlayerSequenceData(429)
+{
+  "playerId": "U7FZQKWMBZE7XGSHBQKYBFS7TE",
+  "dailySequence": 5,
+  "weeklySequence": 29,
+  "dailyLastAwarded": "2018-11-17T18:15:53.968327",
+  "weeklyLastAwarded": "2018-11-17T18:15:53.968327"
+}</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-info'><span class='selected-marker'></span><div class='time' title='11/17/2018 10:16:22 AM'>9711.175</div><div class='header-text'>[UnityCrossThreadLogger]11/17/2018 10:16:22 AM
+<== Event.GetPlayerCourses(431)
+[
+  {
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "InternalEventName": "CompCons_M19_07122018",
+    "PlayerId": "U7FZQKWMBZE7XGSHBQKYBFS7TE",
+    "ModuleInstanceData": {},
+    "CurrentEventState": "PreMatch",
+    "CurrentModule": "Join",
+    "CardPool": null,
+    "CourseDeck": null
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "InternalEventName": "CompDraft_GRN_09272018",
+    "PlayerId": "U7FZQKWMBZE7XGSHBQKYBFS7TE",
+    "ModuleInstanceData": {},
+    "CurrentEventState": "PreMatch",
+    "CurrentModule": "Join",
+    "CardPool": null,
+    "CourseDeck": null
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "InternalEventName": "ConstructedRanked1",
+    "PlayerId": "U7FZQKWMBZE7XGSHBQKYBFS7TE",
+    "ModuleInstanceData": {},
+    "CurrentEventState": "PreMatch",
+    "CurrentModule": "Join",
+    "CardPool": null,
+    "CourseDeck": null
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "InternalEventName": "Constructed_BestOf3",
+    "PlayerId": "U7FZQKWMBZE7XGSHBQKYBFS7TE",
+    "ModuleInstanceData": {},
+    "CurrentEventState": "PreMatch",
+    "CurrentModule": "Join",
+    "CardPool": null,
+    "CourseDeck": null
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "InternalEventName": "Constructed_GRN_11162018",
+    "PlayerId": "U7FZQKWMBZE7XGSHBQKYBFS7TE",
+    "ModuleInstanceData": {},
+    "CurrentEventState": "PreMatch",
+    "CurrentModule": "Join",
+    "CardPool": null,
+    "CourseDeck": null
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "InternalEventName": "DirectGame",
+    "PlayerId": "U7FZQKWMBZE7XGSHBQKYBFS7TE",
+    "ModuleInstanceData": {},
+    "CurrentEventState": "PreMatch",
+    "CurrentModule": "Join",
+    "CardPool": null,
+    "CourseDeck": null
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "InternalEventName": "NPE",
+    "PlayerId": "U7FZQKWMBZE7XGSHBQKYBFS7TE",
+    "ModuleInstanceData": {},
+    "CurrentEventState": "PreMatch",
+    "CurrentModule": "Join",
+    "CardPool": null,
+    "CourseDeck": null
+  },
+  {
+    "Id": "f4422d55-7e34-4e39-969b-895f92cd1dc1",
+    "InternalEventName": "QuickDraft_GRN_11082018",
+    "PlayerId": "U7FZQKWMBZE7XGSHBQKYBFS7TE",
+    "ModuleInstanceData": {
+      "HasPaidEntry": "Gem",
+      "DraftInfo": {
+        "DraftId": "U7FZQKWMBZE7XGSHBQKYBFS7TE:QuickDraft_GRN_11082018:Draft"
+      },
+      "DraftComplete": true,
+      "HasGranted": true,
+      "DeckSelected": true,
+      "WinLossGate": {
+        "MaxWins": 7,
+        "MaxLosses": 3,
+        "CurrentWins": 2,
+        "CurrentLosses": 0,
+        "ProcessedMatchIds": [
+          "ae8f6cae-42e0-489c-b268-f51c568b0615",
+          "f4d222dc-8105-4dc7-8a0c-1057e875be32"
+        ]
+      }
+    },
+    "CurrentEventState": "ReadyToMatch",
+    "CurrentModule": "WinLossGate",
+    "CardPool": [
+      68531,
+      68738,
+      68556,
+      68569,
+      68478,
+      68477,
+      68572,
+      68551,
+      68490,
+      68677,
+      68486,
+      68470,
+      68477,
+      68642,
+      68553,
+      68490,
+      68706,
+      68556,
+      68562,
+      68572,
+      68587,
+      68725,
+      68581,
+      68610,
+      68580,
+      68643,
+      68566,
+      68493,
+      68728,
+      68665,
+      68490,
+      68567,
+      68680,
+      68501,
+      68481,
+      68538,
+      68571,
+      68579,
+      68486,
+      68513,
+      68580,
+      68473,
+      68478,
+      68721,
+      68489
+    ],
+    "CourseDeck": {
+      "id": "fd580f50-a9a5-4b1b-b450-b964388b1745",
+      "name": "Draft Deck",
+      "description": "",
+      "format": "Limited",
+      "resourceId": "00000000-0000-0000-0000-000000000000",
+      "deckTileId": 68721,
+      "mainDeck": [
+        {
+          "id": "68738",
+          "quantity": 0
+        },
+        {
+          "id": "68569",
+          "quantity": 1
+        },
+        {
+          "id": "68477",
+          "quantity": 2
+        },
+        {
+          "id": "68677",
+          "quantity": 1
+        },
+        {
+          "id": "68486",
+          "quantity": 2
+        },
+        {
+          "id": "68553",
+          "quantity": 1
+        },
+        {
+          "id": "68556",
+          "quantity": 1
+        },
+        {
+          "id": "68478",
+          "quantity": 1
+        },
+        {
+          "id": "68572",
+          "quantity": 0
+        },
+        {
+          "id": "68490",
+          "quantity": 2
+        },
+        {
+          "id": "68470",
+          "quantity": 1
+        },
+        {
+          "id": "68706",
+          "quantity": 1
+        },
+        {
+          "id": "68665",
+          "quantity": 1
+        },
+        {
+          "id": "68643",
+          "quantity": 1
+        },
+        {
+          "id": "68581",
+          "quantity": 1
+        },
+        {
+          "id": "68725",
+          "quantity": 1
+        },
+        {
+          "id": "68728",
+          "quantity": 0
+        },
+        {
+          "id": "68566",
+          "quantity": 0
+        },
+        {
+          "id": "68580",
+          "quantity": 1
+        },
+        {
+          "id": "68567",
+          "quantity": 1
+        },
+        {
+          "id": "68680",
+          "quantity": 1
+        },
+        {
+          "id": "68579",
+          "quantity": 1
+        },
+        {
+          "id": "68473",
+          "quantity": 1
+        },
+        {
+          "id": "68489",
+          "quantity": 1
+        },
+        {
+          "id": "68481",
+          "quantity": 1
+        },
+        {
+          "id": "68571",
+          "quantity": 0
+        },
+        {
+          "id": "68721",
+          "quantity": 0
+        },
+        {
+          "id": "67015",
+          "quantity": 10
+        },
+        {
+          "id": "67021",
+          "quantity": 6
+        }
+      ],
+      "sideboard": [
+        {
+          "id": "68642",
+          "quantity": 1
+        },
+        {
+          "id": "68531",
+          "quantity": 1
+        },
+        {
+          "id": "68551",
+          "quantity": 1
+        },
+        {
+          "id": "68493",
+          "quantity": 1
+        },
+        {
+          "id": "68610",
+          "quantity": 1
+        },
+        {
+          "id": "68587",
+          "quantity": 1
+        },
+        {
+          "id": "68538",
+          "quantity": 1
+        },
+        {
+          "id": "68556",
+          "quantity": 1
+        },
+        {
+          "id": "68562",
+          "quantity": 1
+        },
+        {
+          "id": "68580",
+          "quantity": 1
+        },
+        {
+          "id": "68572",
+          "quantity": 2
+        },
+        {
+          "id": "68501",
+          "quantity": 1
+        },
+        {
+          "id": "68513",
+          "quantity": 1
+        },
+        {
+          "id": "68721",
+          "quantity": 1
+        },
+        {
+          "id": "68738",
+          "quantity": 1
+        },
+        {
+          "id": "68728",
+          "quantity": 1
+        },
+        {
+          "id": "68478",
+          "quantity": 1
+        },
+        {
+          "id": "68571",
+          "quantity": 1
+        },
+        {
+          "id": "68566",
+          "quantity": 1
+        },
+        {
+          "id": "68490",
+          "quantity": 1
+        }
+      ],
+      "lastUpdated": "2018-11-17T17:43:43.340821",
+      "lockedForUse": false,
+      "lockedForEdit": false,
+      "isValid": true
+    }
+  },
+  {
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "InternalEventName": "Quick_constructed_april_26",
+    "PlayerId": "U7FZQKWMBZE7XGSHBQKYBFS7TE",
+    "ModuleInstanceData": {},
+    "CurrentEventState": "PreMatch",
+    "CurrentModule": "Join",
+    "CardPool": null,
+    "CourseDeck": null
+  }
+]</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 10:16:27 AM'>9715.512</div><div class='header-text'>The referenced script on this Behaviour (Game Object 'Background_MainMenu_Art') is missing!</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 10:16:27 AM'>9715.534</div><div class='header-text'>The referenced script on this Behaviour (Game Object '<null>') is missing!</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 10:16:27 AM'>9715.551</div><div class='header-text'>The referenced script on this Behaviour (Game Object 'Background_MainMenu_Art') is missing!</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-warning'><span class='selected-marker'></span><div class='time' title='11/17/2018 10:16:27 AM'>9715.551</div><div class='header-text'>The referenced script on this Behaviour (Game Object 'Background_MainMenu_Art') is missing!</div></div>
+<div class='stacktrace'></div></div>
+<div class='log-row'><div class='header header-error'><span class='selected-marker'></span><div class='time' title='11/17/2018 10:16:27 AM'>9715.567</div><div class='header-text'>Material doesn't have a texture property '_MainTex'</div></div>
+<div class='stacktrace'>0x108BD8C8 (unityplayer) <br>0x108C0E0F (unityplayer) <br>0x104CC6FB (unityplayer) <br>0x1037DB70 (unityplayer) <br>0x103E5EA7 (unityplayer) <br>0x10982419 (unityplayer) <br>0x072664F4 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Material:GetTextureImpl (UnityEngine.Material,int)<br>0x09ACD75C (Mono JIT Code) UnityEngine.Material:GetTexture (string)<br>0x09ACD724 (Mono JIT Code) UnityEngine.Material:get_mainTexture ()<br>0x08C6BD58 (Mono JIT Code) UnityEngine.UI.Image:get_mainTexture ()<br>0x08C6B4FA (Mono JIT Code) UnityEngine.UI.Graphic:UpdateMaterial ()<br>0x08C6B3C4 (Mono JIT Code) UnityEngine.UI.Image:UpdateMaterial ()<br>0x08C68268 (Mono JIT Code) UnityEngine.UI.Graphic:Rebuild (UnityEngine.UI.CanvasUpdate)<br>0x08C5F27F (Mono JIT Code) UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate ()<br>0x08C5EFB3 (Mono JIT Code) (wrapper delegate-invoke) <Module>:invoke_void ()<br>0x08C5EE77 (Mono JIT Code) UnityEngine.Canvas:SendWillRenderCanvases ()<br>0x08C5EECD (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)<br>0x01DAEE4F (mono-2.0-bdwgc) <br>0x01D48617 (mono-2.0-bdwgc) <br>0x01D4F226 (mono-2.0-bdwgc) <br>0x1048841F (unityplayer) <br>0x10486019 (unityplayer) <br>0x10640E7F (unityplayer) <br>0x103AE44F (unityplayer) <br>0x103AE4B7 (unityplayer) <br>0x103AFD64 (unityplayer) <br>0x108D0B58 (unityplayer) <br>0x108CFE78 (unityplayer) <br>0x108D218E (unityplayer) <br>0x108D22F5 (unityplayer) <br>0x00401015 (mtga) <br>0x004011D0 (mtga) <br>0x7B4631E9 (kernel32) <br>0x7B464CEE (kernel32) <br>0x7B4631FA (kernel32)</div></div>
+					<div id="bottom-padding"></div>
+			    </div>
+		    </div>
+		    <div role="tabpanel" class="tab-pane" id="device-info-tab">
+		    	<div class="container">
+			    	<div class="row">
+			    		<div class="col-md-6">
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<h3 class="panel-title">General Information</h3>
+								</div>
+								<table class='table'><tbody>
+<tr><td>Game version</td><td>1.0</td></tr>
+<tr><td>Platform</td><td>WindowsPlayer</td></tr>
+<tr><td>Username</td><td>rob</td></tr>
+</tbody></table>
+
+							</div>
+
+							<div class="panel panel-primary" id="game-info-panel">
+								<div class="panel-heading">
+									<h3 class="panel-title">Game Information</h3>
+								</div>
+								
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<h3 class="panel-title">Hardware Information</h3>
+								</div>
+								<table class='table'><tbody>
+<tr><td>Operating System</td><td>Windows 10  (10.0.0)</td></tr>
+<tr><td>Processor Type</td><td>Intel(R) Pentium(R) 4 CPU 2.40GHz</td></tr>
+<tr><td>Processor Count</td><td>8</td></tr>
+<tr><td>System Memory Size</td><td>15735</td></tr>
+<tr><td>Graphics Memory Size</td><td>1536</td></tr>
+<tr><td>Graphics Device Name</td><td>Intel(R) HD Graphics 4000</td></tr>
+<tr><td>Graphics Device Vendor</td><td>Intel</td></tr>
+<tr><td>Graphics Device ID</td><td>354</td></tr>
+<tr><td>Graphics Device Vendor ID</td><td>32902</td></tr>
+<tr><td>Graphics Device Version</td><td>Direct3D 11.0 [level 11.1]</td></tr>
+<tr><td>Graphics Shader Level</td><td>50</td></tr>
+<tr><td>Supports Shadows</td><td>True</td></tr>
+<tr><td>Supports Render Textures</td><td>True</td></tr>
+<tr><td>Supports Render To Cubemap</td><td>True</td></tr>
+<tr><td>Supports Image Effects</td><td>True</td></tr>
+<tr><td>Supports 3D Textures</td><td>True</td></tr>
+<tr><td>Supports Compute Shaders</td><td>True</td></tr>
+<tr><td>Supports Instancing</td><td>True</td></tr>
+<tr><td>Supports Sparse Textures</td><td>False</td></tr>
+<tr><td>Supported Render Target Count</td><td>8</td></tr>
+<tr><td>Supports Stencil</td><td>1</td></tr>
+<tr><td>Npot Support</td><td>Full</td></tr>
+<tr><td>Device Unique Identifier</td><td>12a9126b14ff9b78b28d00f78e2bff20a224611b</td></tr>
+<tr><td>Device Name</td><td>cardinal</td></tr>
+<tr><td>Device Model</td><td>Wine (The Wine Project)</td></tr>
+<tr><td>Supports Accelerometer</td><td>False</td></tr>
+<tr><td>Supports Gyroscope</td><td>False</td></tr>
+<tr><td>Supports Location Service</td><td>False</td></tr>
+<tr><td>Supports Vibration</td><td>False</td></tr>
+<tr><td>Device Type</td><td>Desktop</td></tr>
+<tr><td>Max Texture Size</td><td>16384</td></tr>
+</tbody></table>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		    <div role="tabpanel" class="tab-pane" id="screenshot-tab">
+		    	
+			</div>
+			<div role="tabpanel" class="tab-pane" id="save-file-tab">
+				<pre></pre>
+			</div>
+		  </div>
+
+		</div>
+
+    </body>
+</html>

@@ -1,0 +1,460 @@
+Event #: flooey_06QkAQ8kZwGy6fif07MqHQwWEIk
+Time: N/A
+Players: N/A
+
+------ GRN ------
+
+Pack 1 pick 1:
+--> Bounty of Might
+    Discovery/Dispersal
+    Glowspore Shaman
+    Hellkite Whelp
+    Dimir Locket
+    Disdainful Stroke
+    Golgari Guildgate
+    Never Happened
+    Parhelion Patrol
+    Portcullis Vine
+    Rhizome Lurcher
+    Skyline Scout
+    Sure Strike
+    Sworn Companions
+    Vernadi Shieldmate
+
+Pack 1 pick 2:
+--> Dawn of Hope
+    House Guildmage
+    Might of the Masses
+    Molderhulk
+    Boros Guildgate
+    Deadly Visit
+    Devious Cover-Up
+    Dimir Informant
+    Gateway Plaza
+    Intrusive Packbeast
+    Kraul Foragers
+    Moodmark Painter
+    Muse Drake
+    Rhizome Lurcher
+
+Pack 1 pick 3:
+    Chromatic Lantern
+    District Guide
+    Sinister Sabotage
+    Undercity Necrolisk
+    Centaur Peacemaker
+    Child of Night
+    Devkarin Dissident
+    Dimir Guildgate
+    Fresh-Faced Recruit
+--> Healer's Hawk
+    Intrusive Packbeast
+    Vigorspore Wurm
+    Whisper Agent
+
+Pack 1 pick 4:
+    Ochran Assassin
+    Pilfering Imp
+    Bartizan Bats
+    Boros Guildgate
+    Child of Night
+--> Fresh-Faced Recruit
+    Hitchclaw Recluse
+    Kraul Foragers
+    Maximize Velocity
+    Passwall Adept
+    Pitiless Gorgon
+    Spinal Centipede
+
+Pack 1 pick 5:
+    Gruesome Menagerie
+    Gravitic Punch
+    Hitchclaw Recluse
+    Leapfrog
+    Loxodon Restorer
+    Passwall Adept
+    Prey Upon
+--> Selesnya Guildgate
+    Sworn Companions
+    Wary Okapi
+    Wishcoin Crab
+
+Pack 1 pick 6:
+    Enhanced Surveillance
+    Barging Sergeant
+    Burglar Rat
+--> Parhelion Patrol
+    Righteous Blow
+    Selesnya Guildgate
+    Sumala Woodshaper
+    Vedalken Mesmerist
+    Vernadi Shieldmate
+    Wary Okapi
+
+Pack 1 pick 7:
+    Circuitous Route
+    Centaur Peacemaker
+    Cosmotronic Wave
+    Douser of Lights
+    Golgari Guildgate
+    Kraul Foragers
+    Ornery Goblin
+    Radical Idea
+--> Siege Wurm
+
+Pack 1 pick 8:
+--> Might of the Masses
+    Swathcutter Giant
+    Boros Guildgate
+    Boros Locket
+    Crushing Canopy
+    Douser of Lights
+    Garrison Sergeant
+    Veiled Shade
+
+Pack 1 pick 9:
+    Dimir Locket
+    Disdainful Stroke
+    Never Happened
+    Portcullis Vine
+    Skyline Scout
+    Sure Strike
+--> Vernadi Shieldmate
+
+Pack 1 pick 10:
+--> Might of the Masses
+    Molderhulk
+    Boros Guildgate
+    Gateway Plaza
+    Kraul Foragers
+    Moodmark Painter
+
+Pack 1 pick 11:
+    Centaur Peacemaker
+    Child of Night
+--> Devkarin Dissident
+    Intrusive Packbeast
+    Vigorspore Wurm
+
+Pack 1 pick 12:
+    Bartizan Bats
+    Child of Night
+--> Hitchclaw Recluse
+    Kraul Foragers
+
+Pack 1 pick 13:
+    Hitchclaw Recluse
+--> Loxodon Restorer
+    Wary Okapi
+
+Pack 1 pick 14:
+--> Sumala Woodshaper
+    Wary Okapi
+
+Pack 1 pick 15:
+--> Centaur Peacemaker
+
+------ GRN ------
+
+Pack 2 pick 1:
+    Guildmages' Forum
+    Goblin Banneret
+    Goblin Banneret
+    Invert/Invent
+    Ledev Champion
+    Artful Takedown
+    Boros Guildgate
+    Burglar Rat
+    Garrison Sergeant
+    Goblin Electromancer
+    Golgari Locket
+    Ironshell Beetle
+--> Luminous Bonds
+    Selesnya Locket
+    Tenth District Guard
+
+Pack 2 pick 2:
+    Chance for Glory
+    Book Devourer
+    Goblin Banneret
+--> Status/Statue
+    Collar the Culprit
+    Deadly Visit
+    Dimir Guildgate
+    Garrison Sergeant
+    Intrusive Packbeast
+    Leapfrog
+    Sonic Assault
+    Sworn Companions
+    Vigorspore Wurm
+    Watcher in the Mist
+
+Pack 2 pick 3:
+    Dimir Spybug
+--> Gird for Battle
+    Barging Sergeant
+    Boros Guildgate
+    Goblin Locksmith
+    Hunted Witness
+    Intrusive Packbeast
+    Loxodon Restorer
+    Muse Drake
+    Pitiless Gorgon
+    Skyline Scout
+    Spinal Centipede
+    Urban Utopia
+
+Pack 2 pick 4:
+    Circuitous Route
+--> Integrity/Intervention
+    Join Shields
+    Collar the Culprit
+    Dimir Guildgate
+    Douser of Lights
+    Erstwhile Trooper
+    Garrison Sergeant
+    Hitchclaw Recluse
+    Portcullis Vine
+    Radical Idea
+    Sworn Companions
+
+Pack 2 pick 5:
+    Mission Briefing
+    Devious Cover-Up
+    Erstwhile Trooper
+    Goblin Electromancer
+    Leapfrog
+    Moodmark Painter
+--> Selesnya Guildgate
+    Selesnya Locket
+    Skyknight Legionnaire
+    Vedalken Mesmerist
+    Vicious Rumors
+
+Pack 2 pick 6:
+    Enhanced Surveillance
+--> Flight of Equenauts
+    Barging Sergeant
+    Centaur Peacemaker
+    Dimir Locket
+    Intrusive Packbeast
+    Maximize Altitude
+    Radical Idea
+    Selesnya Locket
+    Torch Courier
+
+Pack 2 pick 7:
+    Bartizan Bats
+    Dimir Locket
+--> Ironshell Beetle
+    Izzet Locket
+    Maniacal Rage
+    Sonic Assault
+    Sumala Woodshaper
+    Vedalken Mesmerist
+    Wishcoin Crab
+
+Pack 2 pick 8:
+    Disdainful Stroke
+    Douser of Lights
+    Hammer Dropper
+    Ironshell Beetle
+--> Parhelion Patrol
+    Pause for Reflection
+    Skyline Scout
+    Take Heart
+
+Pack 2 pick 9:
+    Goblin Banneret
+    Invert/Invent
+--> Boros Guildgate
+    Golgari Locket
+    Ironshell Beetle
+    Selesnya Locket
+    Tenth District Guard
+
+Pack 2 pick 10:
+    Book Devourer
+--> Collar the Culprit
+    Dimir Guildgate
+    Intrusive Packbeast
+    Leapfrog
+    Sonic Assault
+
+Pack 2 pick 11:
+    Barging Sergeant
+--> Boros Guildgate
+    Goblin Locksmith
+    Intrusive Packbeast
+    Loxodon Restorer
+
+Pack 2 pick 12:
+    Join Shields
+    Collar the Culprit
+    Hitchclaw Recluse
+--> Portcullis Vine
+
+Pack 2 pick 13:
+    Moodmark Painter
+--> Selesnya Locket
+    Vicious Rumors
+
+Pack 2 pick 14:
+    Dimir Locket
+--> Selesnya Locket
+
+Pack 2 pick 15:
+--> Izzet Locket
+
+------ GRN ------
+
+Pack 3 pick 1:
+    Dream Eater
+--> Conclave Tribunal
+    Plaguecrafter
+    Swathcutter Giant
+    Blade Instructor
+    Darkblade Agent
+    Deadly Visit
+    Direct Current
+    Goblin Electromancer
+    Izzet Guildgate
+    Ledev Guardian
+    Never Happened
+    Torch Courier
+    Undercity Uprising
+    Wary Okapi
+
+Pack 3 pick 2:
+--> Find/Finality
+    Legion Guildmage
+    Swarm Guildmage
+    Barging Sergeant
+    Child of Night
+    Golgari Guildgate
+    Hired Poisoner
+    Leapfrog
+    Pause for Reflection
+    Rosemane Centaur
+    Rubblebelt Boar
+    Sumala Woodshaper
+    Whisper Agent
+    Wishcoin Crab
+
+Pack 3 pick 3:
+    Molderhulk
+    Ochran Assassin
+--> Sunhome Stalwart
+    Barrier of Bones
+    Devious Cover-Up
+    Gateway Plaza
+    Hunted Witness
+    Izzet Guildgate
+    Ornery Goblin
+    Pitiless Gorgon
+    Rubblebelt Boar
+    Spinal Centipede
+    Veiled Shade
+
+Pack 3 pick 4:
+    Demotion
+    Inspiring Unicorn
+    Fresh-Faced Recruit
+    Goblin Locksmith
+    Golgari Guildgate
+    Intrusive Packbeast
+--> Luminous Bonds
+    Piston-Fist Cyclops
+    Spinal Centipede
+    Sure Strike
+    Urban Utopia
+    Vigorspore Wurm
+
+Pack 3 pick 5:
+    Flight of Equenauts
+    Pilfering Imp
+    Command the Storm
+    Fresh-Faced Recruit
+    Garrison Sergeant
+--> Golgari Guildgate
+    Mephitic Vapors
+    Pack's Favor
+    Urban Utopia
+    Vedalken Mesmerist
+    Wishcoin Crab
+
+Pack 3 pick 6:
+    Goblin Cratermaker
+    Golgari Raiders
+    Boros Guildgate
+    Child of Night
+    Dimir Guildgate
+--> Generous Stray
+    Gravitic Punch
+    Maniacal Rage
+    Moodmark Painter
+    Vedalken Mesmerist
+
+Pack 3 pick 7:
+    Narcomoeba
+    Join Shields
+    Molderhulk
+    Maniacal Rage
+    Never Happened
+    Pack's Favor
+--> Portcullis Vine
+    Selesnya Locket
+    Wild Ceratok
+
+Pack 3 pick 8:
+    Grappling Sundew
+    Cosmotronic Wave
+    Maniacal Rage
+    Sonic Assault
+--> Sumala Woodshaper
+    Urban Utopia
+    Wary Okapi
+    Wishcoin Crab
+
+Pack 3 pick 9:
+--> Swathcutter Giant
+    Blade Instructor
+    Ledev Guardian
+    Never Happened
+    Torch Courier
+    Undercity Uprising
+    Wary Okapi
+
+Pack 3 pick 10:
+    Barging Sergeant
+    Pause for Reflection
+--> Rosemane Centaur
+    Rubblebelt Boar
+    Sumala Woodshaper
+    Wishcoin Crab
+
+Pack 3 pick 11:
+    Molderhulk
+--> Gateway Plaza
+    Pitiless Gorgon
+    Rubblebelt Boar
+    Veiled Shade
+
+Pack 3 pick 12:
+--> Fresh-Faced Recruit
+    Goblin Locksmith
+    Intrusive Packbeast
+    Sure Strike
+
+Pack 3 pick 13:
+    Fresh-Faced Recruit
+    Pack's Favor
+--> Urban Utopia
+
+Pack 3 pick 14:
+    Maniacal Rage
+--> Moodmark Painter
+
+Pack 3 pick 15:
+--> Wild Ceratok
+

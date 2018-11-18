@@ -17,7 +17,7 @@ USER_LIST_REGEX = re.compile(r'Players:')
 CARDS_IN_PACK = 15
 
 
-LOG_DIR = 'logs'
+LOG_DIR = os.path.join('logs', 'mtgo_draft')
 
 def import_MTGO_log(session, file, draft_name):
     importer.draft_helper.add_draft_data(session, extract_draft_data(file, draft_name))
