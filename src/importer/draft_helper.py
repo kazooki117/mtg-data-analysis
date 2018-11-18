@@ -35,7 +35,6 @@ def add_draft_data(session, draft_data):
     session.flush()
     for p in draft_data.picks:
         add_pack(session, draft, p)
-    session.commit()
 
 def initialize_draft(session, draft_time, username, name):
     user = get_or_add_user(session, username)
