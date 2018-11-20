@@ -35,6 +35,13 @@ class Card(Base, SimplePrinterBase):
     toughness = Column(Integer)
     loyalty = Column(Integer)
 
+class MTGACard(Base, SimplePrinterBase):
+    __tablename__ = 'mtga_cards'
+
+    mtga_id = Column(Integer, primary_key=True)
+    name = Column(String(255), nullable=False)
+    primary_card_id = Column(Integer, ForeignKey('cards.id'), nullable=False)
+
 class User(Base, SimplePrinterBase):
     __tablename__ = 'users'
 
