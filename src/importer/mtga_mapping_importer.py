@@ -23,6 +23,9 @@ def add_cards(session, expansion, mtga_cards):
             logging.debug(f'Adding card {mtga_card.name}')
 
             card = db.card_repository.get_card_by_approximate_name(session, expansion, mtga_card.name)
+            if card is None:
+                logging.warning(f'Could not find {mtga_card.name} in db for {expansion}. Skipping.')
+                continue
             mtga_card.primary_card_id = card.id
             session.add(mtga_card)
 
