@@ -8,6 +8,8 @@ import db.deck_repository
 from db.model import Deck, DeckCard, Match
 
 DeckData = namedtuple('DeckData', [
+    'format',
+    'expansion',
     'deck_name',
     'maindeck_card_names',
     'sideboard_card_names',
@@ -15,7 +17,7 @@ DeckData = namedtuple('DeckData', [
 ])
 
 
-def add_decks_data(session, decks, expansions, format):
+def add_decks_data(session, decks, expansions):
     all_card_names = set()
     for deck_data in decks:
         for n in deck_data.maindeck_card_names + deck_data.sideboard_card_names:
@@ -23,7 +25,7 @@ def add_decks_data(session, decks, expansions, format):
 
     cards_by_name = get_cards_by_name(session, all_card_names, expansions)
     for deck_data in decks:
-        add_deck_data(session, deck_data, cards_by_name, format, expansions[0])
+        add_deck_data(session, deck_data, cards_by_name)
 
 def get_primary_cards_for_decks(decks, cards):
     return ({card.multiverse_id: count for (card, count) in zip(cards, deck_card_counts) if card.is_primary() and count > 0} for deck_card_counts in decks)
@@ -34,15 +36,15 @@ def get_cards_by_name(session, names, expansions):
 def deck_exists(session, name):
     return db.deck_repository.get_deck(session, name) is not None
 
-def add_deck_data(session, deck_data, cards_by_name, format, expansion):
+def add_deck_data(session, deck_data, cards_by_name):
     if deck_exists(session, deck_data.deck_name):
         logging.debug(f'Skipping import of {deck_data.deck_name}')
         return
 
     deck = Deck(
         name=deck_data.deck_name,
-        format=format,
-        expansion=expansion,
+        format=deck_data.format.upper(),
+        expansion=deck_data.expansion.lower(),
     )
     session.add(deck)
     session.flush()

@@ -55,22 +55,28 @@ def test_get_decks_data():
         '4,0,4,0',
     )))
 
-    decks = importer.undefeated_deck_importer.get_decks_data(sample_legend_file, sample_decks_file, 'deckprefix.txt')
+    decks = importer.undefeated_deck_importer.get_decks_data(sample_legend_file, sample_decks_file, 'deckprefix.txt', format='my-custom-draft', expansion='ABC')
     
     expected = [
         importer.deck_helper.DeckData(
+            format='my-custom-draft',
+            expansion='ABC',
             deck_name='deckprefix.txt-0',
             maindeck_card_names=['Shock', 'Shock', 'Clone',],
             sideboard_card_names=[],
             match_record=(3,0,),
         ),
         importer.deck_helper.DeckData(
+            format='my-custom-draft',
+            expansion='ABC',
             deck_name='deckprefix.txt-1',
             maindeck_card_names=['Terror', 'Shock', 'Clone',],
             sideboard_card_names=[],
             match_record=(3,0,),
         ),
         importer.deck_helper.DeckData(
+            format='my-custom-draft',
+            expansion='ABC',
             deck_name='deckprefix.txt-2',
             maindeck_card_names=['Shock', 'Shock', 'Shock', 'Shock',],
             sideboard_card_names=[],
