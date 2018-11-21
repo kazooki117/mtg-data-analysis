@@ -19,8 +19,10 @@ CARDS_IN_PACK = 15
 
 LOG_DIR = os.path.join('logs', 'mtgo_draft')
 
-def import_MTGO_log(session, file, draft_name):
-    importer.draft_helper.add_draft_data(session, extract_draft_data(file, draft_name))
+def import_MTGO_log(session, filename, draft_name):
+    with open(filename) as f:
+        draft_data = extract_draft_data(f, draft_name)
+    importer.draft_helper.add_draft_data(session, draft_data)
 
 def extract_draft_data(file, draft_name):
     (draft_time, user) = get_draft_info(file)
@@ -130,5 +132,7 @@ if __name__ == '__main__':
             continue
         
         logging.info(f'Importing draft from {filename}')
-        with open(os.path.join(LOG_DIR, filename)) as f:
-            import_MTGO_log(session, file=f, draft_name=filename)
+        full_path = os.path.join(LOG_DIR, filename)
+        import_MTGO_log(session, filename=full_path, draft_name=filename)
+    session.commit()
+    
