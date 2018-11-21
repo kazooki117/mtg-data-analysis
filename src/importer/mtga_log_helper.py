@@ -1,4 +1,5 @@
 import json
+import logging
 import re
 
 import bs4
@@ -19,14 +20,7 @@ def get_all_log_blobs(file):
         if not match:
             continue
 
-        yield (time_div['title'], json.loads(f'[{match.group(1)}]'))
-
-
-if __name__ == '__main__':
-    with open('logs/mtga/sample.htm') as f:
-        blobs = get_all_log_blobs(f)
-
-        for (time, blob) in blobs:
-            print(time)
-            print(blob)
-            print()
+        try:
+            yield (time_div['title'], json.loads(f'[{match.group(1)}]'))
+        except json.decoder.JSONDecodeError as e:
+            logging.debug(f'Trouble parsing JSON: {match.group(0)}')
