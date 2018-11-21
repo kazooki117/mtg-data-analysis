@@ -43,8 +43,8 @@ def add_deck_data(session, deck_data, cards_by_name):
 
     deck = Deck(
         name=deck_data.deck_name,
-        format=deck_data.format.upper(),
-        expansion=deck_data.expansion.lower(),
+        format=deck_data.format.lower(),
+        expansion=deck_data.expansion.upper(),
     )
     session.add(deck)
     session.flush()
@@ -60,6 +60,8 @@ def add_deck_data(session, deck_data, cards_by_name):
 def add_cards(session, deck, card_names, cards_by_name, is_maindeck):
     for card_name in card_names:
         card = cards_by_name[card_name]
+        if card is None:
+            print(f'{card_name}, {deck.name}, {deck.expansion}')
         if not card.is_primary():
             continue
         session.add(DeckCard(deck=deck.id, card_multiverse_id=card.multiverse_id, in_maindeck=is_maindeck))

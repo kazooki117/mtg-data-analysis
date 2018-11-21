@@ -11,6 +11,9 @@ def get_card_from_first_expansion(session, expansion_ids, name):
 
     return None
 
+def get_card_by_id(session, id):
+    return session.query(Card).filter_by(id=id).one_or_none()
+
 def get_card(session, expansion_id, number=None, name=None, face=None):
     query = session.query(Card).filter_by(expansion=expansion_id)
     if number is not None:

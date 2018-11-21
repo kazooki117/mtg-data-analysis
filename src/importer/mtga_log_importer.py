@@ -4,6 +4,7 @@ import re
 import importer.mtga_log_helper
 import importer.deck_helper
 import db.mtga_card_repository
+import db.card_repository
 
 from db.connector import get_session
 
@@ -38,14 +39,14 @@ def get_card_names(session, board_blob):
     return names
 
 def get_card_name(session, mtga_card_id):
-    return db.mtga_card_repository.get_mtga_card(session, mtga_card_id).name
+    mtga_card = db.mtga_card_repository.get_mtga_card(session, mtga_card_id)
+    return db.card_repository.get_card_by_id(session, mtga_card.primary_card_id).name
 
 
 if __name__ == '__main__':
     session = get_session()
     for filename in os.listdir(LOG_FOLDER):
-        # if filename != 'sample.htm':
-            # continue
+        decks_data = []
         with open(os.path.join(LOG_FOLDER, filename)) as f:
             print(filename)
             blobs = importer.mtga_log_helper.get_all_log_blobs(f)
@@ -53,8 +54,13 @@ if __name__ == '__main__':
             for (time, blob) in blobs:
                 maybe_league_info = maybe_get_league_info(session, blob)
                 if maybe_league_info is not None:
-                    print(maybe_league_info)
+                    decks_data.append(maybe_league_info)
 
-                # print(time)
-                # print(blob)
-                # print()
+        decks_by_expansion = {}
+        for deck in decks_data:
+            if deck.expansion not in decks_by_expansion:
+                decks_by_expansion[deck.expansion] = []
+            decks_by_expansion[deck.expansion].append(deck)
+        for (expansion, decks) in decks_by_expansion.items():
+            importer.deck_helper.add_decks_data(session, decks_data, [expansion,])
+            session.commit()
