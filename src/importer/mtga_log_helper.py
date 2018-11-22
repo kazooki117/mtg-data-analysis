@@ -4,6 +4,8 @@ import re
 
 import bs4
 
+import importer.draft_helper
+
 
 JSON_LOG_REGEX = re.compile(r'.*?({.*}).*', re.DOTALL)
 
@@ -21,6 +23,6 @@ def get_all_log_blobs(file):
             continue
 
         try:
-            yield (time_div['title'], json.loads(f'[{match.group(1)}]'))
+            yield (importer.draft_helper.extract_time(time_div['title']), json.loads(f'[{match.group(1)}]'))
         except json.decoder.JSONDecodeError as e:
             logging.debug(f'Trouble parsing JSON: {match.group(0)}')
