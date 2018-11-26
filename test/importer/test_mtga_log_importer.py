@@ -191,3 +191,43 @@ def test_maybe_get_draft_pack():
         pick_number=13,
         pack_card_names=['Abrade', 'Banefire', 'Char'],
     )
+
+def test_maybe_get_draft_pick():
+    input_blob = [{
+        "jsonrpc": "2.0",
+        "method": "Draft.MakePick",
+        "params": {
+            "draftId": "player-id:QuickDraft_M19_11232018:Draft",
+            "cardId": "103",
+            "packNumber": "1",
+            "pickNumber": "5"
+        },
+        "id": "166"
+    }]
+
+    def mtga_cards_by_mtga_id(*args):
+        return {
+            ('my-session', 103): MTGACard(primary_card_id=203),
+        }[args]
+
+    def cards_by_id(*args):
+        return {
+            ('my-session', 203): Card(name='Char'),
+        }[args]
+
+    get_mtga_card = MagicMock(side_effect=mtga_cards_by_mtga_id)
+    get_card_by_id = MagicMock(side_effect=cards_by_id)
+
+    with patch('db.mtga_card_repository.get_mtga_card', get_mtga_card), \
+          patch('db.card_repository.get_card_by_id', get_card_by_id):
+        result = importer.mtga_log_importer.maybe_get_draft_pick('my-session', input_blob)
+
+    assert result == importer.mtga_log_importer.PickResult(
+        draft_id='player-id:QuickDraft_M19_11232018:Draft',
+        pack_number=1,
+        pick_number=5,
+        card_name='Char',
+    )
+
+def test_aggregate_draft_info():
+    assert False, 'Test not yet implemented'
