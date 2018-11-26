@@ -15,6 +15,11 @@ class SimplePrinterBase(object):
         attributes = {k: v for (k, v) in self.__dict__.items() if k != '_sa_instance_state'}
         return f'{type(self).__name__}<{attributes}>'
 
+    def __eq__(self, other):
+        my_attributes = {k: v for (k, v) in self.__dict__.items() if k != '_sa_instance_state'}
+        other_attributes = {k: v for (k, v) in self.__dict__.items() if k != '_sa_instance_state'}
+        return my_attributes == other_attributes
+
 class Expansion(Base, SimplePrinterBase):
     __tablename__ = 'expansions'
 
