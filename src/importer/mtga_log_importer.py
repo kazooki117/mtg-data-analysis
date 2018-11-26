@@ -6,7 +6,6 @@ from collections import namedtuple
 
 import db.card_repository
 import db.mtga_card_repository
-import draft_helper
 import importer.deck_helper
 import importer.draft_helper
 import importer.mtga_log_helper
@@ -87,8 +86,6 @@ def maybe_get_draft_pick(session, blob):
     except KeyError as e:
         return None
 
-# PickInfo = namedtuple('PickInfo', ['expansion', 'pick_number', 'pack_card_names', 'pick'])
-# DraftData = namedtuple('DraftData', ['draft_time', 'user', 'draft_name', 'picks'])
 def aggregate_draft_info(packs, picks):
     all_drafts = []
     last_pick_time = None
@@ -113,7 +110,7 @@ def aggregate_draft_info(packs, picks):
 
         next_pick_number = pack.pack_number * CARDS_IN_PACK + pack.pick_number + 1
         if next_pick_number < current_pick_number and len(current_draft_picks) >= MIN_PICKS_TO_SAVE:
-            all_drafts.append(draft_helper.DraftData(
+            all_drafts.append(importer.draft_helper.DraftData(
                 draft_time=last_pick_time,
                 user=pack.user,
                 draft_name=f'{pack.draft_id}:{last_pick_time}',
@@ -127,7 +124,7 @@ def aggregate_draft_info(packs, picks):
         assert pick.card_name in pack.pack_card_names
         assert pick.draft_id in pack.draft_id
 
-        current_draft_picks.append(draft_helper.PickInfo(
+        current_draft_picks.append(importer.draft_helper.PickInfo(
             expansion=pack.expansion,
             pick_number=current_pick_number,
             pack_card_names=pack.pack_card_names,
@@ -138,7 +135,7 @@ def aggregate_draft_info(packs, picks):
         pack_index += 1
 
     if len(current_draft_picks) >= MIN_PICKS_TO_SAVE:
-        all_drafts.append(draft_helper.DraftData(
+        all_drafts.append(importer.draft_helper.DraftData(
             draft_time=last_pick_time,
             user=pack.user,
             draft_name=f'{pack.draft_id}:{last_pick_time}',
