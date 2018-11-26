@@ -47,6 +47,7 @@ def maybe_get_league_info(session, blob):
             match_record=(league_status['CurrentWins'], league_status['CurrentLosses'],),
         )
     except KeyError as e:
+        raise e
         return None
 
 def maybe_get_draft_pack(session, blob):
@@ -149,7 +150,7 @@ def aggregate_draft_info(packs, picks):
 def get_card_names(session, board_blob):
     names = []
     for d in board_blob:
-        names += d['quantity'] * [get_card_name(session, d['id']), ]
+        names += d['quantity'] * [get_card_name(session, int(d['id'])), ]
     return names
 
 def get_card_name(session, mtga_card_id):
