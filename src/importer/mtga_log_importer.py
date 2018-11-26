@@ -47,7 +47,6 @@ def maybe_get_league_info(session, blob):
             match_record=(league_status['CurrentWins'], league_status['CurrentLosses'],),
         )
     except KeyError as e:
-        raise e
         return None
 
 def maybe_get_draft_pack(session, blob):
@@ -60,7 +59,7 @@ def maybe_get_draft_pack(session, blob):
         return PickOptions(
             user=blob['playerId'],
             expansion=match.group(2),
-            format=match.group(3),
+            format=match.group(1),
             draft_id=blob['draftId'],
             pack_number=int(blob['packNumber']),
             pick_number=int(blob['pickNumber']),
