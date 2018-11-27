@@ -378,3 +378,74 @@ def test_aggregate_draft_info():
     ]
 
     assert expected == importer.mtga_log_importer.aggregate_draft_info(packs, picks, cards_in_pack=2, min_picks_to_save=4)
+
+def test_aggregate_draft_info_skips_drafts_with_not_enough_picks():
+    packs = (
+        (datetime.datetime(2018, 11, 22, 12, 1, 0), importer.mtga_log_importer.PickOptions(
+            user='user', expansion='ABC', format='QuickDraft', draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=0, pick_number=0,
+            pack_card_names=['Abrade'],
+        )),
+
+        (datetime.datetime(2018, 11, 22, 13, 1, 0), importer.mtga_log_importer.PickOptions(
+            user='user', expansion='ABC', format='QuickDraft', draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=0, pick_number=0,
+            pack_card_names=['Geistflame', 'Havoc'],
+        )),
+        (datetime.datetime(2018, 11, 22, 13, 2, 0), importer.mtga_log_importer.PickOptions(
+            user='user', expansion='ABC', format='QuickDraft', draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=0, pick_number=1,
+            pack_card_names=['Inferno'],
+        )),
+
+        (datetime.datetime(2018, 11, 22, 14, 1, 0), importer.mtga_log_importer.PickOptions(
+            user='user', expansion='ABC', format='QuickDraft', draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=0, pick_number=0,
+            pack_card_names=['Mugging'],
+        )),
+    )
+
+    picks = (
+        (datetime.datetime(2018, 11, 22, 12, 1, 30), importer.mtga_log_importer.PickResult(
+            draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=0, pick_number=0, card_name='Abrade',
+        )),
+
+        (datetime.datetime(2018, 11, 22, 13, 1, 30), importer.mtga_log_importer.PickResult(
+            draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=0, pick_number=0, card_name='Geistflame',
+        )),
+        (datetime.datetime(2018, 11, 22, 13, 2, 30), importer.mtga_log_importer.PickResult(
+            draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=0, pick_number=1, card_name='Inferno',
+        )),
+
+        (datetime.datetime(2018, 11, 22, 14, 1, 30), importer.mtga_log_importer.PickResult(
+            draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=0, pick_number=0, card_name='Mugging',
+        )),
+    )
+
+    expected = [
+        importer.draft_helper.DraftData(
+            draft_time=datetime.datetime(2018, 11, 22, 13, 2, 30),
+            user='user',
+            draft_name='user:QuickDraft_M19_11232018:Draft:2018-11-22 13:02:30',
+            picks=[
+                importer.draft_helper.PickInfo(
+                    expansion='ABC',
+                    pick_number=1,
+                    pack_card_names=['Geistflame', 'Havoc'],
+                    pick='Geistflame',
+                ),
+                importer.draft_helper.PickInfo(
+                    expansion='ABC',
+                    pick_number=2,
+                    pack_card_names=['Inferno'],
+                    pick='Inferno',
+                ),
+            ],
+        ),
+    ]
+
+    assert expected == importer.mtga_log_importer.aggregate_draft_info(packs, picks, cards_in_pack=2, min_picks_to_save=2)
