@@ -1,3 +1,5 @@
+import datetime
+
 import db.card_repository
 import db.mtga_card_repository
 import importer.deck_helper
@@ -230,4 +232,149 @@ def test_maybe_get_draft_pick():
     )
 
 def test_aggregate_draft_info():
-    assert False, 'Test not yet implemented'
+    packs = (
+        (datetime.datetime(2018, 11, 22, 12, 1, 0), importer.mtga_log_importer.PickOptions(
+            user='user', expansion='ABC', format='QuickDraft', draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=0, pick_number=0,
+            pack_card_names=['Abrade', 'Banefire'],
+        )),
+        (datetime.datetime(2018, 11, 22, 12, 2, 0), importer.mtga_log_importer.PickOptions(
+            user='user', expansion='ABC', format='QuickDraft', draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=0, pick_number=1,
+            pack_card_names=['Char'],
+        )),
+        (datetime.datetime(2018, 11, 22, 12, 3, 0), importer.mtga_log_importer.PickOptions(
+            user='user', expansion='ABC', format='QuickDraft', draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=1, pick_number=0,
+            pack_card_names=['Disintegrate', 'Electrify'],
+        )),
+        (datetime.datetime(2018, 11, 22, 12, 4, 0), importer.mtga_log_importer.PickOptions(
+            user='user', expansion='ABC', format='QuickDraft', draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=1, pick_number=1,
+            pack_card_names=['Fireball'],
+        )),
+
+        (datetime.datetime(2018, 11, 22, 13, 1, 0), importer.mtga_log_importer.PickOptions(
+            user='user', expansion='ABC', format='QuickDraft', draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=0, pick_number=0,
+            pack_card_names=['Geistflame', 'Havoc'],
+        )),
+        (datetime.datetime(2018, 11, 22, 13, 2, 0), importer.mtga_log_importer.PickOptions(
+            user='user', expansion='ABC', format='QuickDraft', draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=0, pick_number=1,
+            pack_card_names=['Inferno'],
+        )),
+        (datetime.datetime(2018, 11, 22, 13, 3, 0), importer.mtga_log_importer.PickOptions(
+            user='user', expansion='ABC', format='QuickDraft', draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=1, pick_number=0,
+            pack_card_names=['Joven', 'Kindle'],
+        )),
+        (datetime.datetime(2018, 11, 22, 13, 4, 0), importer.mtga_log_importer.PickOptions(
+            user='user', expansion='ABC', format='QuickDraft', draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=1, pick_number=1,
+            pack_card_names=['Lunge'],
+        )),
+    )
+
+    picks = (
+        (datetime.datetime(2018, 11, 22, 12, 1, 30), importer.mtga_log_importer.PickResult(
+            draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=0, pick_number=0, card_name='Abrade',
+        )),
+        (datetime.datetime(2018, 11, 22, 12, 2, 30), importer.mtga_log_importer.PickResult(
+            draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=0, pick_number=1, card_name='Char',
+        )),
+        (datetime.datetime(2018, 11, 22, 12, 3, 30), importer.mtga_log_importer.PickResult(
+            draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=1, pick_number=0, card_name='Electrify',
+        )),
+        (datetime.datetime(2018, 11, 22, 12, 4, 30), importer.mtga_log_importer.PickResult(
+            draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=1, pick_number=1, card_name='Fireball',
+        )),
+
+        (datetime.datetime(2018, 11, 22, 13, 1, 30), importer.mtga_log_importer.PickResult(
+            draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=0, pick_number=0, card_name='Geistflame',
+        )),
+        (datetime.datetime(2018, 11, 22, 13, 2, 30), importer.mtga_log_importer.PickResult(
+            draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=0, pick_number=1, card_name='Inferno',
+        )),
+        (datetime.datetime(2018, 11, 22, 13, 3, 30), importer.mtga_log_importer.PickResult(
+            draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=1, pick_number=0, card_name='Kindle',
+        )),
+        (datetime.datetime(2018, 11, 22, 13, 4, 30), importer.mtga_log_importer.PickResult(
+            draft_id='user:QuickDraft_M19_11232018:Draft',
+            pack_number=1, pick_number=1, card_name='Lunge',
+        )),
+    )
+
+    expected = [
+        importer.draft_helper.DraftData(
+            draft_time=datetime.datetime(2018, 11, 22, 12, 4, 30),
+            user='user',
+            draft_name='user:QuickDraft_M19_11232018:Draft:2018-11-22 12:04:30',
+            picks=[
+                importer.draft_helper.PickInfo(
+                    expansion='ABC',
+                    pick_number=1,
+                    pack_card_names=['Abrade', 'Banefire'],
+                    pick='Abrade',
+                ),
+                importer.draft_helper.PickInfo(
+                    expansion='ABC',
+                    pick_number=2,
+                    pack_card_names=['Char'],
+                    pick='Char',
+                ),
+                importer.draft_helper.PickInfo(
+                    expansion='ABC',
+                    pick_number=3,
+                    pack_card_names=['Disintegrate', 'Electrify'],
+                    pick='Electrify',
+                ),
+                importer.draft_helper.PickInfo(
+                    expansion='ABC',
+                    pick_number=4,
+                    pack_card_names=['Fireball'],
+                    pick='Fireball',
+                ),
+            ],
+        ),
+        importer.draft_helper.DraftData(
+            draft_time=datetime.datetime(2018, 11, 22, 13, 4, 30),
+            user='user',
+            draft_name='user:QuickDraft_M19_11232018:Draft:2018-11-22 13:04:30',
+            picks=[
+                importer.draft_helper.PickInfo(
+                    expansion='ABC',
+                    pick_number=1,
+                    pack_card_names=['Geistflame', 'Havoc'],
+                    pick='Geistflame',
+                ),
+                importer.draft_helper.PickInfo(
+                    expansion='ABC',
+                    pick_number=2,
+                    pack_card_names=['Inferno'],
+                    pick='Inferno',
+                ),
+                importer.draft_helper.PickInfo(
+                    expansion='ABC',
+                    pick_number=3,
+                    pack_card_names=['Joven', 'Kindle'],
+                    pick='Kindle',
+                ),
+                importer.draft_helper.PickInfo(
+                    expansion='ABC',
+                    pick_number=4,
+                    pack_card_names=['Lunge'],
+                    pick='Lunge',
+                ),
+            ],
+        ),
+    ]
+
+    assert expected == importer.mtga_log_importer.aggregate_draft_info(packs, picks, cards_in_pack=2, min_picks_to_save=4)

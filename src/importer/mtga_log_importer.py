@@ -86,7 +86,7 @@ def maybe_get_draft_pick(session, blob):
     except KeyError as e:
         return None
 
-def aggregate_draft_info(packs, picks):
+def aggregate_draft_info(packs, picks, cards_in_pack=CARDS_IN_PACK, min_picks_to_save=MIN_PICKS_TO_SAVE):
     all_drafts = []
     last_pick_time = None
     pack_index = 0
@@ -108,8 +108,8 @@ def aggregate_draft_info(packs, picks):
             continue
 
 
-        next_pick_number = pack.pack_number * CARDS_IN_PACK + pack.pick_number + 1
-        if next_pick_number < current_pick_number and len(current_draft_picks) >= MIN_PICKS_TO_SAVE:
+        next_pick_number = pack.pack_number * cards_in_pack + pack.pick_number + 1
+        if next_pick_number < current_pick_number and len(current_draft_picks) >= min_picks_to_save:
             all_drafts.append(importer.draft_helper.DraftData(
                 draft_time=last_pick_time,
                 user=pack.user,
@@ -134,7 +134,7 @@ def aggregate_draft_info(packs, picks):
         pick_index += 1
         pack_index += 1
 
-    if len(current_draft_picks) >= MIN_PICKS_TO_SAVE:
+    if len(current_draft_picks) >= min_picks_to_save:
         all_drafts.append(importer.draft_helper.DraftData(
             draft_time=last_pick_time,
             user=pack.user,
