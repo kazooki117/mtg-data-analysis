@@ -18,10 +18,23 @@ TIME_FORMATS = (
     '%Y/%m/%d %I:%M:%S %p',
     '%Y/%m/%d %H:%M:%S',
 )
+OUTPUT_TIME_FORMAT = '%Y%m%d%H%M%S'
 
 
-PickInfo = namedtuple('PickInfo', ['expansion', 'pick_number', 'pack_card_names', 'pick'])
+__PickInfo = namedtuple('PickInfo', ['expansion', 'pick_number', 'pack_card_names', 'pick'])
+__PickInfo_Arena = namedtuple('PickInfo', ['pick_number', 'pack_cards', 'pick'])
 DraftData = namedtuple('DraftData', ['draft_time', 'user', 'draft_name', 'picks'])
+
+class PickInfo(__PickInfo):
+    def get_cards_from_db(self, session):
+        for card_name in self.pack_card_names:
+            db_card = db.card_repository.get_card_by_approximate_name(session, self.expansion, card_name)
+            is_pick = card_name == self.pick
+            yield (db_card, is_pick)
+
+class PickInfo_Arena(__PickInfo_Arena):
+    def get_cards_from_db(self, session):
+        assert False, 'Not yet implemented'
 
 
 def add_draft_data(session, draft_data):
@@ -62,12 +75,11 @@ def add_pack(session, draft, pick_info):
     session.add(pack)
 
     picked = False
-    for card_name in pick_info.pack_card_names:
-        card = db.card_repository.get_card_by_approximate_name(session, pick_info.expansion, card_name)
+    for (card, is_pick) in pick_info.get_cards_from_db(session):
         pack_card = PackCard(pack=pack.id, card_multiverse_id=card.multiverse_id)
         session.add(pack_card)
 
-        if card_name == pick_info.pick and not picked:
+        if is_pick and not picked:
             session.flush()
             session.add(Pick(pack_card=pack_card.id))
             picked = True

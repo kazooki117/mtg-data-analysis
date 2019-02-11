@@ -5,7 +5,7 @@ from sqlalchemy import ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 
 '''
-DROP TABLE IF EXISTS games, matches, deck_cards, decks, picks, pack_cards, packs, drafts, users, cards, expansions;
+DROP TABLE IF EXISTS games, matches, deck_cards, decks, picks, pack_cards, packs, drafts, users, mtga_cards, cards, expansions;
 '''
 
 Base = declarative_base()
