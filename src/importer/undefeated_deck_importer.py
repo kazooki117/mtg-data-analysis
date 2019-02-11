@@ -7,11 +7,11 @@ from db.connector import get_session
 def import_undefeated_decks(session, legend_filename, deck_filename, expansions, format):
     with open(legend_filename) as legend_file,\
          open(deck_filename) as deck_file:
-        decks_data = get_decks_data(legend_file, deck_file, deck_filename)
+        decks_data = get_decks_data(legend_file, deck_file, deck_filename, format, expansions[0])
 
-    importer.deck_helper.add_decks_data(session, decks_data, expansions, format)
+    importer.deck_helper.add_decks_data(session, decks_data, expansions)
 
-def get_decks_data(legend_file, deck_file, deck_name_prefix):
+def get_decks_data(legend_file, deck_file, deck_name_prefix, format, expansion):
     card_names = read_legend(legend_file)
     decks = read_decks(deck_file)
 
@@ -20,6 +20,8 @@ def get_decks_data(legend_file, deck_file, deck_name_prefix):
         deck_name = f'{deck_name_prefix}-{index}'
 
         decks_data.append(importer.deck_helper.DeckData(
+            format=format,
+            expansion=expansion,
             deck_name=deck_name,
             maindeck_card_names=[name for (name, count) in zip(card_names, deck) for ignored in range(count)],
             sideboard_card_names=[],

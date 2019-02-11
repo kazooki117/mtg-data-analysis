@@ -5,11 +5,14 @@ SUFFIXES_TO_STRIP = (' (a)', ' (b)')
 
 def get_card_from_first_expansion(session, expansion_ids, name):
     for expansion_id in expansion_ids:
-        result = session.query(Card).filter_by(expansion=expansion_id, name=name).one_or_none()
+        result = get_card(session, expansion_id, name=name)
         if result:
             return result
 
     return None
+
+def get_card_by_id(session, id):
+    return session.query(Card).filter_by(id=id).one_or_none()
 
 def get_card(session, expansion_id, number=None, name=None, face=None):
     query = session.query(Card).filter_by(expansion=expansion_id)
@@ -19,7 +22,14 @@ def get_card(session, expansion_id, number=None, name=None, face=None):
         query = query.filter_by(name=name)
     if face is not None:
         query = query.filter_by(face=face)
-    return query.one_or_none()
+
+    all_matches = query.order_by(Card.number).all()
+    if len(all_matches) == 0:
+        return None
+    result = all_matches[0]
+    if not result.type.startswith('Basic Land - '):
+        assert len(all_matches) == 1, f'Found multiple matches for name "{name}" number {number} face {face} in {expansion_id}'
+    return result
 
 
 def get_card_by_approximate_name(session, expansion_id, name):
